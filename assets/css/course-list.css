@@ -1,0 +1,354 @@
+@import url(./global.css);
+
+.tab-container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.tab {
+    width: 100%;
+}
+
+.tab ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tab ul li {
+    font-size: 11px;
+    color: var(--dark);
+    padding: 8px 16px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: transparent;
+}
+.tab ul li.active a{
+    color: var(--dark);
+}
+
+.tab ul li.active {
+    background-color: var(--primary);
+    color: #fff;
+}
+.tab ul li.active a{
+    font-size: 11px;
+    color: #fff;
+}
+
+.category-content {
+    width: 100%;
+    margin: 20px 0 0 0;
+    position: relative;
+    height: 62px;
+}
+.category {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: 0;
+    height: 50px;
+    width: 100%;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.category.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.category ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.category ul li {
+    width: 116px;
+    height: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: var(--border);
+    color: var(--dark);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.category ul li a{
+    color: var(--dark);
+
+}
+.category ul li.active {
+    background-color: #BCC1FF;
+    height: 65px;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+.category ul li.active a{
+        font-size: 12px;
+
+    color: var(--dark);
+}
+.course-name-content {
+    width: 100%;
+    position: relative;
+    height: 64px;
+    left: 20px;
+}
+.course-name-tab {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    visibility: 0;
+    height: 64px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.course-name-tab.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.course-name-tab ul {
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #BCC1FF;
+    height: 64px;
+    border-radius: 0 0 0 10px;
+    -webkit-border-radius: 0 0 0 10px;
+    -moz-border-radius: 0 0 0 10px;
+    -ms-border-radius: 0 0 0 10px;
+    -o-border-radius: 0 0 0 10px;
+}
+
+.course-name-tab ul li {
+    font-size: 12px;
+    color: var(--dark);
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.course-name-tab ul li.active {
+    color: #fff;
+    background-color: var(--active);
+}
+
+.courses {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+    height: 30px;
+}
+
+.course-conetnt {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.course-conetnt.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.course-conetnt ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.course-conetnt ul li {
+    padding-bottom: 5px;
+    font-size: 16px;
+    color: var(--active);
+    font-weight: lighter;
+    border-bottom: 1px solid transparent;
+}
+
+.course-conetnt ul li:last-child {
+    margin-left: 20px;
+}
+
+.course-conetnt ul li.active {
+    color: var(--active);
+    font-weight: bold;
+    border-bottom-color: var(--active);
+}
+
+.main-content{
+    overflow-y: hidden;
+    width: 100%;
+}
+.content-course{
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+.item-course {
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.user-details{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.user-details div{
+    margin-left: 10px;
+}
+
+.item-course>div img {
+    max-width: none;
+    width: 70px ;
+    height: 70px;
+    object-fit: cover;
+}
+
+.item-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.teacher {
+    font-size: 12px;
+    margin: 5px 0;
+    display: block;
+}
+
+.lesson-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0 20px 0;
+}
+
+.lesson-info div {
+    display: flex;
+    align-items: center;
+}
+
+.lesson-info div span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    background-color: var(--border);
+    color: var(--active);
+}
+
+.lesson-info div p {
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.rating {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rate {
+    border: 1px solid var(--active);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 4px 6px;
+    color: var(--active);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.rate img {
+    display: inline-block;
+    width: 15px !important;
+    margin-right: 3px;
+    height: auto !important;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.price del {
+    color: gray;
+    margin-right: 6px;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.price span {
+    font-size: 14px;
+}
