@@ -1,5 +1,24 @@
 /* reset */
-
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: bolder;
+}
+@font-face {
+    font-family: "popincs";
+    src: url(../fonts/Poppins-Medium.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "popincs";
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: lighter;
+}
+@font-face {
+    font-family: "popincs";
+    src: url(../fonts/Poppins-SemiBold.ttf);
+    font-weight: bold;
+}
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +31,7 @@ body{
     overflow-x: hidden;
     background-color: #F7F8FF;
     padding: 40px 0;
+    font-family: "Poppins";
 }
 a{
     text-decoration: none;
