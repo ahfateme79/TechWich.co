@@ -228,126 +228,126 @@
     height: auto;
     overflow-y: auto;
 }
-.item-course {
-    margin: 10px 0;
+.item {
     width: 100%;
+    background: #fff;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    background-color: #fff;
-    padding: 15px;
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 10px;
 }
-.user-details{
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
-.user-details div{
-    margin-left: 10px;
-}
-
-.item-course>div img {
-    max-width: none;
-    width: 70px ;
-    height: 70px;
+.course-item img {
+    height: 100%;
     object-fit: cover;
 }
 
-.item-details {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.course-details {
+    width: 90%;
+
+    margin-left: 10px;
+}
+
+.category-title {
+    color: #3D4280;
+    font-size: 12px;
 }
 
 .title {
-    font-size: 14px;
-    font-weight: bold;
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 13px;
+    margin: 0 0 20px 0;
+    width: 80%;
 }
 
-.teacher {
-    font-size: 12px;
-    margin: 5px 0;
-    display: block;
-}
-
-.lesson-info {
+.lesson {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 0 20px 0;
+    width: 100%;
 }
 
-.lesson-info div {
+.lesson p {
+    font-size: 12px;
+    color: var(--dark);
+}
+
+.lesson span {
+    width: 47px;
+    height: 22px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
     display: flex;
-    align-items: center;
-}
-
-.lesson-info div span {
-    display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 22px;
-    height: 22px;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
     background-color: var(--border);
-    color: var(--active);
-}
-
-.lesson-info div p {
+    color: #3D4280;
     font-size: 12px;
-    margin-left: 3px;
 }
 
-.rating {
+.progress {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.rate {
-    border: 1px solid var(--active);
+    height: 20px;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
-    padding: 4px 6px;
-    color: var(--active);
+    overflow: hidden;
+    background-color: var(--border);
+}
+
+.bar {
+    width: 34%;
+    height: 100%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    background-color: var(--active);
+    position: relative;
+}
+
+.persentage {
+    position: absolute;
+    left: 34%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    color: #fff;
     font-size: 12px;
+}
+
+.progerss-persentage {
+    margin: 10px 0;
+}
+
+.column {
+    flex-direction: column;
+}
+.img{
+    max-width: none;
+    width: 60px;
+    height: auto;
+    object-fit: cover;
+}
+.course-details-section{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
-
-.rate img {
-    display: inline-block;
-    width: 15px !important;
-    margin-right: 3px;
-    height: auto !important;
-}
-
-.price {
-    display: flex;
-    align-items: center;
-}
-
-.price del {
-    color: gray;
-    margin-right: 6px;
-    display: inline-block;
-    font-size: 13px;
-}
-
-.price span {
-    font-size: 14px;
+.course-details-section div{
+    margin-left: 10px;
 }
