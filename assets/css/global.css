@@ -2,23 +2,28 @@
 @font-face {
     font-family: "Poppins";
     src: url(../fonts/Poppins-Bold.ttf);
-    font-weight: bolder;
+    font-weight: bold;
 }
 @font-face {
     font-family: "popincs";
     src: url(../fonts/Poppins-Medium.ttf);
-    font-weight: normal;
+    font-weight: 500;
 }
 @font-face {
     font-family: "popincs";
     src: url(../fonts/Poppins-Regular.ttf);
-    font-weight: lighter;
+    font-weight: normal;
 }
-@font-face {
+/* @font-face {
     font-family: "popincs";
     src: url(../fonts/Poppins-SemiBold.ttf);
-    font-weight: bold;
+} */
+@font-face {
+    font-family: "popincs";
+    src: url(../fonts/Poppins-Thin.ttf);
+    font-weight: 100;
 }
+
 :root {
     --border: #DEE0FF;
     --badge: #B388EB;
@@ -40,7 +45,7 @@ body{
     overflow-x: hidden;
     background-color: #F7F8FF;
     padding: 40px 0;
-    font-family: "Poppins";
+    font-family: "popincs";
 }
 a{
     text-decoration: none;

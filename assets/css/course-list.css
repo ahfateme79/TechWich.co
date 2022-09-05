@@ -205,7 +205,6 @@
     padding-bottom: 5px;
     font-size: 16px;
     color: var(--active);
-    font-weight: lighter;
     border-bottom: 1px solid transparent;
 }
 
@@ -342,12 +341,13 @@
 }
 
 .price del {
-    color: gray;
     margin-right: 6px;
     display: inline-block;
-    font-size: 13px;
+    font-size: 16px;
+    font-weight: normal;
 }
 
 .price span {
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
 }
