@@ -1,0 +1,228 @@
+@import url(./global.css);
+body{
+    padding: 0;
+}
+.content-wrapper{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(97.28deg, #7983FF 4.64%, #B388EB 96.49%);
+    padding-top: 70px;
+}
+.form-parent{
+    width: 100%;
+    height: 100%;
+    background-color:#F7F8FF;
+    border-radius:32px 32px 0 0 ;
+    -webkit-border-radius:32px 32px 0 0 ;
+    -moz-border-radius:32px 32px 0 0 ;
+    -ms-border-radius:32px 32px 0 0 ;
+    -o-border-radius:32px 32px 0 0 ;
+    padding: 32px 0;
+}
+.logo{
+    margin: 0 0 80px 0;
+}
+.logo img{
+    width: 250px;
+}
+.legend h1{
+    font-size: 22px;
+    font-weight: bold;
+    color: #7983FF;
+    margin-bottom: 16px;
+}
+.form form div label{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 6px 0 !important;
+    color: #3D4280;
+}
+.form form .input{
+    width: 100%;
+    height: 54px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding: 0 15px;
+}
+.form form input{
+    width: 90%;
+    height: auto;
+    background-color: transparent;
+    border: none;
+}
+.policy{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 56px 0 16px 0;
+}
+.policy p{
+    margin: 0 12px;
+    font-size:12px ;
+    color:#27314A ;
+    font-weight: normal;
+}
+
+.policy p a{
+    font-weight: bold;
+    border-bottom: 1px solid #27314A;
+}
+.checkbox{
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #DEE0FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.checkbox input{
+    display: none;
+}
+.checkbox span{
+    background-image: url(../img/Stroke/fi-rr-check.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.policy input:checked ~ span{
+    opacity: 1;
+    visibility: visible;
+}
+.submit-btn{
+    width: 100%;
+}
+.submit-btn button{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(97.28deg, #7983FF 4.64%, #B388EB 96.49%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    font-size: 12px;
+    font-weight: normal;
+}
+.media-login{
+    width: 100%;
+    margin: 24px 0;
+}
+.media-login button{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7983FF;
+    font-size: 12px;
+    font-weight: normal;
+    border: 1px solid #7983FF;
+    margin: 8px 0;
+}
+.media-login button img{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.link{
+    margin: 40px 0 32px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link p{
+    font-size: 12px;
+    color: #B388EB;
+}
+.link a{
+    color: #7983FF;
+}
+.choose{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+.choose p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #BCC1FF;
+}
+.choose p::after{
+    content: '';
+    width: 33%;
+    height: 1px;
+    background-color: #BCC1FF;
+    display: inline-block;
+}
+.choose p::before{
+    content: '';
+    width: 33%;
+    height: 1px;
+    background-color: #BCC1FF;
+    display: inline-block;
+}
+.input button{
+    display: inline-block;
+    background-image: url(../img/Stroke/fi-rr-eye-crossed.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    opacity: .7;
+}
+.input button.open{
+    background-image: url(../img/Stroke/fi-rr-eye.svg);
+
+}
+.forgot-link{
+    width: 100%;
+    text-align: right;
+    margin: 16px 0 56px 0;
+}
+.forgot-link a{
+    color: #7983FF;
+    font-size: 12px;
+    font-weight: 500;
+}
