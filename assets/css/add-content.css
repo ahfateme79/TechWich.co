@@ -1,0 +1,203 @@
+@import url(./global.css);
+
+
+.top-heading {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+
+.back {
+    width: 43px;
+    height: 43px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #7983FF;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.back img {
+    width: 20px;
+}
+
+.title {
+    font-size: 16px;
+}
+.question-content form{
+    width: 100%;
+    margin: 24px 0;
+}
+.select {
+    width: 100%;
+    
+}
+.select label{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 6px 0 !important;
+    color: #3D4280;
+}
+.select select,.select .inp,.select >input{
+    width: 100%;
+    height: 54px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+    overflow: hidden;
+}
+.inp input{
+    width: 90%;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    color: #BCC1FF;
+
+}
+.select select {
+    background-image: url(../img/Stroke/fi-rr-angle-small-down.svg);
+    background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-repeat: no-repeat;
+}
+.select select:focus {
+    background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    100% 0;
+}
+input[type="file"]::-webkit-file-upload-button {
+    display: none;
+ }
+.select select,.select input::placeholder,.select textarea::placeholder{
+    color: #BCC1FF;
+}
+.select select,.select input {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+.edit-text{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border:1px solid #BCC1FF;
+    margin-bottom: 16px;
+    margin-top: 6px;
+    overflow: hidden;
+}
+.edit-text textarea{
+    padding: 20px 15px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: #BCC1FF;
+    min-height: 300px;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.edit-content{
+    width: 100%;
+    padding: 16px;
+    border-bottom:1px solid #BCC1FF;
+}
+.edit-content div{
+    display: flex;
+    width: 100%;
+    background-color: #ffff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.edit-content span{
+    font-size: 12px;
+    font-weight: normal;
+}
+.edit-text-btn{
+    display: flex;
+    align-items: center;
+}
+.edit-text-btn li{
+    margin: 0 7px;
+}
+.edit-text-btn li button{
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    padding: 3px 5px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;   
+}
+.edit-text-btn li.active button,.edit-text-btn li:hover button{
+    color: #fff;
+    background-color: var(--dark);
+}
+.edit-text-btn li button img{
+    width: 20px;
+}
+.submit-question{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+}
+.submit-question .sub{
+    padding: 16px 30px;
+    background-color: var(--dark);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.delete{
+    padding: 16px 30px;
+    background-color: transparent;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: #B388EB;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #B388EB;
+
+}
+.space-between{
+    justify-content: space-between;
+}
+.bg-white{
+    background-color: #fff !important;
+}
