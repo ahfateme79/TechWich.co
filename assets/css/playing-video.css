@@ -1,0 +1,615 @@
+@import url(./global.css);
+
+
+.top-heading {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+
+.back {
+    width: 43px;
+    height: 43px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #7983FF;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.back img {
+    width: 20px;
+}
+
+.title {
+    font-size: 16px;
+}
+
+.learn-course-container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 20px 0;
+}
+
+.video {
+    width: 100%;
+}
+
+.vedeo-container {
+    width: 100%;
+}
+
+.video-player {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.play {
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.vedeo-container video {
+    display: none;
+}
+
+.video-info {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.teacher-info {
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.teacher-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.teacher-info span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.content {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.description {
+    width: 100%;
+}
+
+.description p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.category-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.category-list>div {
+    width: 45%;
+    height: 36px;
+    display: flex;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+    padding-right: 8px;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+.category-list>div p {
+    width: 80%;
+    height: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--border);
+    color: #7983FF;
+    font-size: 10px;
+}
+
+.category-list>div img {
+    width: 15px;
+}
+
+.earn {
+    margin: 30px 0 0 0;
+}
+
+.head {
+    width: 100%;
+}
+
+.head p {
+    font-size: 12px;
+}
+
+.user-count {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.count-box {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.count-box img {
+    width: 20px;
+}
+
+.count-box span {
+    display: inline-flex;
+    padding: 3px 6px;
+    background: linear-gradient(97.28deg, #7983FF 4.64%, #B388EB 96.49%);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    bottom: -15px;
+}
+
+.dr-row {
+    flex-direction: row;
+}
+
+.dark {
+    padding: 16px 30px;
+    background-color: var(--dark);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-content {
+    margin: 30px 0 0 0;
+    width: 100%;
+    text-align: right;
+}
+
+.course-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.lesson-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0 20px 0;
+    width: 40%;
+}
+
+.lesson-info div {
+    display: flex;
+    align-items: center;
+}
+
+.lesson-info div span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    background-color: var(--border);
+    color: var(--active);
+    font-size: 12px;
+}
+
+.accordions-wrapper {
+    counter-reset: counter;
+    margin-bottom: 30px;
+}
+
+.lesson-info div p {
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.accordion-header {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+    transition: all 0.4s ease-in-out;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.accordion-header h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.accordion-header h4::before {
+    counter-increment: counter;
+    content: counter(counter);
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: 1px solid #7983FF;
+    color: #7983FF;
+    margin-right: 10px;
+}
+
+.accordion {
+    background-color: #fff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+
+}
+
+.accordion-body {
+    counter-reset: num;
+    transition: all 0.35s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    background-color: transparent;
+    padding:0 16px;
+
+}
+
+.accordion-body div {
+    line-height: 1.8;
+}
+
+.accordion+.accordion {
+    margin-top: 1rem;
+}
+
+.accordion-icon {
+    width: 20px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.accordion.active .accordion-icon {
+    transform: rotate(-180deg);
+}
+
+.lesson-item {
+    width: 100%;
+    padding: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid #7983FF;
+    margin: 10px 0;
+}
+
+.lesson-item>div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.lesson-item>div p {
+    font-size: 12px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.time span {
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.time img {
+    width: 12px;
+}
+
+.course-lesseon-details {
+    margin-top: 25px;
+    align-items: center;
+}
+
+.lesson-title {
+    display: flex;
+}
+
+.lesson-title::before {
+    counter-increment: num;
+    content: counter(num);
+    width: 22px !important;
+    height: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: var(--dark);
+    margin-right: 10px;
+    background-color: var(--border);
+}
+
+.lesson-count span {
+    display: inline-flex;
+    padding: 3px 6px;
+    background: linear-gradient(97.28deg, #7983FF 4.64%, #B388EB 96.49%);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: #fff;
+    font-size: 12px;
+}
+.avatars{
+    display: flex;
+    align-items: center;
+}
+.avatars span{
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 5px;
+}
+.avatars ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatars li {
+    border-radius: 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    margin-right: -13px;
+    border: 1px solid #fff;
+    position: relative;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+.avatars li img{
+    width: 30px;
+    height: 30px;
+}
+.webinar-user{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content-date{
+    display: flex;
+    align-items: center;
+}
+.content-date img{
+    width: 20px;
+}
+.content-date span{
+    font-size: 12px;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 10px;
+}
+.time {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.time span {
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.time img {
+    width: 12px;
+}
+.webinar-course-info{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.content-item-details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.content-date{
+    display: flex;
+    align-items: center;
+}
+.content-date img{
+    width: 20px;
+}
+.content-date span{
+    font-size: 12px;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 10px;
+}
+.like{
+    display: flex;
+    align-items: center;
+}
+.like span{
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+    margin-right: 10px;
+}
+.like img{
+    width: 20px;
+}
+.video-control{
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.226);
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+}
+.progress-play{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.video-time-progress{
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    height: 9px;
+    border-radius:8px ;
+    -webkit-border-radius:8px ;
+    -moz-border-radius:8px ;
+    -ms-border-radius:8px ;
+    -o-border-radius:8px ;
+}
+.current-time-video{
+    width: 40%;
+    height: 100%;
+    background-color: #7983FF;
+}
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.control img{
+    width: 15px;
+}
+.play-control{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.video-time{
+    font-size: 12px;
+    color: #fff;
+    font-weight: normal;
+}
