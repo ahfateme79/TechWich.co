@@ -205,6 +205,9 @@
 
 .count-box img {
     width: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+
 }
 
 .count-box span {
