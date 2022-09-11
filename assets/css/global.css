@@ -73,14 +73,59 @@ header {
     width: 100%;
     padding: 0 20px;
 }
+@media screen and (min-width:1000px) and (max-width:1500px){
+    .container {
+        padding: 0 100px;
+    }
 
-.wrapper {
+}
+
+.wrapper,.header-items {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.flex{
+    display: none;
+}
 
+@media screen and (min-width:1000px) and (max-width:1500px){
+    .header-items{
+        width: 30%;
+    }
+    .flex{
+        width: 60%;
+        display: flex;
+        align-items: center;    
+    }
+
+}
+.nav{
+    margin-left: 50px;
+    width: 70%;
+}
+.navigation-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.navigation-list li{
+    margin: 0 15px;
+}
+.navigation-list li.active a span,.navigation-list li:hover a span{
+    color: #7983FF;
+}
+.navigation-list li a{
+    display: flex;
+    align-items: center;
+}
+.navigation-list li img{
+    width: 20px;
+    display: inline-block;
+    margin-right: 5px;
+}
 .search-box-parent {
     width: 270px;
     height: 40px;
@@ -163,7 +208,11 @@ nav {
     right: 0;
     z-index: 100;
 }
-
+@media screen and (min-width:1000px) and (max-width:1500px){
+    nav{
+        display: none;
+    }
+}
 nav div {
     width: 100%;
 }
@@ -204,6 +253,12 @@ nav ul li:hover {
 section {
     margin: 30px 0;
 }
+@media screen and (min-width:1200px) and (max-width:1500px){
+    section{
+        margin: 50px 0;
+    }
+}
+
 .heading {
     margin-bottom: 15px;
     width: 100%;

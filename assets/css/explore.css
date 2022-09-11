@@ -1,14 +1,14 @@
 @import url(./global.css);
 
 
-.user-info-parent{
+.user-info-parent {
     display: flex;
     width: 100%;
     align-items: flex-start;
     justify-content: space-between;
 }
 
-.user-info{
+.user-info {
     width: 75%;
     display: flex;
     flex-direction: column;
@@ -20,12 +20,14 @@
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
 }
-.user-profile-info{
+
+.user-profile-info {
     width: 100%;
     display: flex;
     align-items: center;
 }
-.user-profile-info img{
+
+.user-profile-info img {
     width: 80px;
     height: 80px;
     border-radius: 12px;
@@ -34,14 +36,17 @@
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
 }
-.user-name{
+
+.user-name {
     margin-left: 15px;
 }
-.user-name h2{
+
+.user-name h2 {
     font-size: 16px;
     font-weight: bold;
 }
-.level{
+
+.level {
     width: 71px;
     height: 24px;
     background-color: var(--border);
@@ -57,11 +62,13 @@
     margin-top: 13px;
     padding-left: 5px;
 }
-.level p{
+
+.level p {
     color: var(--dark);
     font-size: 12px;
 }
-.level span{
+
+.level span {
     width: 24px;
     height: 24px;
     background-color: var(--active);
@@ -77,43 +84,50 @@
     font-weight: bold;
     font-size: 12px;
 }
-.number{
+
+.number {
     margin: 15px 0;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .number div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
-.number div p{
+
+.number div p {
     font-size: 12px;
     font-weight: 400;
 }
-.number div span{
+
+.number div span {
     display: inline-block;
     margin: 6px 0;
     font-size: 12px;
     font-weight: 400;
 }
-.conection-parent{
+
+.conection-parent {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.c-wrapper{
+
+.c-wrapper {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
     margin: 5px 0;
 }
-.conection{
+
+.conection {
     width: 13px;
     height: 10px;
     border-radius: 3px;
@@ -123,15 +137,18 @@
     -o-border-radius: 3px;
     background-color: var(--border);
 }
-.conection.active{
+
+.conection.active {
     background-color: var(--active);
 }
-.conection-parent span{
+
+.conection-parent span {
     font-size: 12px;
     margin: 3px 0;
     display: inline-block;
 }
-.user-count{
+
+.user-count {
     width: 20%;
     height: 240px;
     background-color: #fff;
@@ -146,7 +163,8 @@
     justify-content: space-between;
     flex-direction: column;
 }
-.count-box{
+
+.count-box {
     width: 45px;
     height: 45px;
     border-radius: 10px;
@@ -161,12 +179,14 @@
     justify-content: center;
     position: relative;
 }
-.count-box img{
+
+.count-box img {
     width: 20px;
     display: inline-block;
     margin-bottom: 10px;
 }
-.count-box span{
+
+.count-box span {
     display: inline-flex;
     padding: 3px 6px;
     background: linear-gradient(97.28deg, #7983FF 4.64%, #B388EB 96.49%);
@@ -181,6 +201,241 @@
     bottom: -13px;
 }
 
+.Achievements {
+    width: 27%;
+    padding: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    height: 250px;
+    display: none;
+
+}
+
+.Achievements-parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Achievements-parent h3 {
+    color: #3D4280;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Achievements-items {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.Achievements-items>div {
+    width: 100%;
+    border: 1px solid #DEE0FF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding-right: 10px;
+    margin: 8px 0;
+    height: 36px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.Achievements-items>div img {
+    width: 20px;
+}
+
+.Achievements-details {
+    background: linear-gradient(97.28deg, #7983FF 4.64%, #B388EB 96.49%);
+    border-radius: 0px 6px 6px 0px;
+    -webkit-border-radius: 0px 6px 6px 0px;
+    -moz-border-radius: 0px 6px 6px 0px;
+    -ms-border-radius: 0px 6px 6px 0px;
+    -o-border-radius: 0px 6px 6px 0px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7px;
+    height: 100%;
+    color: #fff;
+    font-size: 12px;
+}
+
+.Achievements-more-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Achievements-more-btn button {
+    display: flex;
+    align-items: center;
+    color: #7983FF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.Achievements-more-btn button img {
+    width: 20px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.Team {
+    width: 23%;
+    padding: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    height: 250px;
+    display: none;
+
+}
+
+.team-items {
+    width: 100%;
+}
+
+.team-tem {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-tem>div {
+    display: flex;
+    align-items: center;
+}
+
+.mark {
+    width: 30px;
+    height: 44px;
+    background: #B388EB;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mark img {
+    width: 20px;
+}
+
+.team-detals {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.team-detals h4 {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.team-detals p {
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+}
+
+.point img {
+    width: 20px;
+}
+
+.point span {
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 6px;
+}
+
+.quick-access {
+    width: 23%;
+    padding: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    height: 250px;
+    display: none;
+}
+
+.quick-item-list {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.quick-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quick-item div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #DEE0FF;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.quick-item img{
+    width: 20px;
+}
+.quick-item span{
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 10px;
+    display: inline-block;
+}
+@media screen and (min-width:1000px) and (max-width:1500px) {
+    .user-info {
+        width: 23%;
+        height: 250px;
+    }
+
+    .user-count {
+        display: none;
+    }
+    .quick-access,.Team,.Achievements{
+        display: block;
+    }
+}
+
 .heading a {
     color: var(--active);
     font-weight: 500;
@@ -193,6 +448,28 @@
     display: flex;
     align-items: center;
     overflow-y: visible;
+}
+
+.section>.container:last-of-type {
+    padding: 0;
+}
+.profile>.container{
+    padding: 0 20px !important;
+}
+
+@media screen and (min-width:1000px) and (max-width:1500px) {
+    .item-list {
+        margin: 20px 0;
+    }
+    
+    .section>.container:last-of-type {
+        padding: 0 100px 0 80px;
+    }
+    .profile>.container{
+        padding: 0 100px 0 80px !important;
+    }
+
+
 }
 
 .section {
@@ -213,6 +490,15 @@
     align-items: flex-start;
     padding: 10px;
     position: relative;
+}
+
+@media screen and (min-width:1000px) and (max-width:1500px) {
+
+    .item {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
 }
 
 .course-item img {
@@ -679,19 +965,22 @@
     /* Firefox */
 }
 
-.m-1{
+.m-1 {
     margin: 10px 0;
 }
-.img{
+
+.img {
     max-width: none;
     width: 70px;
     height: auto;
     object-fit: cover;
 }
-.course-details-section{
+
+.course-details-section {
     display: flex;
     align-items: flex-start;
 }
-.course-details-section div{
+
+.course-details-section div {
     margin-left: 10px;
 }
