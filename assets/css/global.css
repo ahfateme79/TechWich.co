@@ -79,6 +79,12 @@ header {
     }
 
 }
+@media screen and (min-width:1500px){
+    .container {
+        padding: 0 150px;
+    }
+
+}
 
 .wrapper,.header-items {
     width: 100%;
@@ -90,7 +96,7 @@ header {
     display: none;
 }
 
-@media screen and (min-width:1000px) and (max-width:1500px){
+@media screen and (min-width:1000px){
     .header-items{
         width: 30%;
     }
@@ -208,7 +214,7 @@ nav {
     right: 0;
     z-index: 100;
 }
-@media screen and (min-width:1000px) and (max-width:1500px){
+@media screen and (min-width:1000px){
     nav{
         display: none;
     }
@@ -258,6 +264,12 @@ section {
         margin: 50px 0;
     }
 }
+@media screen and (min-width:1500px){
+    section{
+        margin: 100px 0;
+    }
+}
+
 
 .heading {
     margin-bottom: 15px;

@@ -163,7 +163,12 @@
     justify-content: space-between;
     flex-direction: column;
 }
-
+@media screen and (min-width:1000px) {
+    .user-count{
+        width: 8%;
+        height: 250px;
+    }
+}
 .count-box {
     width: 45px;
     height: 45px;
@@ -202,7 +207,7 @@
 }
 
 .Achievements {
-    width: 27%;
+    width: 25%;
     padding: 20px;
     background-color: #fff;
     padding: 15px;
@@ -373,7 +378,7 @@
 }
 
 .quick-access {
-    width: 23%;
+    width: 18%;
     padding: 20px;
     background-color: #fff;
     padding: 15px;
@@ -422,15 +427,12 @@
     margin-top: 10px;
     display: inline-block;
 }
-@media screen and (min-width:1000px) and (max-width:1500px) {
+@media screen and (min-width:1000px) {
     .user-info {
         width: 23%;
         height: 250px;
     }
 
-    .user-count {
-        display: none;
-    }
     .quick-access,.Team,.Achievements{
         display: block;
     }
@@ -457,7 +459,7 @@
     padding: 0 20px !important;
 }
 
-@media screen and (min-width:1000px) and (max-width:1500px) {
+@media screen and (min-width:1000px) {
     .item-list {
         margin: 20px 0;
     }
@@ -469,6 +471,15 @@
         padding: 0 100px 0 80px !important;
     }
 
+
+}
+@media screen and (min-width:1500px){
+    .section>.container:last-of-type {
+        padding: 0 100px 0 80px;
+    }
+    .profile>.container{
+        padding: 0 100px 0 80px !important;
+    }
 
 }
 
@@ -492,7 +503,7 @@
     position: relative;
 }
 
-@media screen and (min-width:1000px) and (max-width:1500px) {
+@media screen and (min-width:1000px){
 
     .item {
         margin-left: 0;
