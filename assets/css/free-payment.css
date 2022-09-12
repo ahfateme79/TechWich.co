@@ -41,7 +41,11 @@
     -o-border-radius: 15px;
     padding: 20px 0;
 }
-
+@media screen and (min-width:1000px){
+    .learn-course-container > .container {
+        padding: 0 50px;
+    }
+}
 .video {
     width: 100%;
 }
@@ -490,6 +494,13 @@
     background-color: #F7F8FF;
     padding: 20px;
 }
+@media screen and (min-width:1000px){
+    .modal{
+        width: 40%;
+    }
+
+}
+
 .modal-heading{
     margin: 16px 0;
     width: 100%;
@@ -657,6 +668,13 @@
 }
 .flex-end{
     align-items: flex-end;
+}
+
+@media screen and (min-width:1000px){
+    .flex-end{
+        align-items: center;
+    }
+    
 }
 
 .justify-end{

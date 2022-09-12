@@ -98,6 +98,13 @@
     border: 1px solid #7983FF;
     text-align: center;
 }
+@media screen and (min-width:1000px){
+    .choose-btn button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 .checkout-btn{
     display: flex;
     width: 100%;

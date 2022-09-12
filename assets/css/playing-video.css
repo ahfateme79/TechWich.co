@@ -41,6 +41,11 @@
     -o-border-radius: 15px;
     padding: 20px 0;
 }
+@media screen and (min-width:1000px){
+    .learn-course-container > .container {
+        padding: 0 50px;
+    }
+}
 
 .video {
     width: 100%;

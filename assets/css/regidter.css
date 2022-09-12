@@ -227,3 +227,20 @@ body{
     font-size: 12px;
     font-weight: 500;
 }
+.illustration{
+    display: none;
+}
+
+@media screen and (min-width:1000px) {
+    .form{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .illustration{
+        display: block;
+    }
+    .form>div{
+        width: 47%;
+    }
+}
