@@ -475,7 +475,7 @@
     }
     .item-list::-webkit-scrollbar {
         display: block;
-        background-color: red;
+        /* background-color: red; */
         height: 2px;
 
     }
@@ -593,7 +593,6 @@
 }
 
 .bar {
-    width: 34%;
     height: 100%;
     border-radius: 6px;
     -webkit-border-radius: 6px;
@@ -606,7 +605,7 @@
 
 .persentage {
     position: absolute;
-    left: 34%;
+    /* left: 34%; */
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -1001,4 +1000,14 @@
 
 .course-details-section div {
     margin-left: 10px;
+}
+.challange-detaila img{
+    max-width: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }

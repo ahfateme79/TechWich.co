@@ -1,0 +1,51 @@
+.search-box input {
+    margin-right: 10px;
+}
+.notification-btns button:first-child {
+    margin-left: 20px;
+}
+.user-name {
+    margin-right: 15px;
+}
+.course-details-section div {
+    margin-right: 10px;
+}
+.chalange-name {
+    margin-right: 15px;
+}
+.warning p {
+    margin-right: 7px;
+}
+.level {
+    padding-left: 0;
+    padding-right: 5px;
+}
+.section>.container:last-of-type {
+    padding:0 20px;
+}
+.off-time img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.gift img {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.navigation-list li img {
+    width: 20px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.Achievements-items>div {
+    padding-left: 10px;
+    padding-right: 0;
+}
+.team-detals {
+    margin-right: 10px;
+    margin-left: 0;
+}
+@media screen and (min-width: 1000px){
+.section>.container:last-of-type {
+    padding: 0 100px 0 80px;
+}
+}

@@ -121,7 +121,6 @@
     margin: 8px 0;
     padding: 16px 0;
 }
-
 .user-information {
     display: flex;
     width: 100%;
@@ -227,6 +226,11 @@
     font-weight: 500;
     z-index: 100;
     color: #fff;
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
 }
 
 .add-question img {
@@ -481,4 +485,33 @@
     -moz-transform: scale(1) !important;
     -ms-transform: scale(1) !important;
     -o-transform: scale(1) !important;
+}
+@media screen and (min-width:700px){
+    .controls {
+        width: 7%;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .Discuss .container{
+        padding: 0 20px !important;
+    }
+    .add-question{
+        bottom: 80px;
+    }
+    .controls {
+        width: 7%;
+    }
+    .numbers {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .numbers div{
+        margin: 0 30px;
+    }
+    .user-description p{
+        width: 80%;
+    }
 }

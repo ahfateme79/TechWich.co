@@ -141,6 +141,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/2.0.4/wavesurfer.min.js"
         integrity="sha512-mhqErQ0f2UqnbsjgKpM96XfxVjVMnXpszEXKmnJk8467vR8h0MpiPauil8TKi5F5DldQGqNUO/XTyWbQku22LQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/script.js"></script>
+
     <script>
         var wavesurfer = WaveSurfer.create({
             container: '#waveform',
@@ -152,7 +154,7 @@
         wavesurfer.on('ready', function () {
             minimap = wavesurfer.initMinimap({
                 barWidth: 2,
-                barHeight:4.5,
+                barHeight: 4.5,
                 waveColor: 'violet',
                 progressColor: 'purple',
             });
