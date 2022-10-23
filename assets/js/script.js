@@ -8,6 +8,7 @@ for (let i = 0; i < bar.length; i++) {
     persentage[i].style.left=persentage[i].innerHTML
 }
 
+
 for (let i = 0; i < progress_child.length; i++) {
     progress_child[i].style.width = persentage[i].innerHTML 
     persentage[i].style.left=persentage[i].innerHTML
