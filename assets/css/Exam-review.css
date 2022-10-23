@@ -55,6 +55,7 @@
     -o-border-radius: 6px;
     overflow: hidden;
 }
+
 .progress-child{
     height: 100%;
     display: flex;
