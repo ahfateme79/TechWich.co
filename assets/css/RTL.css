@@ -49,3 +49,124 @@
     padding: 0 100px 0 80px;
 }
 }
+
+.back {
+    margin: 10px;
+    margin-left: 10px;
+}
+.select select {
+    background-image: url(../img/Stroke/fi-rr-angle-small-down.svg);
+    background-position: calc(100% - 98%) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width: 1000px){
+.category ul li img {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 0;
+}
+}
+.course-conetnt ul li:last-child {
+    margin-right: 20px;
+    margin-left: 0;
+}
+.content-date span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.like span {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.user-details div {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.lesson-info div p {
+    margin-left: 0;
+    margin-right: 3px;
+}
+.rate img {
+    margin-left: 3px;
+    margin-right: 0;
+}
+.price del {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.user-detail-info {
+    margin-right: 15px;
+    margin-left: 0;
+}
+.user-detail-info img {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.numbers span {
+    margin-right: 8px;
+    margin-left: 0;
+}
+.add-question {
+    bottom: 134px;
+    left: 20px !important;
+    right: auto;
+}
+.undo {
+    margin-left: 0;
+    margin-right: 12px;
+}
+.controls {
+    padding-left: 10px;
+    padding-right: 0;
+}
+.avatars span {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.accordion-header h4::before,.lesson-title::before {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.category-list>div{
+    padding-right: 0;
+    padding-left: 8px;
+}
+.result-count div span {
+    margin-left: 0;
+    margin-right: 16px;
+}
+.download-btn {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.alert p {
+    margin-left: 0;
+    margin-right: 6px;
+}
+.modal-btns button:first-child {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.media-login button img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.course-subject-list::before {
+    left: auto;
+    right: 15px;
+}
+
+@media screen and (min-width: 1000px){
+.course-subject-list li::before {
+    transform: translate(50px,55px);
+    -webkit-transform: translate(50px,55px);
+    -moz-transform: translate(50px,55px);
+    -ms-transform: translate(50px,55px);
+    -o-transform: translate(50px,55px);
+}
+.course-subject-list::before{
+    right: 0;
+}
+}
