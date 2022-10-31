@@ -1,0 +1,99 @@
+.ways{
+    margin: 32px 0;
+}
+.ways h4{
+    font-size: 14px;
+    font-weight: 500;
+}
+.ways ul {
+    margin: 20px 0;
+    margin-left: 10px;
+}
+.ways ul li{
+    list-style-type: disc;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 5px 0;
+}
+.choise{
+    margin: 55px 0;
+}
+.choise h5{
+    color: #3D4280;
+    font-size: 14px;
+    font-weight: 500;
+}
+.select {
+    width: 100%;
+    
+}
+.select label{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 6px 0 !important;
+    color: #3D4280;
+}
+.select select,.select .inp,.select >input{
+    width: 100%;
+    height: 54px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #F7F8FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+    overflow: hidden;
+    border: 1px solid #BCC1FF;
+}
+.select select {
+    background-image: url(../img/Stroke/fi-rr-angle-small-down.svg);
+    background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-repeat: no-repeat;
+}
+.select select:focus {
+    background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    100% 0;
+}
+input[type="file"]::-webkit-file-upload-button {
+    display: none;
+ }
+.select select,.select input::placeholder,.select textarea::placeholder{
+    color: #BCC1FF;
+}
+.select select,.select input {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+.submit-question{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+}
+.submit-question .sub{
+    padding: 16px 30px;
+    background-color: var(--dark);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}

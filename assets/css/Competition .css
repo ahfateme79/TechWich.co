@@ -1,0 +1,108 @@
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.toggle h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.toggle input {
+    height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+.toggle label {
+    width: 48px;
+    height: 25px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border: 1px solid #7983FF;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.toggle span {
+    width: 17px;
+    height: 17px;
+    background: #7983FF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
+#toggle:checked + span {
+    transform: translateX(23px);
+    -webkit-transform: translateX(23px);
+    -moz-transform: translateX(23px);
+    -ms-transform: translateX(23px);
+    -o-transform: translateX(23px);
+}
+.mamber-list ul li{
+    background: #EFF0FF;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 8px 0;
+}
+.mamber-list ul li span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.mamber-list ul li p{
+    font-size: 12px;
+    font-weight: normal;
+    color: #BCC1FF;
+}
+.remove-member{
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #7983FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.remove-member img{
+    width: 20px;
+    height: 20px;
+}
+.warning {
+    display: flex;
+    align-items: flex-start;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.warning img{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}

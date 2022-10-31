@@ -1,0 +1,38 @@
+.notif-box{
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 16px 0;
+    margin: 8px 0;
+}
+.notif-box h4{
+    color: #252525;
+    font-size: 14px;
+    font-weight: 500;
+}
+.notif-box p{
+    margin: 16px 0;
+    font-size: 12px;
+    font-weight: normal;
+    color: #252525;
+}
+.notif-box span{
+    color: #3D4280;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 8px;
+}
+.notif-box img{
+    width: 16px;
+    height: 16px;
+    max-width: none;
+}
+.notif-box .container div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
