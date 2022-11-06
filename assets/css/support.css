@@ -1,0 +1,118 @@
+.ticket-section{
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+    overflow-y: scroll;
+    position: relative;
+    bottom: 0;
+}
+.ticket-section ul{
+    width: 100%;
+}
+.ticket-section ul li{
+    width: 100%;
+    border-bottom: 1px solid #DEE0FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100px;
+}
+.user-details{
+    display: flex;
+    align-items: flex-start;
+}
+.user-details img{
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.user-details div{
+    margin-left: 8px;
+}
+.user-details h5{
+    font-size: 12px;
+    font-weight: bold;
+}
+.user-details p{
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+.time-sec p{
+    font-size: 12px;
+    font-weight: bold;  
+}
+.time-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.time-sec span{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #7983FF;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    color: #7983FF;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.course-conetnt ul li:not(:first-child){
+    margin-left: 15px;
+}
+.envelope{
+    width: 40px;
+    height: 40px;
+    background: #3D4280;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.clip-btn{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #7983FF;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    background-color: transparent;
+}
+.clip-btn img{
+    width: 16px;
+    height: 16px;
+}
+.fill-content{
+    background-color: #7983FF;
+    color: #fff !important;
+}

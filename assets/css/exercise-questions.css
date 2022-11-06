@@ -158,3 +158,25 @@
     font-weight: bold;
     color: var(--dark);
 }
+.ticket-list{
+    width: 100%;
+}
+.ticket-list ul{
+    width: 100%;
+}
+.ticket-list li{
+    width: 100%;
+    background-color: transparent;
+    margin: 10px 0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border:1px solid #BCC1FF;
+    color: #7983FF;
+    height: 54px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+}

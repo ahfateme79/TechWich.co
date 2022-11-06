@@ -654,3 +654,34 @@
 .send-btn{
     margin-left: 5px;
 }
+.share-file-section{
+    margin: 16px 0;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 16px;
+    position: relative;
+}
+.share-file-section h4{
+    font-size: 12px;
+    font-weight: normal;
+}
+.share-file-section div{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.share-file-section img{
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    object-fit: cover;
+}
