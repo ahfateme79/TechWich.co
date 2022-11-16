@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techwich_Content</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/Discuss - All Questions.css">
+    <link rel="stylesheet" href="./assets/css/Weekly-League.css">
+    <link rel="stylesheet" href="./assets/css/RTL.css">
+</head>
+
+<body>
+
+    <div>
+        <div class="container">
+            <div class="top-heading">
+                <div><a href="" class="back"><img src="./assets/img/Stroke/fi-rr-arrow-small-left.svg" alt=""></a></div>
+                <div>
+                    <h1 class="title">نام تیم (چت)</h1>
+                    <p>تو، رافائل، جان، پل</p>
+                </div>
+            </div>
+            <!-- learn-course-container -->
+
+            <div class="main-content">
+                <div class="chat-section">
+                    <div class="date">
+                        <p>دیروز</p>
+                    </div>
+                    <div class="left">
+                        <div class="chat-bx-text ">
+                            <div>
+                                <div class="user-profile">
+                                    <img src="./assets/img/Rectangle 234.png" alt="">
+                                    <span>33</span>
+                                </div>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <div class="chat-bx-text ">
+                            <div>
+                                <div class="user-profile">
+                                    <img src="./assets/img/Rectangle 234.png" alt="">
+                                    <span>33</span>
+                                </div>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="chat-bx-text ">
+                            <div>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.</p>
+                                <div class="user-profile">
+                                    <img src="./assets/img/Rectangle 234.png" alt="">
+                                    <span>33</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="chat-bx-text ">
+                            <div>
+                                <div class="voice">
+                                    <div class="voice-container">
+                                        <div><button class="btn play-voice-btn" onclick="wavesurfer.playPause()"><img
+                                                    src="./assets/img/Fully/fi-sr-play.svg" alt=""></button></div>
+                                        <div class="voice-message">
+                                            <audio src=""></audio>
+                                            <div class="Frequency">
+                                                <div id="waveform"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user-profile">
+                                    <img src="./assets/img/Rectangle 234.png" alt="">
+                                    <span>33</span>
+                                </div>                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space"></div>
+                    <div class="space"></div>
+
+                    <div class="write-section">
+                        <div class="">
+                            <div class="text-sec">
+                                <textarea name="" id="" rows="5" placeholder="write your message"></textarea>
+                                <div class="send-control-btn">
+                                    <button class="clip-btn"><img src="./assets/img/Stroke/fi-rr-microphone.svg"
+                                            alt=""></button><button class="send-btn"><img
+                                            src="./assets/img/Stroke/fi-rr-paper-plane.svg" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="./assets/js/sorting.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/2.0.4/wavesurfer.min.js"
+        integrity="sha512-mhqErQ0f2UqnbsjgKpM96XfxVjVMnXpszEXKmnJk8467vR8h0MpiPauil8TKi5F5DldQGqNUO/XTyWbQku22LQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+        var wavesurfer = WaveSurfer.create({
+            container: '#waveform',
+            barWidth: 2,
+            barHeight: 4.5,
+            waveColor: 'violet',
+            progressColor: 'purple'
+        });
+        wavesurfer.on('ready', function () {
+            minimap = wavesurfer.initMinimap({
+                barWidth: 2,
+                barHeight: 4.5,
+                waveColor: 'violet',
+                progressColor: 'purple',
+            });
+        })
+        wavesurfer.load('./assets/img/1072_E3_POD_from_Timbuktu_to_Kalamazoo.mp3');
+    </script>
+</body>
+
+</html>

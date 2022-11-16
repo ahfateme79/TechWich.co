@@ -2,12 +2,11 @@
     width: 100%;
 }
 
-.flowes-list ul {
+.flowes-list ul,.Transaction-list  {
     width: 100%;
 }
 
-.flowes-list ul li,
-.Transaction-list {
+.flowes-list ul li{
     width: 100%;
     padding: 16px;
     border-radius: 10px;
@@ -476,8 +475,8 @@
 }
 
 .date-section span {
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 12px !important;
+    font-weight: 500 !important;
     margin-left: 8px;
     color: #3D4280;
 }
@@ -2152,4 +2151,8 @@
 .copy{
     background: transparent;
     border: 1px solid #7983FF;
+}
+.bg-transparent{
+    background-color: transparent !important;
+    justify-content: space-between !important;
 }

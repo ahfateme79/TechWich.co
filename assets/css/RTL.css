@@ -170,3 +170,126 @@
     right: 0;
 }
 }
+.warning img {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.teacher p {
+    margin-left: 0;
+    margin-right: 8px;
+}
+.winner-info >div {
+    margin-left: 0;
+    margin-right: 16px;
+}
+.btn-content {
+    text-align: left !important;
+}
+#toggle:checked + span {
+    transform: translateX(-23px) !important;
+    -webkit-transform: translateX(-23px) !important;
+    -moz-transform: translateX(-23px) !important;
+    -ms-transform: translateX(-23px) !important;
+    -o-transform: translateX(-23px) !important;
+}
+.send-btn {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.level p {
+    padding-right: 0;
+    padding-left: 5px;
+}
+.dark img {
+    margin-right: 0;
+    margin-left: 6px;
+}
+.light {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.name p img {
+    margin-right: 0;
+    margin-left: 3px;
+}
+.add-question img {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.clip-btn {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.course-conetnt ul li:not(:first-child) {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.point-details span {
+    margin-left: 0;
+    margin-right: 8px;
+}
+.date-section span {
+    margin-left: 0;
+    margin-right: 8px;
+}
+.score span {
+    margin-left: 0;
+    margin-right: 8px;
+}
+.company p {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.follower-info div {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.project-detals div span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.req-number>div {
+    margin-left: 0;
+    margin-right: 10px;
+}
+#toggle:checked+label span {
+    transform: translateX(-23px);
+    -webkit-transform: translateX(-23px);
+    -moz-transform: translateX(-23px);
+    -ms-transform: translateX(-23px);
+    -o-transform: translateX(-23px);
+    background-color: #fff;
+}
+#toggle2:checked+label span {
+    transform: translateX(-23px);
+    -webkit-transform: translateX(-23px);
+    -moz-transform: translateX(-23px);
+    -ms-transform: translateX(-23px);
+    -o-transform: translateX(-23px);
+    background-color: #fff;
+}
+
+#toggle2:checked+label {
+    background-color: #7983FF;
+}
+
+#toggle3:checked+label span {
+    transform: translateX(-23px);
+    -webkit-transform: translateX(-23px);
+    -moz-transform: translateX(-23px);
+    -ms-transform: translateX(-23px);
+    -o-transform: translateX(-23px);
+    background-color: #fff;
+}
+
+#toggle3:checked+label {
+    background-color: #7983FF;
+}
+.edit-parent span {
+    margin-left: 0;
+    margin-right: 8px;
+}
+.profile-heading span {
+    margin-left: 0;
+    margin-right: 8px;
+}
