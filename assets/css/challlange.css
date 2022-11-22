@@ -371,3 +371,14 @@ section#challanges{
 .opacity-50{
     opacity: .5;
 }
+@media screen and (min-width:1024px) {
+    .item-list{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .item-list> .item{
+        width: 31% ;
+    }
+}
