@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techwich_Edit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/add-content.css">
+    <link rel="stylesheet" href="./assets/css/quiz.css">
+</head>
+
+<body>
+
+    <div>
+        <div class="container">
+            <div class="top-heading">
+                <div><a href="" class="back"><img src="./assets/img/Stroke/fi-rr-arrow-small-left.svg" alt=""></a></div>
+                <div>
+                    <h1 class="title">Playground</h1>
+                </div>
+                <span class="quiz-number">7/10</span>
+            </div>
+
+            <!-- progress -->
+            <div class="question-progress">
+                <div class="quiz-progress-parent">
+                    <div class="quiz-progress-inner" data-width="60"></div>
+                </div>
+            </div>
+
+            <!-- questions -->
+
+            <div class="question-wrapper">
+                <div class="quition-text">
+                    <h2>Massa non tellus pellentesque nunc, aliquet ullam?</h2>
+                    <div class="quiz-image">
+                        <img src="./assets/img/istockphoto-1335717953-612x612.jpg" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="answer-parent">
+                        <pre id="wrap">
+                            <code class="less hljs" id="editor" contenteditable="true" autocorrect="off" autocapitalize="off" spellcheck="false">
+                                
+    1 "#output Python is fundsgsezgdseg"
+
+    2 $(document).ready(function() {
+
+    3 $('pre code').each(function(i, block) {
+
+    4 });
+</code></pre>
+                    </div>
+
+                    <!-- hint -->
+                    <div>
+                        <div class="help-message">
+                            <div><img src="./assets/img/image 1.png" alt=""></div>
+                            <div>
+                                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out
+                                    print, graphic or web designs. </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- answer -->
+                    <div class="answer">
+                        <div class="open-btn">
+                            <button class="question-mark-btn"><img src="./assets/img/Vector.svg" alt=""></button>
+                        </div>
+                        <div class="answer-box">
+                            <div class="close">
+                                <button class="close-collapse"><img src="./assets/img/Vector (1).svg" alt=""></button>
+                            </div>
+                            <div class="inner">
+                                <span><img src="./assets/img/Group 21421.svg" alt=""></span>
+                                <div>
+                                    <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out
+                                        print, graphic or web designs. The passage is attributed to an unknown
+                                        typesetter in
+                                        the 15th century who is thought to have scrambled parts of Cicero's De </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- btns -->
+
+                    <div class="btns-wrapper">
+                        <button id="back">Back</button>
+                        <button id="next">Next</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- script -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/collapse.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+    <script src="https://rawgit.com/orbitbot/misbehave/master/misbehave.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+    <script>
+        var code = document.querySelector('#editor')
+        var misbehave = new Misbehave(code, {
+            oninput: () => {
+                hljs.highlightBlock(code);
+                update()
+            }
+        })
+
+        function update() {
+            var v = "@inherits: none; @import url(\"//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/@{inherits}.min.css\");" + editor.textContent
+            less.render(v).then(function (data) {
+                style.innerHTML = data.css;
+            })
+        }
+
+        update()
+    </script>
+</body>
+
+</html>
