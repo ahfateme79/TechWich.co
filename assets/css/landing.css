@@ -90,20 +90,55 @@ header {
 }
 
 .login-btn button {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid #000000;
-    color: #000000;
     font-size: 14px;
     padding: 13px 30px;
     background-color: #fff;
     border-radius: 4px;
     height: 40px;
     width: 150px;
+    border: none;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+    background-color: transparent;
+    border-color: #000000;
+    position: relative;
 }
-
+.login-btn button::before {
+    content: 'login';
+    width: 165px;
+    background-color: transparent;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 36px;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    border-radius: 5px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+}
+.login-btn button:hover::before {
+    background-color: rgba(255, 255, 255, 0.355);
+    backdrop-filter: blur(60px);
+    color: #fff;
+    width: 165px;
+    transform: translate(-50%,0);
+    top: -1px;
+    height: 40px;
+}
+.login-btn button:hover{
+    background-color: rgb(0, 0, 0);
+    border-color: transparent;
+    width: 150px;
+    height: 45px;
+}
 
 .search-box {
     border-radius: 4px;
@@ -149,7 +184,7 @@ header {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
     color: #000000;
-    margin: 0 10px 0 25px;
+    margin: 0 15px 0 25px;
     position: relative;
     box-shadow: 0 0 1px #7983FF;
 
@@ -246,7 +281,9 @@ nav>ul>li>a {
     font-size: 13px;
     font-weight: 500;
 }
-
+nav>ul li a:hover{
+    color: #acb1f4;
+}
 .list-parent::after {
     content: "";
     pointer-events: none;
@@ -258,10 +295,9 @@ nav>ul>li>a {
     margin-left: 10px;
 }
 
-nav>ul>li>a:hover {
-    color: #fff;
+.list-parent:hover::after{
+    border-top: 5px solid #acb1f4;
 }
-
 .sub-menu {
     position: absolute;
     background-color: #fff;
@@ -435,7 +471,9 @@ nav>ul>li:hover .sub-menu {
     height: 65px;
     border: none;
     background-color: #7983FF;
-
+    border: 1px solid transparent;
+    border-radius: 6px;
+    transition: all .3s ease;
 }
 
 .create-account button::before {
@@ -454,8 +492,18 @@ nav>ul>li:hover .sub-menu {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .3s ease;
 }
-
+.create-account button:hover::before {
+    width: 67%;
+    background-color: #7983FF;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.create-account button:hover{
+    background-color: transparent;
+    border-color: #7983FF;
+}
 .text p {
     font-size: 12px;
     color: #000000;
@@ -846,6 +894,10 @@ nav>ul>li:hover .sub-menu {
     font-size: 14px;
     text-align: center;
     color: #fff;
+    transition: all .3s ease;
+}
+.app-section button:hover{
+    opacity: .7;
 }
 
 .app-section button span {
@@ -886,6 +938,11 @@ nav>ul>li:hover .sub-menu {
     font-size: 14px;
     background-color: #fff;
     width: 130px;
+    transition: all .3s ease;
+}
+.blog-details button:hover{
+    background-color: #000000;
+    color: #fff;
 }
 
 #video {
@@ -913,7 +970,7 @@ nav>ul>li:hover .sub-menu {
 }
 
 .web img {
-    transform: scale(1.9);
+    transform: scale(1.8);
 }
 
 .video-section {
@@ -1066,7 +1123,11 @@ nav>ul>li:hover .sub-menu {
     font-size: 14px;
     background-color: #fff;
     width: 130px;
-
+    transition: all .3s ease;
+}
+.blog-details button:hover{
+    background-color: #000000;
+    color: #fff;
 }
 
 .blog-list {
@@ -1175,6 +1236,9 @@ nav>ul>li:hover .sub-menu {
     height: 80px;
     border: none;
     background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    transition: all .3s ease;
 }
 
 .big-section button::before {
@@ -1193,6 +1257,17 @@ nav>ul>li:hover .sub-menu {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .3s ease;
+}
+.big-section button:hover::before {
+    width: 28%;
+    background-color: #fff;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.big-section button:hover{
+    background-color: transparent;
+    border-color: #fff;
 }
 
 footer {
@@ -1223,9 +1298,11 @@ footer ul {
     font-size: 13px;
     color: #fff;
     opacity: .7;
-
+    transition: all .3s ease;
 }
-
+.links li a:hover{
+    color: #7983FF;
+}
 .media-link {
     width: 100%;
 }
@@ -1249,9 +1326,13 @@ footer ul {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    transition: all .3s ease;
 }
-
+.media-link ul li a:hover{
+    background-color: #3D4280;
+    color: #fff;
+    transform: scale(1.2);
+}
 .link {
     margin-left: 10px;
 }
@@ -1335,14 +1416,15 @@ footer ul {
 
     .main-section>div {
         width: 100%;
-        padding: 50px 0 0 50px;
+        padding: 50px 0 0 0;
 
     }
     header{
         overflow: hidden;
     }
     .login-form-box {
-        width: 90%;
+        width: 85%;
+        margin: 0 auto;
     }
 
     .login-form-box h4 {
