@@ -1011,3 +1011,28 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+.seen{
+    border-radius: 8px;
+    border: 1px solid #7983FF;
+    color: #7983FF;
+    display: flex;
+    flex-direction: column;
+    padding:5px 10px;
+}
+.seen span{
+    font-weight: bold;
+    font-size: 11px;
+}
+.seen p{
+    font-size: 10px;
+    font-weight: normal;
+}
+.bg-white{
+    background-color: #fff !important;
+}
+.bg-white .images,.bg-white .count-parent,.bg-white .edit,.opacity-0{
+    opacity: 0;
+}
+.t-3{
+    transform: translateY(30px);
+}
