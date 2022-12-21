@@ -461,3 +461,26 @@
 
 
 
+
+@media only screen and (min-width:1024px) {
+    .category-list,.earn{
+        width: 50%;
+        display: inline-block;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .category-list>div{
+        width: 90%;
+    }
+}
+@media screen and (max-width:390px){
+    .title{
+        font-size: 12px
+    }
+    .lesson-info{
+        width: 60%;
+        justify-content: space-evenly;
+    }
+}
