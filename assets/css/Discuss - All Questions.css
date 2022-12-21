@@ -138,6 +138,7 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     object-fit: cover;
+    margin-left: 7px;
 }
 
 .user-information>div {
@@ -199,14 +200,14 @@
 }
 
 .numbers span {
-    width: 54px;
+    width: 50px;
     height: 30px;
     background: linear-gradient(97.28deg, #7983FF 4.64%, #B388EB 96.49%);
     border-radius: 8px;
     font-size: 12px;
     font-weight: normal;
     color: #fff;
-    margin-left: 8px;
+    margin-left: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
