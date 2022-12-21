@@ -41,8 +41,9 @@
     -o-border-radius: 15px;
     padding: 20px 0;
 }
-@media screen and (min-width:1000px){
-    .learn-course-container > .container {
+
+@media screen and (min-width:1000px) {
+    .learn-course-container>.container {
         padding: 0 50px;
     }
 }
@@ -266,7 +267,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 0 20px 0;
+    margin: 20px 0 20px 0;
     width: 40%;
 }
 
@@ -358,7 +359,7 @@
     max-height: 0;
     overflow: hidden;
     background-color: transparent;
-    padding:0 16px;
+    padding: 0 16px;
 
 }
 
@@ -456,3 +457,7 @@
     color: #fff;
     font-size: 12px;
 }
+
+
+
+
