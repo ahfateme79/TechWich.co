@@ -954,4 +954,7 @@ section {
     .add-question {
         bottom: 30px !important;
     }
+    .course-name-tab ul {
+        width: 100% !important;
+    }
 }
