@@ -441,6 +441,7 @@ section {
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     width: 100%;
+    overflow-x: scroll;
 }
 
 .course-name-tab.active {
@@ -449,7 +450,7 @@ section {
 }
 
 .course-name-tab ul {
-    width: 100%;
+    width: fit-content;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -460,13 +461,14 @@ section {
     -moz-border-radius: 0 0 0 10px;
     -ms-border-radius: 0 0 0 10px;
     -o-border-radius: 0 0 0 10px;
+    overflow-x: scroll !important;
 }
 
 .course-name-tab ul li {
     font-size: 12px;
     color: var(--dark);
-    width: auto;
-    padding: 0 6px;
+    width: 65px !important;
+    padding: 0 10px !important;
     height: 40px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -480,7 +482,6 @@ section {
 }
 @media screen and (min-width:1000px){
     .course-name-tab ul li {
-
         width: 100px;
     }
 }
