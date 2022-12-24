@@ -375,10 +375,10 @@ section#challanges{
     .item-list{
         display: flex;
         align-items: center;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-between; */
     }
-    .item-list> .item{
-        width: 31% ;
-    }
+    /* .item-list> .item{
+        flex: 1;
+    } */
 }

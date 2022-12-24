@@ -429,7 +429,7 @@
 }
 @media screen and (min-width:1000px) {
     .user-info {
-        width: 23%;
+        width: 35%;
         height: 250px;
     }
 
@@ -446,12 +446,22 @@
 
 .item-list {
     margin-top: 10px;
-    overflow-x: scroll;
     display: flex;
     align-items: center;
     overflow-y: visible;
+    overflow-x: auto;
 }
-
+@media screen and (min-width:1024px) {
+    .item-list{
+        display: flex;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-between; */
+    }
+    /* .item-list> .item{
+        flex: 1;
+    } */
+}
 .section>.container:last-of-type {
     padding: 0;
 }
@@ -459,13 +469,13 @@
     padding: 0 20px !important;
 }
 .item-list::-webkit-scrollbar {
-    display: none;
+    /* display: none; */
 }
 
 .item-list {
-    -ms-overflow-style: none;
+    /* -ms-overflow-style: none; */
     /* IE and Edge */
-    scrollbar-width: none;
+    /* scrollbar-width: none; */
     /* Firefox */
 }
 
@@ -474,13 +484,11 @@
         margin: 20px 0;
     }
     .item-list::-webkit-scrollbar {
-        display: block;
+        /* display: block; */
         /* background-color: red; */
-        height: 2px;
+        /* height: 2px; */
 
     }
-    
-    
     .section>.container:last-of-type {
         padding: 0 100px 0 80px;
     }
@@ -886,9 +894,17 @@
 #Competition .item-list {
     height: 220px;
 }
-
 #Super-league .item-list {
     height: 370px;
+}
+@media screen and (min-width:1024px){
+    #Competition .item-list {
+        height: 240px;
+    }
+    #Super-league .item-list {
+        height: 380px;
+    }
+     
 }
 
 .name p {

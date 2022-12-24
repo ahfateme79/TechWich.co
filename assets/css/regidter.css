@@ -241,6 +241,16 @@ body{
         display: block;
     }
     .form>div{
-        width: 47%;
+        width: 65%;
+        margin: 0 auto;
     }
+    .content-wrapper{
+        padding-top: 0;
+        padding: 0 ;
+        background: transparent;
+    }
+}
+.main-content{
+    position: static !important;
+    padding:0 30px;
 }

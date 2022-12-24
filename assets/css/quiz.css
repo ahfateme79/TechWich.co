@@ -334,7 +334,11 @@
     border-radius: 10px;
     width: 70%;
 }
-
+@media screen and (min-width:1024px){
+    .modal-box {
+        width: 40%;
+    }
+}
 .close-btn-section {
     width: 100%;
     display: flex;

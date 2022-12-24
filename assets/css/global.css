@@ -441,9 +441,19 @@ section {
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     width: 100%;
-    overflow-x: scroll;
-}
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
+    scrollbar-width: none;
 
+}
+.course-name-tab::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+.course-name-tab::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 .course-name-tab.active {
     opacity: 1;
     visibility: visible;
@@ -461,7 +471,6 @@ section {
     -moz-border-radius: 0 0 0 10px;
     -ms-border-radius: 0 0 0 10px;
     -o-border-radius: 0 0 0 10px;
-    overflow-x: scroll !important;
 }
 
 .course-name-tab ul li {
@@ -484,6 +493,7 @@ section {
     .course-name-tab ul li {
         width: 100px;
     }
+    
 }
 .course-name-tab ul li.active {
     color: #fff;
@@ -550,7 +560,7 @@ section {
     height: auto;
     overflow-y: auto;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .top-heading {
     display: flex;
@@ -828,6 +838,8 @@ section {
     .main-content {
         overflow-y: scroll;
         padding: 30px;
+        position: relative !important;
+        overflow-x: hidden;
     }
 
     .main-content::-webkit-scrollbar {

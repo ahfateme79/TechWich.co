@@ -78,6 +78,23 @@
     display: flex;
     align-items: center;
 }
+@media screen and (max-width:1024px){
+    .dark {
+        font-size: 11px !important;
+    }
+    .warning{
+        font-size: 11px !important;
+    }
+    .btn-parent{
+        position: static;
+        width: 100%;
+        left: 0;
+        transform: translateX(0);
+    }
+    .position-relatve{
+        left: 0 !important;
+    }
+}
 .light {
     padding: 13px 20px;
     background-color: var(--active);

@@ -264,7 +264,6 @@
     height: auto;
     overflow-y: auto;
     display: flex;
-    flex-wrap: wrap;
 
 }
 .item-course {
@@ -281,13 +280,9 @@
     align-items: flex-start;
     flex-direction: column;
 }
-@media screen and (min-width:1000px){
-    .item-course {
-        width: 31%;
-        margin: 10px;
-    }
+@media screen and (min-width:1024px){
+    .item-course {margin: 0 10px;}
 }
-
 .user-details{
     display: flex;
     width: 100%;

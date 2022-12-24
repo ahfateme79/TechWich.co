@@ -342,7 +342,13 @@
     border-radius: 10px;
     padding: 20px 0;
 }
+@media screen and (min-width:1024px){
+    .write-section {
+        position: absolute;
+        background: transparent;
 
+    }
+}
 .text-sec {
     width: 100%;
     background: #EFF0FF;
@@ -432,7 +438,13 @@
     padding: 0;
     align-items: flex-end;
 }
-
+@media screen and (min-width:1024px){
+    .modal-parent {
+        padding: 0;
+        align-items: center;
+    }
+    
+}
 .modal {
     padding: 20px 0;
     border-radius: 10px 10px 0 0 !important;
