@@ -371,14 +371,23 @@ section#challanges{
 .opacity-50{
     opacity: .5;
 }
+.item-list{
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.item-list::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
 @media screen and (min-width:1024px) {
     .item-list{
         display: flex;
         align-items: center;
-        /* flex-wrap: wrap; */
-        /* justify-content: space-between; */
+        flex-wrap: wrap;
+        justify-content: space-between ;
     }
-    /* .item-list> .item{
-        flex: 1;
-    } */
+    .item-list> .item{
+        width: 47%;
+        margin: 0 0 50px 0 !important;
+    }
 }

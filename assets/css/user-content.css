@@ -152,10 +152,11 @@
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
+    scrollbar-width: 0;
 
 }
-
 .course-name-tab.active {
     opacity: 1;
     visibility: visible;
@@ -173,7 +174,6 @@
     -moz-border-radius: 0 0 0 10px;
     -ms-border-radius: 0 0 0 10px;
     -o-border-radius: 0 0 0 10px;
-    overflow-x: scroll !important;
 }
 
 .course-name-tab ul li {
@@ -196,6 +196,7 @@
     .course-name-tab ul li {
         width: 100px;
     }
+    
 }
 .course-name-tab ul li.active {
     color: #fff;

@@ -75,13 +75,13 @@ header {
 }
 @media screen and (min-width:1000px) and (max-width:1500px){
     .container {
-        padding: 0 100px;
+        padding: 0 30px 0 100px;
     }
 
 }
 @media screen and (min-width:1500px){
     .container {
-        padding: 0 100px;
+        padding: 0 30px 0 100px;
     }
 
 }
@@ -443,16 +443,8 @@ section {
     width: 100%;
     overflow-x: scroll !important;
     overflow-y: hidden !important;
-    scrollbar-width: none;
+    scrollbar-width: 0;
 
-}
-.course-name-tab::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
-/* Optional: show position indicator in red */
-.course-name-tab::-webkit-scrollbar-thumb {
-    background: #FF0000;
 }
 .course-name-tab.active {
     opacity: 1;
@@ -560,7 +552,7 @@ section {
     height: auto;
     overflow-y: auto;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 .top-heading {
     display: flex;
