@@ -2236,3 +2236,20 @@
     background-color: transparent !important;
     justify-content: space-between !important;
 }
+
+@media screen and (min-width:1024px){
+    .profile-box,.Achievements{
+        float: left;
+        width: 47%;
+        margin: 0;
+    }
+    .Achievements{
+        margin: 0 0 20px 20px;
+    }
+    .Achievements:nth-child(3){
+        margin-left: 0;
+    }
+    .Transaction-list{
+        padding: 30px 0;
+    }
+}
