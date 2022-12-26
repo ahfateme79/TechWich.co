@@ -156,6 +156,11 @@
     width: 100%;
     overflow-x: scroll;
 }
+@media screen and (min-width:1024px){
+    .course-name-tab {
+        overflow-x: hidden !important;
+    }
+}
 
 .course-name-tab.active {
     opacity: 1;

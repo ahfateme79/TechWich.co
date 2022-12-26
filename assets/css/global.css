@@ -446,6 +446,11 @@ section {
     scrollbar-width: 0;
 
 }
+@media screen and (min-width:1024px){
+    .course-name-tab {
+        overflow-x: hidden !important;
+    }
+}
 .course-name-tab.active {
     opacity: 1;
     visibility: visible;
