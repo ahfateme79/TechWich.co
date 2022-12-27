@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/add-content.css">
 </head>
 
@@ -83,31 +84,13 @@
                                 <div class="select">
                                     <label for="">Description:</label>
                                     <div class="edit-text">
-                                        <div class="edit-content bg-white">
-                                            <div>
-                                                <span>Normal text</span>
-                                                <ul class="edit-text-btn">
-                                                    <li><button class="btn"><i
-                                                                class="fa-sharp fa-solid fa-bold"></i></button></li>
-                                                    <li><button class="btn"><i class="fa-solid fa-italic"></i></button>
-                                                    </li>
-                                                    <li><button class="btn"><i
-                                                                class="fa-solid fa-underline"></i></button></li>
-                                                    <li class="active"><button class="btn"><i
-                                                                class="fa-solid fa-link"></i></button></li>
-                                                    <li><button class="btn"><i class="fa-solid fa-list"></i></button>
-                                                    </li>
-                                                    <li><button class="btn"><i class="fa-solid fa-list-ol"></i></button>
-                                                    </li>
-                                                    <li><button class="btn"><i class="fa-solid fa-bars"></i></button>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                        <div id="editor">
+                                            <p>Hello World!</p>
+                                            <p>Some initial <strong>bold</strong> text</p>
+                                            <p><br></p>
+                                            <textarea name="" id="" cols="30" rows="10" hidden
+                                                id="hiddenArea"></textarea>
                                         </div>
-                                        <textarea class="bg-white" name="" id="" placeholder="PlaceHolder">Pellentesque eget eleifend pretium vel ac. Ut eget massa non praesent egestas luctus quam. Ac feugiat fermentum nunc quis. Faucibus lectus velit quis metus in nec quisque enim arcu. Mollis a nec cras netus feugiat. Aliquet euismod aliquam morbi et enim. Bibendum enim justo, purus ut amet, id aliquet amet, a. Lorem a nisl dictum libero, augue pretium amet, lorem sapien. Malesuada nulla odio consectetur proin. Sapien, consectetur dui eget aenean. Consectetur facilisi dictumst mauris commodo purus sit quis. Proin turpis bibendum placerat elit.
-Purus, etiam cras enim scelerisque. Dolor phasellus congue varius vel. Eget risus morbi auctor mi in. Et euismod et, aliquet pulvinar sodales aliquet fermentum. Tincidunt id hac eu eget est feugiat.
-                                </textarea>
-
                                     </div>
                                 </div>
                                 <div class="select">
@@ -142,6 +125,8 @@ Purus, etiam cras enim scelerisque. Dolor phasellus congue varius vel. Eget risu
 
     <!-- script -->
     <script src="./assets/js/accordion.js"></script>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="./assets/js/quily.js"></script>
 </body>
 
 </html>

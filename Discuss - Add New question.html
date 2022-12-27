@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/add-content.css">
 </head>
 
@@ -80,8 +81,12 @@
                             <div class="select">
                                 <label for="">Description:</label>
                                 <div class="edit-text">
-                                    <textarea name="" id="" placeholder="PlaceHolder"
-                                        class="white-bg-textarea"></textarea>
+                                    <div id="editor">
+                                        <p>Hello World!</p>
+                                        <p>Some initial <strong>bold</strong> text</p>
+                                        <p><br></p>
+                                        <textarea name="" id="" cols="30" rows="10" hidden id="hiddenArea"></textarea>
+                                    </div>
                                 </div>
                             </div>
                             <div class="select">
@@ -114,6 +119,8 @@
 
     <!-- script -->
     <script src="./assets/js/accordion.js"></script>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="./assets/js/quily.js"></script>
 </body>
 
 </html>

@@ -2252,4 +2252,11 @@
     .Transaction-list{
         padding: 30px 0;
     }
+    .calender-box{
+        width: 45%;
+    }
+.item {
+    width: 40%;
+}
+
 }
