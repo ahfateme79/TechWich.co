@@ -305,3 +305,37 @@
     margin-left: 0;
     margin-right: 10px;
 }
+@media only screen and (min-width: 1024px){
+.inner-side {
+    position: fixed;
+    right: 0;
+    left: auto;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    background-color: #7983FF;
+    overflow: hidden;
+    padding: 50px 70px;
+}
+.navigation ul li a img {
+    margin-left: 8px;
+}
+.navigation ul li a{
+    font-size: 20px;
+}
+}
+
+@media screen and (min-width: 1000px){
+.container {
+    padding: 0 100px 0 30px;
+}
+}
+
+@media screen and (min-width: 1000px){
+.profile>.container {
+    padding: 0 100px 0 20px !important;
+}
+.section>.container:last-of-type {
+    padding: 0 80px 0 20px;
+}
+}
