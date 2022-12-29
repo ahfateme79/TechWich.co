@@ -1,95 +1,117 @@
 .search-box input {
     margin-right: 10px;
 }
+
 .notification-btns button:first-child {
     margin-left: 20px;
 }
+
 .user-name {
     margin-right: 15px;
 }
+
 .course-details-section div {
     margin-right: 10px;
 }
+
 .chalange-name {
     margin-right: 15px;
 }
+
 .warning p {
     margin-right: 7px;
 }
+
 .level {
     padding-left: 0;
     padding-right: 5px;
 }
+
 .section>.container:last-of-type {
-    padding:0 20px;
+    padding: 0 20px;
 }
+
 .off-time img {
     margin-right: 0;
     margin-left: 10px;
 }
+
 .gift img {
     margin-right: 0;
     margin-left: 5px;
 }
+
 .navigation-list li img {
     width: 20px;
     display: inline-block;
     margin-left: 5px;
 }
+
 .Achievements-items>div {
     padding-left: 10px;
     padding-right: 0;
 }
+
 .team-detals {
     margin-right: 10px;
     margin-left: 0;
 }
-@media screen and (min-width: 1000px){
-.section>.container:last-of-type {
-    padding: 0 100px 0 80px;
-}
+
+@media screen and (min-width: 1000px) {
+    .section>.container:last-of-type {
+        padding: 0 100px 0 80px;
+    }
 }
 
 .back {
     margin: 10px;
     margin-left: 10px;
 }
+
 .select select {
     background-image: url(../img/Stroke/fi-rr-angle-small-down.svg);
     background-position: calc(100% - 98%) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
     background-repeat: no-repeat;
 }
-@media screen and (min-width: 1000px){
-.category ul li img {
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 0;
+
+@media screen and (min-width: 1000px) {
+    .category ul li img {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 0;
+    }
 }
-}
+
 .course-conetnt ul li:last-child {
     margin-right: 20px;
     margin-left: 0;
 }
+
 .content-date span {
     margin-left: 0;
     margin-right: 10px;
 }
+
 .like span {
     margin-left: 10px;
     margin-right: 0;
 }
+
 .user-details div {
     margin-right: 10px;
     margin-left: 0;
 }
+
 .lesson-info div p {
     margin-left: 0;
     margin-right: 3px;
 }
+
 .rate img {
     margin-left: 3px;
     margin-right: 0;
 }
+
 .price del {
     margin-left: 6px;
     margin-right: 0;
@@ -99,55 +121,69 @@
     margin-right: 15px;
     margin-left: 0;
 }
+
 .user-detail-info img {
     margin-right: 10px;
     margin-left: 0;
 }
+
 .numbers span {
     margin-right: 8px;
     margin-left: 0;
 }
+
 .add-question {
     bottom: 134px;
     left: 20px !important;
     right: auto;
 }
+
 .undo {
     margin-left: 0;
     margin-right: 12px;
 }
+
 .controls {
     padding-left: 10px;
     padding-right: 0;
 }
+
 .avatars span {
     margin-left: 15px;
     margin-right: 0;
 }
-.accordion-header h4::before,.lesson-title::before {
+
+.accordion-header h4::before,
+.lesson-title::before {
     margin-right: 0;
     margin-left: 10px;
 }
-.category-list>div{
+
+.category-list>div {
     padding-right: 0;
     padding-left: 8px;
 }
+
 .result-count div span {
     margin-left: 0;
     margin-right: 16px;
 }
+
 .download-btn {
     margin-left: 0;
     margin-right: 5px;
 }
+
 .alert p {
     margin-left: 0;
     margin-right: 6px;
 }
+
 .modal-btns button:first-child {
     margin-right: 0;
     margin-left: 10px;
 }
+
 .media-login button img {
     margin-right: 0;
     margin-left: 10px;
@@ -158,100 +194,122 @@
     right: 15px;
 }
 
-@media screen and (min-width: 1000px){
-.course-subject-list li::before {
-    transform: translate(50px,55px);
-    -webkit-transform: translate(50px,55px);
-    -moz-transform: translate(50px,55px);
-    -ms-transform: translate(50px,55px);
-    -o-transform: translate(50px,55px);
+@media screen and (min-width: 1000px) {
+    .course-subject-list li::before {
+        transform: translate(50px, 55px);
+        -webkit-transform: translate(50px, 55px);
+        -moz-transform: translate(50px, 55px);
+        -ms-transform: translate(50px, 55px);
+        -o-transform: translate(50px, 55px);
+    }
+
+    .course-subject-list::before {
+        right: 0;
+    }
 }
-.course-subject-list::before{
-    right: 0;
-}
-}
+
 .warning img {
     margin-right: 0;
     margin-left: 8px;
 }
+
 .teacher p {
     margin-left: 0;
     margin-right: 8px;
 }
-.winner-info >div {
+
+.winner-info>div {
     margin-left: 0;
     margin-right: 16px;
 }
+
 .btn-content {
     text-align: left !important;
 }
-#toggle:checked + span {
+
+#toggle:checked+span {
     transform: translateX(-23px) !important;
     -webkit-transform: translateX(-23px) !important;
     -moz-transform: translateX(-23px) !important;
     -ms-transform: translateX(-23px) !important;
     -o-transform: translateX(-23px) !important;
 }
+
 .send-btn {
     margin-left: 0;
     margin-right: 5px;
 }
+
 .level p {
     padding-right: 0;
     padding-left: 5px;
 }
+
 .dark img {
     margin-right: 0;
     margin-left: 6px;
 }
+
 .light {
     margin-left: 0;
     margin-right: 10px;
 }
+
 .name p img {
     margin-right: 0;
     margin-left: 3px;
 }
+
 .add-question img {
     margin-right: 0;
     margin-left: 8px;
 }
+
 .clip-btn {
     margin-right: 0;
     margin-left: 8px;
 }
+
 .course-conetnt ul li:not(:first-child) {
     margin-left: 0;
     margin-right: 15px;
 }
+
 .point-details span {
     margin-left: 0;
     margin-right: 8px;
 }
+
 .date-section span {
     margin-left: 0;
     margin-right: 8px;
 }
+
 .score span {
     margin-left: 0;
     margin-right: 8px;
 }
+
 .company p {
     margin-left: 0;
     margin-right: 5px;
 }
+
 .follower-info div {
     margin-left: 0;
     margin-right: 10px;
 }
+
 .project-detals div span {
     margin-left: 0;
     margin-right: 10px;
 }
+
 .req-number>div {
     margin-left: 0;
     margin-right: 10px;
 }
+
 #toggle:checked+label span {
     transform: translateX(-23px);
     -webkit-transform: translateX(-23px);
@@ -260,6 +318,7 @@
     -o-transform: translateX(-23px);
     background-color: #fff;
 }
+
 #toggle2:checked+label span {
     transform: translateX(-23px);
     -webkit-transform: translateX(-23px);
@@ -285,57 +344,102 @@
 #toggle3:checked+label {
     background-color: #7983FF;
 }
+
 .edit-parent span {
     margin-left: 0;
     margin-right: 8px;
 }
+
 .profile-heading span {
     margin-left: 0;
     margin-right: 8px;
 }
+
 .time {
     margin-left: 0;
     margin-right: 25px;
 }
+
 .teacher-info span {
     margin-left: 0;
     margin-right: 10px;
 }
+
 .time span {
     margin-left: 0;
     margin-right: 10px;
 }
-@media only screen and (min-width: 1024px){
-.inner-side {
-    position: fixed;
-    right: 0;
-    left: auto;
-    top: 0;
-    width: 400px;
-    height: 100%;
-    background-color: #7983FF;
-    overflow: hidden;
-    padding: 50px 70px;
-}
-.navigation ul li a img {
-    margin-left: 8px;
-}
-.navigation ul li a{
-    font-size: 20px;
-}
+
+@media only screen and (min-width: 1024px) {
+    .inner-side {
+        position: fixed;
+        right: 0;
+        left: auto;
+        top: 0;
+        width: 400px;
+        height: 100%;
+        background-color: #7983FF;
+        overflow: hidden;
+        padding: 50px 70px;
+    }
+
+    .navigation ul li a img {
+        margin-left: 8px;
+    }
+
+    .navigation ul li a {
+        font-size: 20px;
+    }
 }
 
-@media screen and (min-width: 1000px){
-.container {
-    padding: 0 100px 0 30px;
-}
+@media screen and (min-width: 1000px) {
+    .container {
+        padding: 0 100px 0 30px;
+    }
 }
 
-@media screen and (min-width: 1000px){
-.profile>.container {
-    padding: 0 100px 0 20px !important;
+@media screen and (min-width: 1000px) {
+    .profile>.container {
+        padding: 0 100px 0 20px !important;
+    }
+
+    .section>.container:last-of-type {
+        padding: 0 80px 0 20px;
+    }
+    .modal-parent{
+        padding: 30px 0 !important;
+    }
+    .payment-details {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .modal {
+        height: 95%;
+        overflow-y: auto;
+    }
+    .modal::-webkit-scrollbar {
+        width: 5px;
+        overflow: hidden;
+      }
+      .modal::-webkit-scrollbar-track {
+        /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+        background-color: #ccc;
+      }
+       
+      .modal::-webkit-scrollbar-thumb {
+        background-color: #7983FF;
+      }
 }
-.section>.container:last-of-type {
-    padding: 0 80px 0 20px;
+
+.ql-editor {
+    direction: rtl !important;
+    text-align: right !important;
 }
+
+.ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+    position: absolute;
+    margin-top: -9px;
+    right: auto !important;
+    top: 50%;
+    width: 18px;
 }
