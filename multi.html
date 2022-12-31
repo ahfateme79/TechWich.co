@@ -73,6 +73,7 @@
                 <div>
                     <div class="answer-parent">
                         <ul class="answer-list">
+                            <input type="hidden">
                             <li class="coorect">
                                 <div>
                                     <p>Lobortis cras eget facilisi </p>
@@ -153,6 +154,25 @@
 
     <!-- script -->
     <script src="./assets/js/collapse.js"></script>
+    <script>
+        let items=document.querySelectorAll('.answer-list li')
+        let inp=document.querySelectorAll('.answer-list input')
+
+        items.forEach(n=>{
+            n.classList.remove('coorect')
+            n.addEventListener('click',(e)=>{
+                for (let i = 0; i < items.length; i++) {
+                    items[i].classList.remove('coorect')                    
+                }
+                n.classList.add('coorect')
+
+                inp.value=document.querySelector('.answer-list .coorect p').innerHTML
+
+                console.log(inp.value)
+            })
+        })
+
+    </script>
 
 </body>
 

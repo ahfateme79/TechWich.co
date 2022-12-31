@@ -1,15 +1,13 @@
-
 function allowDrop(ev) {
     ev.preventDefault();
 }
-
 function drag(ev) {
     ev.dataTransfer.setData("Text", ev.target.id);
-    console.log(ev.target.innerText);
 }
 
 function drop(ev) {
     ev.preventDefault();
+
     var data = ev.dataTransfer.getData("Text");
     ev.target.appendChild(document.getElementById(data));
 }
@@ -35,6 +33,8 @@ function handleClick(event) {
 document.querySelector(".drag-content").addEventListener("click", handleClick);
 // click and back to first place
 document.querySelector(".drop-content").addEventListener("click", (event) => {
+
     document.querySelector(".drag-content").appendChild(document.getElementById(event.target.id));
+
 })
 
