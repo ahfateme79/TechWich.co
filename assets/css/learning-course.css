@@ -360,7 +360,9 @@
     overflow: hidden;
     background-color: transparent;
     padding: 0 16px;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .accordion-body div {
@@ -391,7 +393,6 @@
     border: 1px solid #7983FF;
     margin: 10px 0;
 }
-
 .lesson-item>div {
     display: flex;
     justify-content: space-between;
@@ -460,6 +461,17 @@
 
 
 
+@media screen and (min-width:1024px) {
+    .lesson-item {
+        width: 49%;
+    }
+    .lesson-item>div p{
+        font-size: 14px
+    }
+    .lesson-title::before{
+        font-size: 12px;
+    }
+}
 
 
 @media only screen and (min-width:1024px) {
