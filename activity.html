@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techwich</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/profile.css">
+    <link rel="stylesheet" href="./assets/css/activity.css">
+</head>
+
+<body>
+    <!-- spinner -->
+    <div id="spinner" class="overlay" style="display: none">
+        <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_a2chheio.json" background="transparent"
+            speed="1" style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+    </div>
+
+
+
+    <!--  -->
+    <div class="parents">
+        <div class="sidebar">
+            <div class="inner-side">
+                <div class="side-bar-profile">
+                    <div>
+                        <img src="./assets/img/Rectangle 234.png" alt="">
+                        <div class="user-name">
+                            <h2>Qazaleh Mehdizadeh</h2>
+                            <div class="level">
+                                <p>Level</p>
+                                <span>2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <ul>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-document.svg" alt="document"> profile</a>
+                        </li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-book-alt.svg" alt="book"> profile</a></li>
+                        <li class="active"><a href=""><img src="./assets/img/Stroke/fi-rr-apps.svg" alt="apps">
+                                profile</a></li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-comments.svg" alt="comments"> profile</a>
+                        </li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-user.svg" alt="user"> profile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <div class="main-content">
+            <!-- header -->
+            <header>
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flex">
+                            <div><a href=""><img src="./assets/img/logo/techwich_logo_and_title.png" alt=""
+                                        width="200px"></a>
+                            </div>
+                        </div>
+                        <div class="header-items">
+                            <div class="search-box-parent">
+                                <div class="search-box">
+                                    <button class="btn"><img src="./assets/img/Stroke/fi-rr-search.svg" alt=""></button>
+                                    <input type="text" placeholder="Search Problem,Answers, Question...">
+                                </div>
+                            </div>
+
+                            <div class="notification-btns">
+                                <button class="btn"><img src="./assets/img/Stroke/fi-rr-bell-ring.svg" alt=""></button>
+                                <button class="btn">
+                                    <img src="./assets/img/Stroke/fi-rr-envelope.svg" alt="">
+                                    <span class="badge"></span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+            <!-- bottom-navigation -->
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-document.svg" alt="document"></a></li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-book-alt.svg" alt="book"></a></li>
+                        <li class="active"><a href=""><img src="./assets/img/Stroke/fi-rr-apps.svg" alt="apps"></a></li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-comments.svg" alt="comments"></a></li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-user.svg" alt="user"></a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <!-- main -->
+
+
+            <main>
+                <section>
+
+                    <div class="container">
+                        <div>
+                            <div class="heading">
+                                <h2>Activity log</h2>
+                                <div class="place-btn">
+                                    <button>Add Filter</button>
+                                </div>
+                            </div>
+                            <div class="sorting">
+                                <div class="select-menu">
+                                    <div class="select-btn">
+                                        <span class="sBtn-text">sort</span>
+                                        <i class="fa fa-chevron-down"></i>
+                                    </div>
+
+                                    <ul class="options">
+                                        <li class="option">
+                                            <span class="option-text">item</span>
+                                        </li>
+                                        <li class="option">
+                                            <span class="option-text">item</span>
+                                        </li>
+                                        <li class="option">
+                                            <span class="option-text">item</span>
+                                        </li>
+                                        <li class="option">
+                                            <span class="option-text">item</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="table-responsive">
+                                <table class="table mb-0 table-borderless">
+                                    <thead>
+                                        <tr class="userDatatable-header">
+                                            <th>
+                                                <span class="userDatatable-title">User</span>
+                                            </th>
+                                            <th>
+                                                <span class="userDatatable-title">Country</span>
+                                            </th>
+                                            <th>
+                                                <span class="userDatatable-title">Company</span>
+                                            </th>
+                                            <th>
+                                                <span class="userDatatable-title">Position</span>
+                                            </th>
+                                            <th>
+                                                <span class="userDatatable-title">Join Date</span>
+                                            </th>
+                                            <th>
+                                                <span class="userDatatable-title">Status</span>
+                                            </th>
+                                            <th class="actions">
+                                                <span class="userDatatable-title">Actions</span>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <div class="userDatatable-inline-title">
+                                                        <a href="#" class="text-dark fw-500">
+                                                            <h6>Kellie Marquot</h6>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--subject">
+                                                    United Street
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--subject">
+                                                    Business Development
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--priority">
+                                                    Web Developer
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--priority">
+                                                    January 20, 2020
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content d-inline-block">
+                                                    <span
+                                                        class="bg-opacity-success  color-success userDatatable-content-status active">active</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <ul class="orderDatatable_actions mb-0 d-flex p-0">
+                                                    <li>
+                                                        <a href="#" class="view">
+                                                            <img src="./assets/img/Stroke/fi-rr-settings.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="edit">
+                                                            <img src="./assets/img/Stroke/fi-rr-trash.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="remove">
+                                                            <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <div class="userDatatable-inline-title">
+                                                        <a href="#" class="text-dark fw-500">
+                                                            <h6>Kellie Marquot</h6>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--subject">
+                                                    United Street
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--subject">
+                                                    Business Development
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--priority">
+                                                    Web Developer
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--priority">
+                                                    January 20, 2020
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content d-inline-block">
+                                                    <span
+                                                        class="bg-opacity-danger  color-danger userDatatable-content-status active">blocked</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <ul class="orderDatatable_actions mb-0 d-flex p-0">
+                                                    <li>
+                                                        <a href="#" class="view">
+                                                            <img src="./assets/img/Stroke/fi-rr-settings.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="edit">
+                                                            <img src="./assets/img/Stroke/fi-rr-trash.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="remove">
+                                                            <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <div class="userDatatable-inline-title">
+                                                        <a href="#" class="text-dark fw-500">
+                                                            <h6>Kellie Marquot</h6>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--subject">
+                                                    United Street
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--subject">
+                                                    Business Development
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--priority">
+                                                    Web Developer
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--priority">
+                                                    January 20, 2020
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content d-inline-block">
+                                                    <span
+                                                        class="bg-opacity-success  color-success userDatatable-content-status active">open</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <ul class="orderDatatable_actions mb-0 d-flex p-0">
+                                                    <li>
+                                                        <a href="#" class="view">
+                                                            <img src="./assets/img/Stroke/fi-rr-settings.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="edit">
+                                                            <img src="./assets/img/Stroke/fi-rr-trash.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="remove">
+                                                            <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <div class="userDatatable-inline-title">
+                                                        <a href="#" class="text-dark fw-500">
+                                                            <h6>Kellie Marquot</h6>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--subject">
+                                                    United Street
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--subject">
+                                                    Business Development
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--priority">
+                                                    Web Developer
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--priority">
+                                                    January 20, 2020
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content d-inline-block">
+                                                    <span
+                                                        class="bg-opacity-success  color-success userDatatable-content-status active">active</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <ul class="orderDatatable_actions mb-0 d-flex p-0">
+                                                    <li>
+                                                        <a href="#" class="view">
+                                                            <img src="./assets/img/Stroke/fi-rr-settings.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="edit">
+                                                            <img src="./assets/img/Stroke/fi-rr-trash.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="remove">
+                                                            <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <div class="userDatatable-inline-title">
+                                                        <a href="#" class="text-dark fw-500">
+                                                            <h6>Kellie Marquot</h6>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--subject">
+                                                    United Street
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--subject">
+                                                    Business Development
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--priority">
+                                                    Web Developer
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--priority">
+                                                    January 20, 2020
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content d-inline-block">
+                                                    <span
+                                                        class="bg-opacity-danger  color-danger userDatatable-content-status active">blocked</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <ul class="orderDatatable_actions mb-0 d-flex p-0">
+                                                    <li>
+                                                        <a href="#" class="view">
+                                                            <img src="./assets/img/Stroke/fi-rr-settings.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="edit">
+                                                            <img src="./assets/img/Stroke/fi-rr-trash.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="remove">
+                                                            <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <div class="userDatatable-inline-title">
+                                                        <a href="#" class="text-dark fw-500">
+                                                            <h6>Kellie Marquot</h6>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--subject">
+                                                    United Street
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--subject">
+                                                    Business Development
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--priority">
+                                                    Web Developer
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content--priority">
+                                                    January 20, 2020
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="userDatatable-content d-inline-block">
+                                                    <span
+                                                        class="bg-opacity-success  color-success userDatatable-content-status active">open</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <ul class="orderDatatable_actions mb-0 d-flex p-0">
+                                                    <li>
+                                                        <a href="#" class="view">
+                                                            <img src="./assets/img/Stroke/fi-rr-settings.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="edit">
+                                                            <img src="./assets/img/Stroke/fi-rr-trash.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="remove">
+                                                            <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!--  -->
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span class="page">20/page</span>
+                                <div class="pagination justify-content-end" >
+                                    <ul class="justify-content-end">
+                                        <li><button><img src="./assets/img/Stroke/fi-rr-angle-small-left.svg"
+                                                    alt=""></button>
+                                        </li>
+                                        <li class="active"><button>1</button></li>
+                                        <li><button>2</button></li>
+                                        <li><button>3</button></li>
+                                        <li><button><img src="./assets/img/Stroke/fi-rr-angle-small-right.svg"
+                                                    alt=""></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="space"></div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+
+
+    <!-- script -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/sorting.js"></script>
+    <script src="./assets/js/spinner.js"></script>
+</body>
+
+</html>

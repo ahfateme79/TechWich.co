@@ -26,7 +26,8 @@
     -o-border-radius: 8px;
     background-color: transparent;
 }
-.tab ul li.active a{
+
+.tab ul li.active a {
     color: var(--dark);
 }
 
@@ -34,21 +35,24 @@
     background-color: var(--primary);
     color: #fff;
 }
-.tab ul li.active a{
+
+.tab ul li.active a {
     font-size: 11px;
     color: #fff;
 }
-@media screen and (min-width:1000px){
+
+@media screen and (min-width:1000px) {
     .tab ul li {
         font-size: 14px;
         padding: 16px 24px;
         width: 25%;
         text-align: center;
     }
-    .tab ul li.active a{
+
+    .tab ul li.active a {
         font-size: 14px;
     }
-    
+
 }
 
 .category-content {
@@ -57,6 +61,7 @@
     position: relative;
     height: 62px;
 }
+
 .category {
     position: absolute;
     top: 0;
@@ -100,9 +105,11 @@
     justify-content: center;
     position: relative;
 }
-.category ul li a{
+
+.category ul li a {
     color: var(--dark);
 }
+
 .category ul li.active {
     background-color: #BCC1FF;
     height: 65px;
@@ -112,26 +119,32 @@
     -ms-border-radius: 10px 10px 0 0;
     -o-border-radius: 10px 10px 0 0;
 }
-.category ul li.active a{
-        font-size: 12px;
+
+.category ul li.active a {
+    font-size: 12px;
 
     color: var(--dark);
 }
-.category ul li img{
+
+.category ul li img {
     display: none;
 }
-@media screen and (min-width:1000px){
-    .category ul li{
+
+@media screen and (min-width:1000px) {
+    .category ul li {
         width: 32%;
     }
-    .category ul li,.category ul li.active a {
+
+    .category ul li,
+    .category ul li.active a {
         font-size: 14px;
     }
-    .category ul li img{
+
+    .category ul li img {
         display: inline-block;
         margin-right: 20px;
     }
-    
+
 }
 
 .course-name-content {
@@ -141,6 +154,7 @@
     left: 0;
     overflow-x: hidden;
 }
+
 .course-name-tab {
     position: absolute;
     bottom: 0;
@@ -156,7 +170,8 @@
     width: 100%;
     overflow-x: scroll;
 }
-@media screen and (min-width:1024px){
+
+@media screen and (min-width:1024px) {
     .course-name-tab {
         overflow-x: hidden !important;
     }
@@ -198,11 +213,13 @@
     align-items: center;
     justify-content: center;
 }
-@media screen and (min-width:1000px){
+
+@media screen and (min-width:1000px) {
     .course-name-tab ul li {
         width: 100px;
     }
 }
+
 .course-name-tab ul li.active {
     color: #fff;
     background-color: var(--active);
@@ -259,18 +276,20 @@
     border-bottom-color: var(--active);
 }
 
-.main-content{
+.main-content {
     overflow-y: hidden;
     width: 100%;
 }
-.webinar-list{
+
+.webinar-list {
     width: 100%;
     height: auto;
     overflow-y: auto;
     display: flex;
     flex-wrap: wrap;
 }
-.webinar-item{
+
+.webinar-item {
     width: 100%;
     padding: 15px;
     background-color: #fff;
@@ -283,54 +302,64 @@
     -o-border-radius: 10px;
     margin: 10px 0;
 }
-@media screen and (min-width:1000px){
-    .webinar-item{
+
+@media screen and (min-width:1000px) {
+    .webinar-item {
         width: 31%;
         margin: 10px;
     }
 }
-.webinar-details h3{
+
+.webinar-details h3 {
     font-size: 14px;
     font-weight: 500;
     color: var(--dark);
     margin: 8px 0;
 }
-.content-date{
+
+.content-date {
     display: flex;
     align-items: center;
 }
-.content-date img{
-    width: 20px;
+
+.content-date img {
+    width: 20px !important;
 }
-.content-date span{
+
+.content-date span {
     font-size: 12px;
     font-weight: normal;
     display: inline-block;
     margin-left: 10px;
 }
-.webinar-user{
+
+.webinar-user {
     width: 100%;
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.avatars{
+
+.avatars {
     display: flex;
     align-items: center;
 }
-.avatars span{
+
+.avatars span {
     font-size: 12px;
     font-weight: 500;
     display: inline-block;
     margin-right: 5px;
 }
-.avatars ul{
+
+.avatars ul {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .avatars li {
     border-radius: 100%;
     display: block;
@@ -346,11 +375,13 @@
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
 }
-.avatars li img{
+
+.avatars li img {
     width: 30px;
     height: 30px;
 }
-.webinar-pic{
+
+.webinar-pic {
     width: 100%;
     height: 132px;
     border-radius: 10px;
@@ -360,7 +391,8 @@
     -o-border-radius: 10px;
     overflow: hidden;
 }
-.book-btn button{
+
+.book-btn button {
     padding: 13px 20px;
     background-color: var(--dark);
     border-radius: 8px;
@@ -374,21 +406,22 @@
     align-items: center;
 
 }
-    .white_svg
-        {
-            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(3deg) brightness(100%) contrast(104%);
-        }
-        .black_svg
-        {
-            filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
-        }
-        .overlay {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            top: 0;
-            background: rgba(51,51,51,0.7);
-            z-index: 10;
-            padding: 10%;
-        }
+
+.white_svg {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(3deg) brightness(100%) contrast(104%);
+}
+
+.black_svg {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(51, 51, 51, 0.7);
+    z-index: 10;
+    padding: 10%;
+}

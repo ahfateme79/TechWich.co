@@ -1,0 +1,58 @@
+@import url(./global.css);
+
+
+.big-first-letter::first-letter{
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 500;
+    float: left;
+    display: block;
+    line-height: 1;
+    margin-right: 3px;
+}
+.blog-text-list{
+    margin: 20px 0;
+}
+.blog-text-list li{
+    list-style-type: disc;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.project-info input{
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #BCC1FF;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding:15px 20px;
+}
+.arrow-btn{
+    width: 20px;
+    transform: rotate(-45deg);
+}
+.show-all{
+    color: #7983FF;
+    font-size: 12px;
+}
+.blogger img{
+    width: 50px;
+    height: 50px;
+}
+@media screen and (min-width: 1024px){
+.item,.webinar-item {
+    width: 100%;
+}
+}
+p{
+    margin: 0;
+}
+.webinar-user p{
+    font-size: 13px;
+    opacity: .9;
+}
+.webinar-user{
+    margin-top: 15px;
+}

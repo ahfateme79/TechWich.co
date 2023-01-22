@@ -1,0 +1,218 @@
+@import url(./global.css);
+
+
+.userDatatable.userDatatable--ticket--2 table {
+    padding-bottom: 12px;
+    border-radius: 8px;
+}
+
+.userDatatable table {
+    border-bottom: 1px solid #F1F2F6;
+    border-collapse: separate;
+    border-spacing: 0;
+
+}
+
+.userDatatable-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #404040;
+    text-transform: capitalize;
+}
+
+.userDatatable.userDatatable--ticket table thead tr:not(.footable-filtering) th span {
+    color: #404040;
+}
+
+.userDatatable table thead tr:not(.footable-filtering) {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.table-borderless tr:last-child {
+    border-bottom: 0 !important;
+}
+
+.userDatatable.userDatatable--ticket table thead tr:not(.footable-filtering) th:first-child {
+    border: none;
+}
+
+.userDatatable.userDatatable--ticket table thead tr:not(.footable-filtering) th {
+    border: none;
+    /* background-color: var(--color-lighter); */
+}
+
+.userDatatable table thead tr:not(.footable-filtering) th:first-child {
+    border-left: 1px solid #F1F2F6;
+    -webkit-border-radius: 10px 0 0 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.userDatatable.userDatatable--ticket table thead tr:not(.footable-filtering) th span {
+    color: #404040;
+}
+
+.userDatatable-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #404040;
+    text-transform: capitalize;
+}
+
+.userDatatable.userDatatable--ticket .userDatatable-header th {
+    padding: 15px 25px;
+}
+
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: #F1F2F6;
+}
+
+.userDatatable.userDatatable--ticket table thead tr:not(.footable-filtering) th span {
+    color: #404040;
+}
+
+.userDatatable-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #404040;
+    text-transform: capitalize;
+}
+
+.userDatatable-header th {
+    border-bottom: none;
+    padding: 8px 15px;
+    vertical-align: middle;
+    background: rgba(121, 131, 255, 0.26);
+}
+
+.table>tbody {
+    vertical-align: middle;
+}
+
+table.table tbody tr td {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0A0A0A;
+}
+
+.userDatatable.userDatatable--ticket .userDatatable-inline-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+table.table tbody tr td a h6 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #0A0A0A;
+    white-space: pre-wrap;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table.table tr td,
+table.table tbody tr td a h6 {
+    border-top: 0;
+    border-bottom: none;
+    padding: 10px 20px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.color-success {
+    color: #01B81A;
+}
+
+table.table tbody tr td .userDatatable-content-status {
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.userDatatable-content-status {
+    padding: 5px 12px;
+    height: 25px;
+    font-size: 12px;
+    line-height: 1.25;
+    font-weight: 500;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.bg-opacity-success {
+    background: rgba(1, 184, 26, .15);
+}
+
+.orderDatatable_actions {
+    display: flex;
+}
+
+table.table tbody tr td a h6 {
+    padding-left: 0;
+}
+
+.bg-opacity-danger {
+    background: rgba(255, 15, 15, .15);
+}
+
+.color-danger {
+    color: #FF0F0F;
+}
+
+table.table tbody tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+table.table {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.page {
+    position: absolute;
+    padding: 8px;
+    color: #7983FF;
+    font-size: 12px;
+    border-radius: 8px;
+    border: 1px solid #7983FF;
+}
+.select-menu{
+    width: 100%;
+    margin: 20px 0;
+}
+.select-menu .options{
+    width: 90%;
+}
+.place-btn{
+    width: auto;
+    margin: 0;
+}
+
+@media screen and (min-width:1000px){
+    .select-menu{
+        width: 50%;
+        margin: 20px 0;
+    }
+    .select-menu .options{
+        width: 42%;
+    }
+    
+}
