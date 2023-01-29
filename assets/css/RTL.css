@@ -462,3 +462,99 @@
     z-index: 10;
     padding: 10%;
 }
+.blog-list li>div div {
+    margin-right: 12px;
+}
+.plan-item p {
+    font-size: 13px !important;
+    width: 100% !important;
+    text-align: right !important;
+}
+.item-details {
+    margin: 30px 0 0 0;
+    text-align: right;
+}
+.main-section>div {
+    width: 50%;
+    height: 100%;
+    padding: 120px 100px 0 0;
+}
+.language-selector__container label:after {
+    content: "";
+    left: 40px;
+    right: auto;
+    top: 17px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    border-left: 3.5px solid transparent;
+    border-right: 3.5px solid transparent;
+    border-top: 5px solid #000000;
+    z-index: 100;
+}
+.plan-item ul li i {
+    margin-left: 5px;
+    color: #14cc58;
+}
+.list-parent::after {
+    content: "";
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    border-left: 3.5px solid transparent;
+    border-right: 3.5px solid transparent;
+    border-top: 5px solid #fff;
+    margin-right: 10px;
+}
+.create-account button::before {
+    content: 'ساخت حساب کاربری';
+    width: 80%;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.277);
+    backdrop-filter: blur(50px);
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+}
+.big-section button::before {
+    content: 'امتحان کنید';
+    width: 40%;
+    height: 65px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.277);
+    backdrop-filter: blur(50px);
+    border-radius: 5px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+}
+@media screen and (max-width: 768px){
+.dark-section,.light-section {
+    width: 100% !important;
+    padding: 50px 0 50px 0 !important;
+}
+.dark-section{
+    padding: 50px !important;
+}
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
