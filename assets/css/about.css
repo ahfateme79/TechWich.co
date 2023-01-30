@@ -6,3 +6,16 @@
     padding: 200px 0;
     position: relative;
 }
+.app-section img {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+    z-index: 2;
+}
+footer {
+    width: 100%;
+    padding: 220px 0 0 0;
+    background-color: #000000;
+    color: #fff;
+}

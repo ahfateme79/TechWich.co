@@ -923,6 +923,10 @@ nav>ul>li:hover .sub-menu {
     font-size: 48px;
     font-weight: bold;
 }
+#techwich h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
 
 #techwich p {
     margin: 20px 0;
@@ -1209,7 +1213,7 @@ nav>ul>li:hover .sub-menu {
     background-color: #3D4280;
     position: absolute;
     left: 50%;
-    bottom: 0;
+    bottom: 50px;
     transform: translate(-50%, 30%);
     padding: 100px 70px 70px 70px;
     text-align: center;
@@ -1227,7 +1231,7 @@ nav>ul>li:hover .sub-menu {
     line-height: 2;
     opacity: .7;
     font-size: 14px;
-    width: 60%;
+    width: 90%;
 }
 
 .button-section {
@@ -1346,7 +1350,7 @@ footer ul {
 }
 
 .bottom {
-    margin-top: 50px;
+    margin-top: 80px;
     padding-bottom: 10px;
 }
 
@@ -1384,11 +1388,11 @@ footer ul {
 }
 
 .owl-theme .owl-nav [class*=owl-] {
-    transform: translateX(0)
+    transform: translateX(-45px)
 }
 
 .owl-next {
-    transform: translateX(0) !important;
+    transform: translateX(45px) !important;
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
@@ -1849,6 +1853,7 @@ footer ul {
 }
 .course{
 	display: inline-block;
+    margin: 0 0 20px 0;
 }
 .course img{
 	width: 20px;
@@ -1880,9 +1885,10 @@ footer ul {
 .download-btns{
     display: flex;
     justify-content: flex-end;
+    flex-direction: column;
 }
 .download-btns li{
-    margin: 0 10px;
+    margin: 10px 0;
 }
 .download-btns li a{
     display: inline-flex;
@@ -1901,7 +1907,8 @@ footer ul {
 .fa-brands.fa-apple{
     font-size: 22px;
 }
+
 .bottom{
-    border-top: 1px solid rgba(255, 255, 255, 0.354);
-    padding-top: 10px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
 }
