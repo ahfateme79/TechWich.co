@@ -42,7 +42,9 @@
     box-sizing: border-box;
     outline: none;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     width: 100%;
     overflow-x: hidden;
@@ -1344,7 +1346,7 @@ footer ul {
 }
 
 .bottom {
-    margin-top: 80px;
+    margin-top: 50px;
     padding-bottom: 10px;
 }
 
@@ -1382,11 +1384,11 @@ footer ul {
 }
 
 .owl-theme .owl-nav [class*=owl-] {
-    transform: translateX(-45px)
+    transform: translateX(0)
 }
 
 .owl-next {
-    transform: translateX(45px) !important;
+    transform: translateX(0) !important;
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
@@ -1874,4 +1876,32 @@ footer ul {
 .package h2 {
     line-height: 1.7;
     font-weight: bold;
+}
+.download-btns{
+    display: flex;
+    justify-content: flex-end;
+}
+.download-btns li{
+    margin: 0 10px;
+}
+.download-btns li a{
+    display: inline-flex;
+    color: #000000;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+.download-btns li a i{
+    font-size: 16px;
+    margin: 0 5px;
+    color: #3D4280;
+}
+.fa-brands.fa-apple{
+    font-size: 22px;
+}
+.bottom{
+    border-top: 1px solid rgba(255, 255, 255, 0.354);
+    padding-top: 10px;
 }
