@@ -661,6 +661,7 @@ nav>ul>li:hover .sub-menu {
     bottom: 0;
     transition: all .3s ease;
     cursor: pointer;
+    height: 512px;
 }
 
 .help-items::before {
