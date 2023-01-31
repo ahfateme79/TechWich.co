@@ -1913,3 +1913,126 @@ footer ul {
     padding-top: 15px;
     border-top: 1px solid rgba(255, 255, 255, 0.35);
 }
+.modal-parent{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #252525b1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    overflow: hidden;
+}
+.modal-parent.active{
+    opacity: 1;
+    visibility: visible;
+}
+.modal{
+    position: relative !important;
+    top: auto !important;
+    opacity: 1 !important;
+    left: auto !important;
+    visibility: visible !important;
+    width: 80% !important;
+    border-radius: 16px !important;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px ;
+    background-color: #F7F8FF !important;
+    padding: 20px !important;
+    height: auto !important;
+    display: block;
+}
+.modal-parent{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #252525b1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    overflow: hidden;
+}
+
+.modal-parent.active{
+    opacity: 1;
+    visibility: visible;
+}
+.modal{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    -webkit-border-radius: 16px 16px 0 0;
+    -moz-border-radius: 16px 16px 0 0;
+    -ms-border-radius: 16px 16px 0 0;
+    -o-border-radius: 16px 16px 0 0;
+    background-color: #F7F8FF;
+    padding: 20px;
+}
+@media screen and (min-width:1000px){
+    .modal{
+        width: 40%;
+    }
+
+}
+
+.modal-heading{
+    margin: 16px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.modal-heading h1{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--dark);
+}
+.close-modal img{
+    width: 20px;
+}
+.modal-btns{
+    margin: 25px 0 0 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.modal-btns button{
+    padding: 13px 20px;
+    background-color: var(--dark);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.modal-btns button:first-child{
+    margin-right: 10px;
+}
