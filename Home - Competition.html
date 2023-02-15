@@ -7,19 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techwich</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./assets/css/course-list.css">
     <link rel="stylesheet" href="./assets/css/challlange.css">
     <link rel="stylesheet" href="./assets/css/comtotion.css">
 
+    <!-- lottie-player-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
 </head>
 
 <body>
-     <!-- spinner -->
+    <!-- spinner -->
     <div id="spinner" class="overlay" style="display: none">
-        <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_a2chheio.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
+        <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_a2chheio.json" background="transparent"
+            speed="1" style="width: 100%; height: 100%;" loop autoplay></lottie-player>
     </div>
 
 
@@ -57,303 +62,322 @@
 
         <!--  -->
         <div class="main-content">
-    <!-- header -->
-    <header>
-        <div class="container">
-            <div class="wrapper">
-                <div class="flex">
-                    <div><a href=""><img src="./assets/img/logo/techwich_logo_and_title.png" alt="" width="200px"></a>
-                    </div>
-                    
-                </div>
-                <div class="header-items">
-                    <div class="search-box-parent">
-                        <div class="search-box">
-                            <button class="btn"><img src="./assets/img/Stroke/fi-rr-search.svg" alt=""></button>
-                            <input type="text" placeholder="Search Problem,Answers, Question...">
+            <!-- header -->
+            <header>
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flex">
+                            <div><a href=""><img src="./assets/img/logo/techwich_logo_and_title.png" alt=""
+                                        width="200px"></a>
+                            </div>
+
                         </div>
-                    </div>
+                        <div class="header-items">
+                            <div class="search-box-parent">
+                                <div class="search-box">
+                                    <button class="btn"><img src="./assets/img/Stroke/fi-rr-search.svg" alt=""></button>
+                                    <input type="text" placeholder="Search Problem,Answers, Question...">
+                                </div>
+                            </div>
 
-                    <div class="notification-btns">
-                        <button class="btn"><img src="./assets/img/Stroke/fi-rr-bell-ring.svg" alt=""></button>
-                        <button class="btn">
-                            <img src="./assets/img/Stroke/fi-rr-envelope.svg" alt="">
-                            <span class="badge"></span>
-                        </button>
+                            <div class="notification-btns">
+                                <button class="btn"><img src="./assets/img/Stroke/fi-rr-bell-ring.svg" alt=""></button>
+                                <button class="btn">
+                                    <img src="./assets/img/Stroke/fi-rr-envelope.svg" alt="">
+                                    <span class="badge"></span>
+                                </button>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+            </header>
 
-            </div>
-        </div>
-    </header>
-
-    <!-- bottom-navigation -->
-    <nav>
-        <div>
-            <ul>
-                <li><a href=""><img src="./assets/img/Stroke/fi-rr-document.svg" alt="document"></a></li>
-                <li><a href=""><img src="./assets/img/Stroke/fi-rr-book-alt.svg" alt="book"></a></li>
-                <li class="active"><a href=""><img src="./assets/img/Stroke/fi-rr-apps.svg" alt="apps"></a></li>
-                <li><a href=""><img src="./assets/img/Stroke/fi-rr-comments.svg" alt="comments"></a></li>
-                <li><a href=""><img src="./assets/img/Stroke/fi-rr-user.svg" alt="user"></a></li>
-            </ul>
-        </div>
-    </nav>
-
-
-    <!-- main -->
-    <main>
-
-        <section>
-            <div class="container">
-                <div class="heading">
-                    <h2>Learning</h2>
+            <!-- bottom-navigation -->
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-document.svg" alt="document"></a></li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-book-alt.svg" alt="book"></a></li>
+                        <li class="active"><a href=""><img src="./assets/img/Stroke/fi-rr-apps.svg" alt="apps"></a></li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-comments.svg" alt="comments"></a></li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-user.svg" alt="user"></a></li>
+                    </ul>
                 </div>
+            </nav>
+
+
+            <!-- main -->
+            <main>
 
                 <section>
-                    <div class="tab-container">
-                        <div class="tab">
-                            <ul>
-                                <li class="active" data-name="Courses"><a href="">Courses</a></li>
-                                <li data-name="exercise">Exam & exercise</li>
-                                <li data-name="Webinar">Webinar</li>
-                                <li data-name="Subject">Subject</li>
-                            </ul>
-                        </div>
-                        <div class="category-content">
-                            <div class="category active">
-                                <ul>
-                                    <li class="active" data-category="Programming"><img src="./assets/img/coding.png"
-                                            alt=""><a href="">Programming</a></li>
-                                    <li data-category="Design"><img src="./assets/img/web-design.png" alt=""><a
-                                            href="">Design</a></li>
-                                    <li data-category="Marketing"><img src="./assets/img/strategy-development (1).png"
-                                            alt=""><a href="">Marketing</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="course-name-content">
-                            <div class="course-name-tab active" id="Programming">
-                                <ul>
-                                    <li data-category="HTML">HTML</li>
-                                    <li data-category="CSS">CSS</li>
-                                    <li data-category="JAVA">JAVA</li>
-                                    <li class="active" data-category="Python">Python</li>
-                                    <li data-category="SQL">SQL</li>
-                                    <li data-category="Ruby">Ruby</li>
-                                </ul>
-                            </div>
-
+                    <div class="container">
+                        <div class="heading">
+                            <h2>Learning</h2>
                         </div>
 
-                        <div class="courses">
-                            <div>
-                                <p class="warning"><img src="./assets/img/Stroke/fi-rr-info.svg" alt=""> Check the list
-                                    of archives to
-                                    see the winners.</p>
-                                <div class="d-flex justify-content-between">
-                                    <button class="Archieve">
-                                        Archieve challanges
-                                    </button>
-                                    <div class="sorting">
-                                        <div class="select-menu">
-                                            <div class="select-btn">
-                                                <span class="sBtn-text">sort</span>
-                                                <i class="fa fa-chevron-down"></i>
+                        <section>
+                            <div class="tab-container">
+                                <div class="tab">
+                                    <ul>
+                                        <li class="active" data-name="Courses"><a href="">Courses</a></li>
+                                        <li data-name="exercise">Exam & exercise</li>
+                                        <li data-name="Webinar">Webinar</li>
+                                        <li data-name="Subject">Subject</li>
+                                    </ul>
+                                </div>
+                                <div class="category-content">
+                                    <div class="category active">
+                                        <ul>
+                                            <li class="active" data-category="Programming"><img
+                                                    src="./assets/img/coding.png" alt=""><a href="">Programming</a></li>
+                                            <li data-category="Design"><img src="./assets/img/web-design.png" alt=""><a
+                                                    href="">Design</a></li>
+                                            <li data-category="Marketing"><img
+                                                    src="./assets/img/strategy-development (1).png" alt=""><a
+                                                    href="">Marketing</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-name-content">
+                                    <div class="course-name-tab active" id="Programming">
+                                        <ul>
+                                            <li data-category="HTML">HTML</li>
+                                            <li data-category="CSS">CSS</li>
+                                            <li data-category="JAVA">JAVA</li>
+                                            <li class="active" data-category="Python">Python</li>
+                                            <li data-category="SQL">SQL</li>
+                                            <li data-category="Ruby">Ruby</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                                <div class="courses">
+                                    <div>
+                                        <p class="warning"><img src="./assets/img/Stroke/fi-rr-info.svg" alt=""> Check
+                                            the list
+                                            of archives to
+                                            see the winners.</p>
+                                        <div class="d-flex justify-content-between">
+                                            <button class="Archieve">
+                                                Archieve challanges
+                                            </button>
+                                            <div class="sorting">
+                                                <div class="select-menu">
+                                                    <div class="select-btn">
+                                                        <span class="sBtn-text">sort</span>
+                                                        <i class="fa fa-chevron-down"></i>
+                                                    </div>
+
+                                                    <ul class="options">
+                                                        <li class="option">
+                                                            <span class="option-text">item</span>
+                                                        </li>
+                                                        <li class="option">
+                                                            <span class="option-text">item</span>
+                                                        </li>
+                                                        <li class="option">
+                                                            <span class="option-text">item</span>
+                                                        </li>
+                                                        <li class="option">
+                                                            <span class="option-text">item</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </div>
-    
-                                            <ul class="options">
-                                                <li class="option">
-                                                    <span class="option-text">item</span>
-                                                </li>
-                                                <li class="option">
-                                                    <span class="option-text">item</span>
-                                                </li>
-                                                <li class="option">
-                                                    <span class="option-text">item</span>
-                                                </li>
-                                                <li class="option">
-                                                    <span class="option-text">item</span>
-                                                </li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div class="main-content">
-                            <div class="content-course active">
-                                <section id="competition" class="section">
-                                    <div class="">
-                                        <div class="item-list">
-                                            <div class="item column">
-                                                <div class="name">
-                                                    <h1 class="title">Python competition</h1>
-                                                </div>
-                                                <div class="parent">
-                                                    <div class="user-profile">
-                                                        <div>
-                                                            <figure>
-                                                                <img src="./assets/img/Rectangle 577.png" alt="">
-                                                                <figcaption>Barbara</figcaption>
-                                                            </figure>
+                                <div class="main-content">
+                                    <div class="content-course active">
+                                        <section id="competition" class="section">
+                                            <div class="">
+                                                <div class="item-list">
+                                                    <div class="item column">
+                                                        <div class="name">
+                                                            <h1 class="title">Python competition</h1>
                                                         </div>
-                                                        <div>
-                                                            <p class="vs">vs.</p>
+                                                        <div class="parent">
+                                                            <div class="user-profile">
+                                                                <div>
+                                                                    <figure>
+                                                                        <img src="./assets/img/Rectangle 577.png"
+                                                                            alt="">
+                                                                        <figcaption>Barbara</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="vs">vs.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <figure>
+                                                                        <img src="./assets/img/Rectangle 577.png"
+                                                                            alt="">
+                                                                        <figcaption>Waiting</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                        <div>
-                                                            <figure>
-                                                                <img src="./assets/img/Rectangle 577.png" alt="">
-                                                                <figcaption>Waiting</figcaption>
-                                                            </figure>
+                                                        <div class="btn-parent w-90 position-relatve">
+                                                            <div>
+                                                                <p class="warning"><img
+                                                                        src="./assets/img/Stroke/fi-rr-info.svg" alt="">
+                                                                    Rasool didn’t accept.
+                                                                    <br>try random.
+                                                                </p>
+                                                                <button class="btn dark">Random opponent</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item column">
+                                                        <div class="name">
+                                                            <h1 class="title">Python competition</h1>
+                                                        </div>
+                                                        <div class="parent">
+                                                            <div class="user-profile">
+                                                                <div>
+                                                                    <figure>
+                                                                        <img src="./assets/img/Rectangle 577.png"
+                                                                            alt="">
+                                                                        <figcaption>Barbara</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="vs">vs.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <figure>
+                                                                        <img src="./assets/img/Rectangle 577.png"
+                                                                            alt="">
+                                                                        <figcaption>Waiting</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-parent">
+                                                            <div>
+                                                                <button class="btn dark">Accept & join</button>
+                                                                <button class="btn light">Reject</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item column">
+                                                        <div class="name">
+                                                            <h1 class="title">Python competition</h1>
+                                                        </div>
+                                                        <div class="parent">
+                                                            <div class="user-profile">
+                                                                <div>
+                                                                    <figure>
+                                                                        <img src="./assets/img/Rectangle 577.png"
+                                                                            alt="">
+                                                                        <figcaption>Barbara</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="vs">vs.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <figure>
+                                                                        <img src="./assets/img/Rectangle 577.png"
+                                                                            alt="">
+                                                                        <figcaption>Waiting</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-parent w-90 position-relatve">
+                                                            <div>
+                                                                <p class="warning"><img
+                                                                        src="./assets/img/Stroke/fi-rr-hourglass-end.svg"
+                                                                        alt="">Waiting to james answer!</p>
+                                                                <button class="btn dark">Cancel</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="item column">
+                                                        <div class="name">
+                                                            <h1 class="title">Python competition</h1>
+                                                        </div>
+                                                        <div class="parent">
+                                                            <div class="user-profile">
+                                                                <div>
+                                                                    <figure>
+                                                                        <img src="./assets/img/Rectangle 577.png"
+                                                                            alt="">
+                                                                        <figcaption>Barbara</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="vs">vs.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <figure>
+                                                                        <img src="./assets/img/Rectangle 577.png"
+                                                                            alt="">
+                                                                        <figcaption>Waiting</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-parent">
+                                                            <div>
+                                                                <button class="btn dark">Accept & join</button>
+                                                                <button class="btn light">Reject</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item column">
+                                                        <div class="name">
+                                                            <h1 class="title">Python competition</h1>
+                                                        </div>
+                                                        <div class="parent">
+                                                            <div class="user-profile">
+                                                                <div>
+                                                                    <figure>
+                                                                        <img src="./assets/img/Rectangle 577.png"
+                                                                            alt="">
+                                                                        <figcaption>Barbara</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="vs">vs.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <figure>
+                                                                        <img src="./assets/img/Rectangle 577.png"
+                                                                            alt="">
+                                                                        <figcaption>Waiting</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-parent">
+                                                            <div>
+                                                                <button class="btn dark">Accept & join</button>
+                                                                <button class="btn light">Reject</button>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="btn-parent w-90 position-relatve">
-                                                    <div>
-                                                        <p class="warning"><img src="./assets/img/Stroke/fi-rr-info.svg" alt=""> Rasool didn’t accept.
-                                                           <br>try random.</p>
-                                                        <button class="btn dark">Random opponent</button>
-                                                    </div>
-                                                </div>
+
                                             </div>
-                                            <div class="item column">
-                                                <div class="name">
-                                                    <h1 class="title">Python competition</h1>
-                                                </div>
-                                                <div class="parent">
-                                                    <div class="user-profile">
-                                                        <div>
-                                                            <figure>
-                                                                <img src="./assets/img/Rectangle 577.png" alt="">
-                                                                <figcaption>Barbara</figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div>
-                                                            <p class="vs">vs.</p>
-                                                        </div>
-                                                        <div>
-                                                            <figure>
-                                                                <img src="./assets/img/Rectangle 577.png" alt="">
-                                                                <figcaption>Waiting</figcaption>
-                                                            </figure>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="btn-parent">
-                                                    <div>
-                                                        <button class="btn dark">Accept & join</button>
-                                                        <button class="btn light">Reject</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item column">
-                                                <div class="name">
-                                                    <h1 class="title">Python competition</h1>
-                                                </div>
-                                                <div class="parent">
-                                                    <div class="user-profile">
-                                                        <div>
-                                                            <figure>
-                                                                <img src="./assets/img/Rectangle 577.png" alt="">
-                                                                <figcaption>Barbara</figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div>
-                                                            <p class="vs">vs.</p>
-                                                        </div>
-                                                        <div>
-                                                            <figure>
-                                                                <img src="./assets/img/Rectangle 577.png" alt="">
-                                                                <figcaption>Waiting</figcaption>
-                                                            </figure>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="btn-parent w-90 position-relatve">
-                                                    <div>
-                                                        <p class="warning"><img src="./assets/img/Stroke/fi-rr-hourglass-end.svg" alt="">Waiting to james answer!</p>
-                                                        <button class="btn dark">Cancel</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="item column">
-                                                <div class="name">
-                                                    <h1 class="title">Python competition</h1>
-                                                </div>
-                                                <div class="parent">
-                                                    <div class="user-profile">
-                                                        <div>
-                                                            <figure>
-                                                                <img src="./assets/img/Rectangle 577.png" alt="">
-                                                                <figcaption>Barbara</figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div>
-                                                            <p class="vs">vs.</p>
-                                                        </div>
-                                                        <div>
-                                                            <figure>
-                                                                <img src="./assets/img/Rectangle 577.png" alt="">
-                                                                <figcaption>Waiting</figcaption>
-                                                            </figure>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="btn-parent">
-                                                    <div>
-                                                        <button class="btn dark">Accept & join</button>
-                                                        <button class="btn light">Reject</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item column">
-                                                <div class="name">
-                                                    <h1 class="title">Python competition</h1>
-                                                </div>
-                                                <div class="parent">
-                                                    <div class="user-profile">
-                                                        <div>
-                                                            <figure>
-                                                                <img src="./assets/img/Rectangle 577.png" alt="">
-                                                                <figcaption>Barbara</figcaption>
-                                                            </figure>
-                                                        </div>
-                                                        <div>
-                                                            <p class="vs">vs.</p>
-                                                        </div>
-                                                        <div>
-                                                            <figure>
-                                                                <img src="./assets/img/Rectangle 577.png" alt="">
-                                                                <figcaption>Waiting</figcaption>
-                                                            </figure>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="btn-parent">
-                                                    <div>
-                                                        <button class="btn dark">Accept & join</button>
-                                                        <button class="btn light">Reject</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                        
+                                        </section>
                                     </div>
-                                </section>
-                            </div>
-                        </div>
+                                </div>
+                        </section>
+                    </div>
                 </section>
-            </div>
-        </section>
 
-    </main>
-    </div>
+            </main>
+        </div>
     </div>
 
 
+    <script src="./assets/js/search.js"></script>
     <script src="./assets/js/spinner.js"></script>
     <script src="./assets/js/sorting.js"></script>
 </body>

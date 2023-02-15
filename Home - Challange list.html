@@ -8,12 +8,17 @@
     <title>Techwich</title>
     <link rel="stylesheet" href="./assets/css/course-list.css">
     <link rel="stylesheet" href="./assets/css/challlange.css">
+
+    <!-- lottie-player-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
 </head>
 
 <body>
-     <!-- spinner -->
-     <div id="spinner" class="overlay" style="display: none">
-        <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_a2chheio.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
+    <!-- spinner -->
+    <div id="spinner" class="overlay" style="display: none">
+        <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_a2chheio.json" background="transparent"
+            speed="1" style="width: 100%; height: 100%;" loop autoplay></lottie-player>
     </div>
 
 
@@ -51,228 +56,240 @@
 
         <!--  -->
         <div class="main-content">
-    <!-- header -->
-    <header>
-        <div class="container">
-            <div class="wrapper">
-                <div class="flex">
-                    <div><a href=""><img src="./assets/img/logo/techwich_logo_and_title.png" alt="" width="200px"></a>
-                    </div>
-
-                </div>
-                <div class="header-items">
-                    <div class="search-box-parent">
-                        <div class="search-box">
-                            <button class="btn"><img src="./assets/img/Stroke/fi-rr-search.svg" alt=""></button>
-                            <input type="text" placeholder="Search Problem,Answers, Question...">
-                        </div>
-                    </div>
-
-                    <div class="notification-btns">
-                        <button class="btn"><img src="./assets/img/Stroke/fi-rr-bell-ring.svg" alt=""></button>
-                        <button class="btn">
-                            <img src="./assets/img/Stroke/fi-rr-envelope.svg" alt="">
-                            <span class="badge"></span>
-                        </button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </header>
-
-    <!-- bottom-navigation -->
-    <nav>
-        <div>
-            <ul>
-                <li><a href=""><img src="./assets/img/Stroke/fi-rr-document.svg" alt="document"></a></li>
-                <li><a href=""><img src="./assets/img/Stroke/fi-rr-book-alt.svg" alt="book"></a></li>
-                <li class="active"><a href=""><img src="./assets/img/Stroke/fi-rr-apps.svg" alt="apps"></a></li>
-                <li><a href=""><img src="./assets/img/Stroke/fi-rr-comments.svg" alt="comments"></a></li>
-                <li><a href=""><img src="./assets/img/Stroke/fi-rr-user.svg" alt="user"></a></li>
-            </ul>
-        </div>
-    </nav>
-
-
-    <!-- main -->
-    <main>
-
-        <section>
-            <div class="container">
-                <div class="heading">
-                    <h2>Learning</h2>
-                </div>
-
-                <section>
-                    <div class="tab-container">
-                        <div class="tab">
-                            <ul>
-                                <li class="active" data-name="Courses"><a href="">Courses</a></li>
-                                <li data-name="exercise">Exam & exercise</li>
-                                <li data-name="Webinar">Webinar</li>
-                                <li data-name="Subject">Subject</li>
-                            </ul>
-                        </div>
-                        <div class="category-content">
-                            <div class="category active">
-                                <ul>
-                                    <li class="active" data-category="Programming"><img src="./assets/img/coding.png"
-                                            alt=""><a href="">Programming</a></li>
-                                    <li data-category="Design"><img src="./assets/img/web-design.png" alt=""><a
-                                            href="">Design</a></li>
-                                    <li data-category="Marketing"><img src="./assets/img/strategy-development (1).png"
-                                            alt=""><a href="">Marketing</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="course-name-content">
-                            <div class="course-name-tab active" id="Programming">
-                                <ul>
-                                    <li data-category="HTML">HTML</li>
-                                    <li data-category="CSS">CSS</li>
-                                    <li data-category="JAVA">JAVA</li>
-                                    <li class="active" data-category="Python">Python</li>
-                                    <li data-category="SQL">SQL</li>
-                                    <li data-category="Ruby">Ruby</li>
-                                </ul>
+            <!-- header -->
+            <header>
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flex">
+                            <div><a href=""><img src="./assets/img/logo/techwich_logo_and_title.png" alt=""
+                                        width="200px"></a>
                             </div>
 
                         </div>
-
-                        <div class="courses">
-                            <div>
-                                <p class="warning"><img src="./assets/img/Stroke/fi-rr-info.svg" alt=""> Check the list
-                                    of archives to
-                                    see the winners.</p>
-                                <div class="d-flex justify-content-end">
-                                    <button class="Archieve">
-                                        Archieve challanges
-                                    </button>
+                        <div class="header-items">
+                            <div class="search-box-parent">
+                                <div class="search-box">
+                                    <button class="btn"><img src="./assets/img/Stroke/fi-rr-search.svg" alt=""></button>
+                                    <input type="text" placeholder="Search Problem,Answers, Question...">
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="main-content">
-                            <div class="content-course active">
-                                <section id="challanges" class="section">
-                                    <div class="">
-                                        <div class="item-list">
-                                            <div class="item column">
-                                                <div class="challange-cover">
-                                                    <img src="./assets/img/Rectangle 560.png" alt="">
-                                                </div>
-                                                <div class="challange-detaila">
-                                                    <div><img src="./assets/img/image 49.png" alt=""></div>
-                                                    <div class="chalange-name">
-                                                        <h1 class="title">Design the Icoin pack for a new brand</h1>
-                                                        <span>Binance company</span>
-                                                    </div>
-                                                </div>
-                                               <div class="challange-warning">
-                                                <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt=""> Keep going and make points for your team.Your team needs your help!!</p>
-                                               </div>
-                                                <div class="offer">
-                                                    <div class="gift">
-                                                        <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
-                                                        <span>
-                                                            <strong>$1000</strong>
-                                                            Gift
-                                                        </span>
-                                                    </div>
-                                                    <div>
-                                                        <div class="off-time">
-                                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg"
-                                                                alt="">
-                                                            <p>07 : 20 : 14 : 33</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item column">
-                                                <div class="challange-cover">
-                                                    <img src="./assets/img/Rectangle 560.png" alt="">
-                                                </div>
-                                                <div class="challange-detaila">
-                                                    <div><img src="./assets/img/image 49.png" alt=""></div>
-                                                    <div class="chalange-name">
-                                                        <h1 class="title">Design the Icoin pack for a new brand</h1>
-                                                        <span>Binance company</span>
-                                                    </div>
-                                                </div>
-                                                <div class="tags">
-                                                    <span>Figma</span><span>Adobe xd</span><span>Miro</span>
-                                                </div>
-                                                <div class="offer">
-                                                    <div class="gift">
-                                                        <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
-                                                        <span>
-                                                            <strong>$1000</strong>
-                                                            Gift
-                                                        </span>
-                                                    </div>
-                                                    <div class="d-flex">
-                                                        <div class="users-number">
-                                                            <div>
-                                                                <img src="./assets/img/Group 20755.png" alt=""><img src="./assets/img/Group 20755.png" alt=""><img src="./assets/img/Group 20755.png" alt="">
-                                                            </div>
-                                                            <span>+50</span>
-                                                        </div>
-                                                        <div class="off-time">
-                                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg"
-                                                                alt="">
-                                                            <p>07 : 20 : 14 : 33</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item column">
-                                                <div class="challange-cover">
-                                                    <img src="./assets/img/Rectangle 560.png" alt="">
-                                                </div>
-                                                <div class="challange-detaila">
-                                                    <div><img src="./assets/img/image 49.png" alt=""></div>
-                                                    <div class="chalange-name">
-                                                        <h1 class="title">Design the Icoin pack for a new brand</h1>
-                                                        <span>Binance company</span>
-                                                    </div>
-                                                </div>
-                                                <div class="tags">
-                                                    <span>Figma</span><span>Adobe xd</span><span>Miro</span>
-                                                </div>
-                                                <div class="offer">
-                                                    <div class="gift">
-                                                        <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
-                                                        <span>
-                                                            <strong>$1000</strong>
-                                                            Gift
-                                                        </span>
-                                                    </div>
-                                                    <div>
-                                                        <div class="off-time">
-                                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg"
-                                                                alt="">
-                                                            <p>07 : 20 : 14 : 33</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="space"></div>
-                                        </div>
-                                    </div>
-                                </section>
+                            <div class="notification-btns">
+                                <button class="btn"><img src="./assets/img/Stroke/fi-rr-bell-ring.svg" alt=""></button>
+                                <button class="btn">
+                                    <img src="./assets/img/Stroke/fi-rr-envelope.svg" alt="">
+                                    <span class="badge"></span>
+                                </button>
                             </div>
                         </div>
+
+                    </div>
+                </div>
+            </header>
+
+            <!-- bottom-navigation -->
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-document.svg" alt="document"></a></li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-book-alt.svg" alt="book"></a></li>
+                        <li class="active"><a href=""><img src="./assets/img/Stroke/fi-rr-apps.svg" alt="apps"></a></li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-comments.svg" alt="comments"></a></li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-user.svg" alt="user"></a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <!-- main -->
+            <main>
+
+                <section>
+                    <div class="container">
+                        <div class="heading">
+                            <h2>Learning</h2>
+                        </div>
+
+                        <section>
+                            <div class="tab-container">
+                                <div class="tab">
+                                    <ul>
+                                        <li class="active" data-name="Courses"><a href="">Courses</a></li>
+                                        <li data-name="exercise">Exam & exercise</li>
+                                        <li data-name="Webinar">Webinar</li>
+                                        <li data-name="Subject">Subject</li>
+                                    </ul>
+                                </div>
+                                <div class="category-content">
+                                    <div class="category active">
+                                        <ul>
+                                            <li class="active" data-category="Programming"><img
+                                                    src="./assets/img/coding.png" alt=""><a href="">Programming</a></li>
+                                            <li data-category="Design"><img src="./assets/img/web-design.png" alt=""><a
+                                                    href="">Design</a></li>
+                                            <li data-category="Marketing"><img
+                                                    src="./assets/img/strategy-development (1).png" alt=""><a
+                                                    href="">Marketing</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-name-content">
+                                    <div class="course-name-tab active" id="Programming">
+                                        <ul>
+                                            <li data-category="HTML">HTML</li>
+                                            <li data-category="CSS">CSS</li>
+                                            <li data-category="JAVA">JAVA</li>
+                                            <li class="active" data-category="Python">Python</li>
+                                            <li data-category="SQL">SQL</li>
+                                            <li data-category="Ruby">Ruby</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                                <div class="courses">
+                                    <div>
+                                        <p class="warning"><img src="./assets/img/Stroke/fi-rr-info.svg" alt=""> Check
+                                            the list
+                                            of archives to
+                                            see the winners.</p>
+                                        <div class="d-flex justify-content-end">
+                                            <button class="Archieve">
+                                                Archieve challanges
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="main-content">
+                                    <div class="content-course active">
+                                        <section id="challanges" class="section">
+                                            <div class="">
+                                                <div class="item-list">
+                                                    <div class="item column">
+                                                        <div class="challange-cover">
+                                                            <img src="./assets/img/Rectangle 560.png" alt="">
+                                                        </div>
+                                                        <div class="challange-detaila">
+                                                            <div><img src="./assets/img/image 49.png" alt=""></div>
+                                                            <div class="chalange-name">
+                                                                <h1 class="title">Design the Icoin pack for a new brand
+                                                                </h1>
+                                                                <span>Binance company</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="challange-warning">
+                                                            <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg"
+                                                                    alt=""> Keep going and make points for your
+                                                                team.Your team needs your help!!</p>
+                                                        </div>
+                                                        <div class="offer">
+                                                            <div class="gift">
+                                                                <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
+                                                                <span>
+                                                                    <strong>$1000</strong>
+                                                                    Gift
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <div class="off-time">
+                                                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg"
+                                                                        alt="">
+                                                                    <p>07 : 20 : 14 : 33</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item column">
+                                                        <div class="challange-cover">
+                                                            <img src="./assets/img/Rectangle 560.png" alt="">
+                                                        </div>
+                                                        <div class="challange-detaila">
+                                                            <div><img src="./assets/img/image 49.png" alt=""></div>
+                                                            <div class="chalange-name">
+                                                                <h1 class="title">Design the Icoin pack for a new brand
+                                                                </h1>
+                                                                <span>Binance company</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tags">
+                                                            <span>Figma</span><span>Adobe xd</span><span>Miro</span>
+                                                        </div>
+                                                        <div class="offer">
+                                                            <div class="gift">
+                                                                <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
+                                                                <span>
+                                                                    <strong>$1000</strong>
+                                                                    Gift
+                                                                </span>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <div class="users-number">
+                                                                    <div>
+                                                                        <img src="./assets/img/Group 20755.png"
+                                                                            alt=""><img
+                                                                            src="./assets/img/Group 20755.png"
+                                                                            alt=""><img
+                                                                            src="./assets/img/Group 20755.png" alt="">
+                                                                    </div>
+                                                                    <span>+50</span>
+                                                                </div>
+                                                                <div class="off-time">
+                                                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg"
+                                                                        alt="">
+                                                                    <p>07 : 20 : 14 : 33</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item column">
+                                                        <div class="challange-cover">
+                                                            <img src="./assets/img/Rectangle 560.png" alt="">
+                                                        </div>
+                                                        <div class="challange-detaila">
+                                                            <div><img src="./assets/img/image 49.png" alt=""></div>
+                                                            <div class="chalange-name">
+                                                                <h1 class="title">Design the Icoin pack for a new brand
+                                                                </h1>
+                                                                <span>Binance company</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tags">
+                                                            <span>Figma</span><span>Adobe xd</span><span>Miro</span>
+                                                        </div>
+                                                        <div class="offer">
+                                                            <div class="gift">
+                                                                <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
+                                                                <span>
+                                                                    <strong>$1000</strong>
+                                                                    Gift
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <div class="off-time">
+                                                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg"
+                                                                        alt="">
+                                                                    <p>07 : 20 : 14 : 33</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="space"></div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                        </section>
+                    </div>
                 </section>
-            </div>
-        </section>
 
-    </main>
+            </main>
 
-    </div>
+        </div>
     </div>
 
-
+    <script src="./assets/js/search.js"></script>
     <script src="./assets/js/spinner.js"></script>
 
 
