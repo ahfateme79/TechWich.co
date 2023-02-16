@@ -40,6 +40,19 @@
     outline: none;
 }
 
+p{
+    margin: 0;
+}
+ul{
+    padding: 0;
+}
+.btn{
+    padding: 0;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
 body{
     width: 100%;
     overflow-x: hidden;
@@ -614,6 +627,8 @@ section {
     visibility: visible;
 }
 .modal{
+    display: block;
+    position: static !important;
     width: 100%;
     border-radius: 16px;
     -webkit-border-radius: 16px;
@@ -622,6 +637,7 @@ section {
     -o-border-radius: 16px;
     background-color: #F7F8FF;
     padding: 20px;
+    height: auto !important;
 }
 @media screen and (min-width:1000px){
     .modal{
@@ -902,6 +918,7 @@ section {
 
     .side-bar-profile .user-name h2 {
         font-size: 16px;
+        color: #000000;
     }
 
     .side-bar-profile .user-name {
@@ -937,7 +954,7 @@ section {
     .level span {
         width: 24px;
         height: 24px;
-        background-color: var(--dark);
+        background-color: var(--dark) !important;
         border-radius: 0 6px 6px 0;
         -webkit-border-radius: 0 6px 6px 0;
         -moz-border-radius: 0 6px 6px 0;

@@ -409,3 +409,15 @@ section#challanges{
     z-index: 10;
     padding: 10%;
 }
+
+
+@media screen and (min-width:1024px){
+    .winner-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .winner-list li{
+        width: 49%;
+    }
+}
