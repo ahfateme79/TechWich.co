@@ -195,10 +195,12 @@ header {
     width: 20px;
 }
 
-.badge {
-    position: absolute;
-    width: 6px;
-    height: 6px;
+.btn>.badge {
+    padding: 0;
+    display: inline-block;
+    position: absolute !important;
+    width: 6px !important;
+    height: 6px !important;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -980,9 +982,7 @@ section {
     .add-question {
         bottom: 30px !important;
     }
-    .course-name-tab ul {
-        width: 100% !important;
-    }
+   
 }
 
 
@@ -1006,4 +1006,70 @@ section {
 }
 .otp{
     
+}
+.dropdown-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 350px;
+    font-size: 14px;
+    position: relative;
+}
+.dropdown-menu .badge{
+    width: auto;
+    height: auto;
+    right: auto;
+    position: static !important;
+    transform: translate(0,0) !important;
+    background-color: #B388EB !important;
+}
+.dropdown-item > div{
+    width: 90%;
+    white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.dropdown-item img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.dropdown-menu{
+    min-width: 0;
+    max-width: none;
+    width: fit-content !important;
+    margin-top: 10px !important;
+    padding: 0;
+}
+.dropdown-menu li{
+    padding: 10px 0;
+}
+.dropdown-menu li:not(:last-of-type){
+    border-bottom: 1px solid #3c3a3a28;
+}
+.dropdown-menu li.unread-message{
+    background-color: #dee0ff29;
+}
+.dropdown-item:hover{
+    background-color: transparent !important;
+}
+.dropdown-menu li h5{
+    border-left: 4px solid #7983FF;
+}
+
+@media screen and (max-width:500px){
+    .dropdown-item{
+        max-width: 310px;
+    }
+    .dropdown-menu{
+        transform: translate3d(-270px, 26px, 0px) !important;
+
+    }
+}
+@media screen and (min-width:768px){
+    .course-name-tab ul {
+        width: 100% !important;
+    } 
 }

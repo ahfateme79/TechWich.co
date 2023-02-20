@@ -558,3 +558,10 @@
     align-items: center;
     justify-content: space-between;
 }
+.dropdown-item img{
+    margin-left: 10px;
+}
+.dropdown-menu li h5{
+    border-left: none;
+    border-right: 4px solid #7983FF;
+}
