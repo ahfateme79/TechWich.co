@@ -116,12 +116,20 @@
                                             alt=""></button>
                                 </div>
                             </div>
-                            <div class="select">
+                            <!-- <div class="select">
                                 <label for="">Video or image:</label>
                                 <div class="inp">
                                     <input type="file" placeholder="PlaceHolder">
                                     <button class="btn"><img src="./assets/img/Stroke/fi-rr-clip.svg" alt=""></button>
                                 </div>
+
+                            </div> -->
+                            <div class="select">
+                                <input type="file" id="file-input">
+                                <label for="file-input">
+                                    <span>choose file</span>
+                                    <img src="./assets/img/Stroke/fi-rr-clip.svg" alt="">
+                                </label>
 
                             </div>
                             <div class="submit-question">
@@ -136,6 +144,7 @@
     </div>
 
     <!-- script -->
+    <script src="./assets/js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@yaireo/tagify"></script>
     <script src="https://cdn.jsdelivr.net/npm/@yaireo/tagify/dist/tagify.polyfills.min.js"></script>
     <script src="./assets/js/accordion.js"></script>
@@ -143,6 +152,37 @@
     <script src="./assets/js/quily.js"></script>
     <script src="./assets/js/spinner.js"></script>
     <script src="./assets/js/search.js"></script>
+    <script>
+        $('document').ready(function () {
+
+            var $file = $('#file-input'),
+                $label = $file.next('label'),
+                $labelText = $label.find('span'),
+                $labelRemove = $('i.remove'),
+                labelDefault = $labelText.text();
+
+            // on file change
+            $file.on('change', function (event) {
+                var fileName = $file.val().split('\\').pop();
+                if (fileName) {
+                    console.log($file)
+                    $labelText.text(fileName);
+                    $labelRemove.show();
+                } else {
+                    $labelText.text(labelDefault);
+                    $labelRemove.hide();
+                }
+            });
+
+            // Remove file   
+            $labelRemove.on('click', function (event) {
+                $file.val("");
+                $labelText.text(labelDefault);
+                $labelRemove.hide();
+                console.log($file)
+            });
+        })
+    </script>
 </body>
 
 </html>

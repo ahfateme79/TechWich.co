@@ -30,21 +30,27 @@
 .title {
     font-size: 16px;
 }
-.question-content form{
+
+.question-content form {
     width: 100%;
     margin: 24px 0;
 }
+
 .select {
     width: 100%;
-    
+
 }
-.select label{
+
+.select label {
     font-size: 14px;
     font-weight: normal;
     margin: 6px 0 !important;
     color: #3D4280;
 }
-.select select,.select .inp,.select >input{
+
+.select select,
+.select .inp,
+.select>input {
     width: 100%;
     height: 54px;
     border-radius: 8px;
@@ -63,7 +69,8 @@
     margin-top: 6px;
     overflow: hidden;
 }
-.inp input{
+
+.inp input {
     width: 90%;
     height: auto;
     background-color: transparent;
@@ -71,44 +78,56 @@
     color: #BCC1FF;
 
 }
+
 .select select {
     background-image: url(../img/Stroke/fi-rr-angle-small-down.svg);
     background-position:
-    calc(100% - 20px) calc(1em + 2px),
-    calc(100% - 15px) calc(1em + 2px),
-    calc(100% - 2.5em) 0.5em;
-  background-repeat: no-repeat;
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-repeat: no-repeat;
 }
+
 .select select:focus {
     background-position:
-    calc(100% - 15px) 1em,
-    calc(100% - 20px) 1em,
-    100% 0;
+        calc(100% - 15px) 1em,
+        calc(100% - 20px) 1em,
+        100% 0;
 }
+
 input[type="file"]::-webkit-file-upload-button {
     display: none;
- }
-.select select,.select input::placeholder,.select textarea::placeholder{
+}
+
+.select select,
+.select input::placeholder,
+.select textarea::placeholder {
     color: #BCC1FF;
 }
-.select select,.select input {
-    -moz-appearance:none; /* Firefox */
-    -webkit-appearance:none; /* Safari and Chrome */
-    appearance:none;
+
+.select select,
+.select input {
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    appearance: none;
 }
-.edit-text{
+
+.edit-text {
     width: 100%;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    border:1px solid #BCC1FF;
+    border: 1px solid #BCC1FF;
     margin-bottom: 16px;
     margin-top: 6px;
     overflow: hidden;
 }
-.edit-text textarea{
+
+.edit-text textarea {
     padding: 20px 15px;
     width: 100%;
     border: none;
@@ -119,12 +138,14 @@ input[type="file"]::-webkit-file-upload-button {
     line-height: 1.5;
     text-align: justify;
 }
-.edit-content{
+
+.edit-content {
     width: 100%;
     padding: 16px;
-    border-bottom:1px solid #BCC1FF;
+    border-bottom: 1px solid #BCC1FF;
 }
-.edit-content div{
+
+.edit-content div {
     display: flex;
     width: 100%;
     background-color: #ffff;
@@ -132,18 +153,22 @@ input[type="file"]::-webkit-file-upload-button {
     justify-content: space-between;
     padding: 5px 10px;
 }
-.edit-content span{
+
+.edit-content span {
     font-size: 12px;
     font-weight: normal;
 }
-.edit-text-btn{
+
+.edit-text-btn {
     display: flex;
     align-items: center;
 }
-.edit-text-btn li{
+
+.edit-text-btn li {
     margin: 0 7px;
 }
-.edit-text-btn li button{
+
+.edit-text-btn li button {
     font-weight: bold;
     font-size: 12px;
     display: inline-block;
@@ -152,22 +177,27 @@ input[type="file"]::-webkit-file-upload-button {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
-    -o-border-radius: 3px;   
+    -o-border-radius: 3px;
 }
-.edit-text-btn li.active button,.edit-text-btn li:hover button{
+
+.edit-text-btn li.active button,
+.edit-text-btn li:hover button {
     color: #fff;
     background-color: var(--dark);
 }
-.edit-text-btn li button img{
+
+.edit-text-btn li button img {
     width: 20px;
 }
-.submit-question{
+
+.submit-question {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     margin-top: 35px;
 }
-.submit-question .sub{
+
+.submit-question .sub {
     padding: 16px 30px;
     background-color: var(--dark);
     border-radius: 8px;
@@ -180,7 +210,8 @@ input[type="file"]::-webkit-file-upload-button {
     display: flex;
     align-items: center;
 }
-.delete{
+
+.delete {
     padding: 16px 30px;
     background-color: transparent;
     border-radius: 8px;
@@ -195,30 +226,50 @@ input[type="file"]::-webkit-file-upload-button {
     border: 1px solid #B388EB;
 
 }
-.space-between{
+
+.space-between {
     justify-content: space-between;
 }
-.bg-white{
+
+.bg-white {
     background-color: #fff !important;
 }
-.white-bg-textarea{
+
+.white-bg-textarea {
     background-color: #fff !important;
     min-height: 200px !important;
 }
+
 .ql-toolbar.ql-snow {
     border: 1px solid #ccc;
     padding: 8px;
     background-color: #fff;
 }
-.ql-snow.ql-toolbar button:hover, .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar button:focus, .ql-snow .ql-toolbar button:focus, .ql-snow.ql-toolbar button.ql-active, .ql-snow .ql-toolbar button.ql-active, .ql-snow.ql-toolbar .ql-picker-label:hover, .ql-snow .ql-toolbar .ql-picker-label:hover, .ql-snow.ql-toolbar .ql-picker-label.ql-active, .ql-snow .ql-toolbar .ql-picker-label.ql-active, .ql-snow.ql-toolbar .ql-picker-item:hover, .ql-snow .ql-toolbar .ql-picker-item:hover, .ql-snow.ql-toolbar .ql-picker-item.ql-selected, .ql-snow .ql-toolbar .ql-picker-item.ql-selected {
+
+.ql-snow.ql-toolbar button:hover,
+.ql-snow .ql-toolbar button:hover,
+.ql-snow.ql-toolbar button:focus,
+.ql-snow .ql-toolbar button:focus,
+.ql-snow.ql-toolbar button.ql-active,
+.ql-snow .ql-toolbar button.ql-active,
+.ql-snow.ql-toolbar .ql-picker-label:hover,
+.ql-snow .ql-toolbar .ql-picker-label:hover,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active,
+.ql-snow.ql-toolbar .ql-picker-item:hover,
+.ql-snow .ql-toolbar .ql-picker-item:hover,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected {
     color: #fff !important;
     background-color: #000000;
     border-radius: 3px;
 }
-.ql-active:hover svg{
+
+.ql-active:hover svg {
     color: #fff !important;
     fill: #fff !important;
 }
+
 .ql-editor {
     box-sizing: border-box;
     line-height: 1.42;
@@ -233,25 +284,60 @@ input[type="file"]::-webkit-file-upload-button {
     white-space: pre-wrap;
     word-wrap: break-word;
 }
-.ql-editor p{
+
+.ql-editor p {
     color: #7983FF;
 }
 
-.white_svg
-{
+.white_svg {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(3deg) brightness(100%) contrast(104%);
 }
-.black_svg
-{
+
+.black_svg {
     filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
 }
+
 .overlay {
     position: fixed;
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
-    background: rgba(51,51,51,0.7);
+    background: rgba(51, 51, 51, 0.7);
     z-index: 10;
     padding: 10%;
+}
+
+
+.select #file-input {
+    display: none;
+}
+
+.select label[for='file-input'] * {
+    vertical-align: middle;
+    cursor: pointer;
+    
+}
+.select label[for='file-input'] {
+    width: 100%;
+    height: 54px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+    overflow: hidden;
+}
+
+.select label[for='file-input'] span {
+    color: #BCC1FF;
 }
