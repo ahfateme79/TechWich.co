@@ -8,6 +8,8 @@
     <title>Techwich</title>
 
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
     <!-- <link rel="stylesheet" href="./assets/css/global.css"> -->
     <link rel="stylesheet" href="./assets/css/explore.css">
 
@@ -79,26 +81,38 @@
                             <div class="notification-btns dropdown">
                                 <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img
                                         src="./assets/img/Stroke/fi-rr-bell-ring.svg" alt=""></button>
-                                 <ul class="dropdown-menu">
-                                    <li class="pt-0 pb-0"><h5 class="d-inline-block m-0 p-3">Notifications</h5>
-                                       </li>
+                                <ul class="dropdown-menu">
+                                    <li class="pt-0 pb-0">
+                                        <h5 class="d-inline-block m-0 p-3">Notifications</h5>
+                                    </li>
                                     <li><a class="dropdown-item" href="#">
-                                        <div class="d-flex align-items-center"><img src="./assets/img/istockphoto-1303835958-612x612.jpg" alt=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
-                                    </a></li>
+                                            <div class="d-flex align-items-center"><img
+                                                    src="./assets/img/istockphoto-1303835958-612x612.jpg" alt=""> Lorem
+                                                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            </div>
+                                        </a></li>
                                     <li class="unread-message"><a class="dropdown-item" href="#">
-                                        <div class="d-flex align-items-center"><img src="./assets/img/istockphoto-1303835958-612x612.jpg" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
-                                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
-                                            2
-                                            <span class="visually-hidden">unread messages</span>
-                                          </span>
-                                    </a></li>
+                                            <div class="d-flex align-items-center"><img
+                                                    src="./assets/img/istockphoto-1303835958-612x612.jpg" alt="">Lorem
+                                                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            </div>
+                                            <span
+                                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                                                2
+                                                <span class="visually-hidden">unread messages</span>
+                                            </span>
+                                        </a></li>
                                     <li class="unread-message"><a class="dropdown-item" href="#">
-                                        <div class="d-flex align-items-center"><img src="./assets/img/istockphoto-1303835958-612x612.jpg" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
-                                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
-                                            2
-                                            <span class="visually-hidden">unread messages</span>
-                                          </span>
-                                    </a></li>
+                                            <div class="d-flex align-items-center"><img
+                                                    src="./assets/img/istockphoto-1303835958-612x612.jpg" alt="">Lorem
+                                                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            </div>
+                                            <span
+                                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                                                2
+                                                <span class="visually-hidden">unread messages</span>
+                                            </span>
+                                        </a></li>
                                 </ul>
                                 <button class="btn">
                                     <img src="./assets/img/Stroke/fi-rr-envelope.svg" alt="">
@@ -296,7 +310,7 @@
                         </div>
                     </div>
                     <div class="container">
-                        <div class="item-list">
+                        <div class="owl-carousel">
                             <div class="item column">
                                 <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
                                         class="img">
@@ -500,7 +514,7 @@
                         </div>
                     </div>
                     <div class="container">
-                        <div class="item-list">
+                        <div class="owl-carousel">
                             <div class="item column">
                                 <div class="challange-detaila">
                                     <div><img src="./assets/img/image 49.png" alt=""></div>
@@ -733,7 +747,7 @@
                         </div>
                     </div>
                     <div class="container">
-                        <div class="item-list">
+                        <div class="owl-carousel">
                             <div class="item column">
                                 <div class="name">
                                     <h1 class="title">Python competition</h1>
@@ -929,7 +943,7 @@
                         </div>
                     </div>
                     <div class="container">
-                        <div class="item-list">
+                        <div class="owl-carousel">
                             <div class="item column">
                                 <div class="challange-detaila justify-content-between">
                                     <div class="Weekly">
@@ -1168,7 +1182,7 @@
                         </div>
                     </div>
                     <div class="container">
-                        <div class="item-list">
+                        <div class="owl-carousel">
                             <div class="item column bg-light">
                                 <div class="edit-details">
                                     <div class="edit-parent">
@@ -1543,11 +1557,35 @@
 
 
 
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/search.js"></script>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/spinner.js"></script>
     <script src="./assets/js/hour.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            dot:true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1.2,
+                    nav: true
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>
