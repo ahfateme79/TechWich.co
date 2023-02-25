@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon/Untitled design.png" type="image/x-icon">
     <title>Techwich</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/exercise-list.css">
+    <link rel="stylesheet" href="./assets/css/notification.css">
 
     <!-- lottie-player-->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -77,28 +79,15 @@
                                 </div>
                             </div>
                             <div class="notification-btns dropdown">
-                                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img
-                                        src="./assets/img/Stroke/fi-rr-bell-ring.svg" alt=""></button>
-                                 <ul class="dropdown-menu">
-                                    <li class="pt-0 pb-0"><h5 class="d-inline-block m-0 p-3">Notifications</h5>
-                                       </li>
-                                    <li><a class="dropdown-item" href="#">
-                                        <div class="d-flex align-items-center"><img src="./assets/img/istockphoto-1303835958-612x612.jpg" alt=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
-                                    </a></li>
-                                    <li class="unread-message"><a class="dropdown-item" href="#">
-                                        <div class="d-flex align-items-center"><img src="./assets/img/istockphoto-1303835958-612x612.jpg" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
-                                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
-                                            2
-                                            <span class="visually-hidden">unread messages</span>
-                                          </span>
-                                    </a></li>
-                                    <li class="unread-message"><a class="dropdown-item" href="#">
-                                        <div class="d-flex align-items-center"><img src="./assets/img/istockphoto-1303835958-612x612.jpg" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
-                                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
-                                            2
-                                            <span class="visually-hidden">unread messages</span>
-                                          </span>
-                                    </a></li>
+                                <button id="notification_btn" class="btn" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="./assets/img/Stroke/fi-rr-bell-ring.svg" alt="">
+                                </button>
+
+                                <ul class="dropdown-menu" id="notification_ul">
+                                    <li class="pt-0 pb-0 dropdown-head">
+                                        <h5 class="d-inline-block m-0 p-3">Notifications</h5>
+                                    </li>
                                 </ul>
                                 <button class="btn">
                                     <img src="./assets/img/Stroke/fi-rr-envelope.svg" alt="">
@@ -281,6 +270,7 @@
     <script src="./assets/js/search.js"></script>
     <script src="./assets/js/sorting.js"></script>
     <script src="./assets/js/spinner.js"></script>
+    <script src="./assets/js/notification.js"></script>
 
 </body>
 

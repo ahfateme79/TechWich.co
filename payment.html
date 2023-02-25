@@ -5,24 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon/Untitled design.png" type="image/x-icon">
     <title>Techwich</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/payment.css">
+    <link rel="stylesheet" href="./assets/css/notification.css">
 
-        <!-- lottie-player-->
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- lottie-player-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 </head>
 
 <body>
-             <!-- spinner -->
-             <div id="spinner" class="overlay" style="display: none">
-                <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_a2chheio.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
-            </div>
-        
-        
-        
-            <!--  -->
-    
+    <!-- spinner -->
+    <div id="spinner" class="overlay" style="display: none">
+        <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_a2chheio.json" background="transparent"
+            speed="1" style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+    </div>
+
+
+
+    <!--  -->
+
     <div class="parents">
         <div class="sidebar">
             <div class="inner-side">
@@ -56,489 +60,506 @@
         <!--  -->
         <div class="main-content">
 
-    <!-- header -->
-    <header>
-        <div class="container">
-            <div class="wrapper">
-                <div class="flex">
-                    <div><a href=""><img src="./assets/img/logo/techwich_logo_and_title.png" alt="" width="200px"></a>
-                    </div>
-                    <div class="nav">
-                        <ul class="navigation-list">
-                            <li><a href=""><img src="./assets/img/Stroke/fi-rr-document.svg"
-                                        alt="document"><span>item</span></a></li>
-                            <li><a href=""><img src="./assets/img/Stroke/fi-rr-book-alt.svg"
-                                        alt="book"><span>item</span></a></li>
-                            <li class="active"><a href=""><img src="./assets/img/Stroke/fi-rr-apps.svg"
-                                        alt="apps"><span>item</span></a></li>
-                            <li><a href=""><img src="./assets/img/Stroke/fi-rr-comments.svg"
-                                        alt="comments"><span>item</span></a></li>
-                            <li><a href=""><img src="./assets/img/Stroke/fi-rr-user.svg"
-                                        alt="user"><span>item</span></a></li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="header-items">
-                    <div class="search-box-parent">
-                        <div class="search-box">
-                            <button class="btn"><img src="./assets/img/Stroke/fi-rr-search.svg" alt=""></button>
-                            <input type="text" placeholder="Search Problem,Answers, Question...">
-                        </div>
-                    </div>
-
-                    <div class="notification-btns">
-                        <button class="btn"><img src="./assets/img/Stroke/fi-rr-bell-ring.svg" alt=""></button>
-                        <button class="btn">
-                            <img src="./assets/img/Stroke/fi-rr-envelope.svg" alt="">
-                            <span class="badge"></span>
-                        </button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </header>
-
-    <div class="mt-3">
-        <div class="container">
-
-            <!-- learn-course-container -->
-            <div class="learn-course-container">
+            <!-- header -->
+            <header>
                 <div class="container">
-                    <div class="video">
-                        <div class="vedeo-container">
-                            <div class="video-player">
-                                <video src=""></video>
-                                <img src="./assets/img/Rectangle 560.png" alt="" style="max-width: none;" width="100%">
-                                <button class="btn play"><img src="./assets/img/Fully/fi-sr-play.svg" alt=""></button>
+                    <div class="wrapper">
+                        <div class="flex">
+                            <div><a href=""><img src="./assets/img/logo/techwich_logo_and_title.png" alt=""
+                                        width="200px"></a>
                             </div>
                         </div>
-                        <div class="video-info">
-                            <h1 class="title">UI And UX Design Course Project oriented</h1>
-                            <div class="teacher-info">
-                                <img src="./assets/img/Rectangle 560.png" alt="">
-                                <span>Created by Jason Loee</span>
+                        <div class="header-items">
+                            <div class="search-box-parent">
+                                <div class="search-box">
+                                    <button class="btn"><img src="./assets/img/Stroke/fi-rr-search.svg" alt=""></button>
+                                    <input type="text" placeholder="Search Problem,Answers, Question...">
+                                </div>
+                            </div>
+
+                            <div class="notification-btns dropdown">
+                                <button id="notification_btn" class="btn" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="./assets/img/Stroke/fi-rr-bell-ring.svg" alt="">
+                                </button>
+
+                                <ul class="dropdown-menu" id="notification_ul">
+                                    <li class="pt-0 pb-0 dropdown-head">
+                                        <h5 class="d-inline-block m-0 p-3">Notifications</h5>
+                                    </li>
+                                </ul>
+                                <button class="btn">
+                                    <img src="./assets/img/Stroke/fi-rr-envelope.svg" alt="">
+                                    <span class="badge"></span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+            <div class="mt-3">
+                <div class="container">
+
+                    <!-- learn-course-container -->
+                    <div class="learn-course-container">
+                        <div class="container">
+                            <div class="video">
+                                <div class="vedeo-container">
+                                    <div class="video-player">
+                                        <video src=""></video>
+                                        <img src="./assets/img/Rectangle 560.png" alt="" style="max-width: none;"
+                                            width="100%">
+                                        <button class="btn play"><img src="./assets/img/Fully/fi-sr-play.svg"
+                                                alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="video-info">
+                                    <h1 class="title">UI And UX Design Course Project oriented</h1>
+                                    <div class="teacher-info">
+                                        <img src="./assets/img/Rectangle 560.png" alt="">
+                                        <span>Created by Jason Loee</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <div class="description">
+                                    <p>Egestas gravida ipsum consectetur cras. erisque dui faucibus consequat, vivamus
+                                        is. Nisl
+                                        moleie fringilla tempor mauris consequatn. Etiam porttitor tristique pretium
+                                        lectus mus
+                                        aliqu amet ultricies nunc. Amet.</p>
+                                </div>
+
+                                <div class="category-list">
+                                    <div>
+                                        <p>Design category</p>
+                                        <img src="./assets/img/Stroke/fi-rr-palette.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <p>18 hour & 45 min</p>
+                                        <img src="./assets/img/Stroke/fi-rr-time-add.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <p>5 session</p>
+                                        <img src="./assets/img/Stroke/fi-rr-book-alt.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <p>20 episode</p>
+                                        <img src="./assets/img/Stroke/fi-rr-file.svg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="earn">
+                                    <div class="head">
+                                        <h4>Earn:</h4>
+                                        <p>You Can also buy the subscription to use these benefits.</p>
+                                    </div>
+                                    <div class="user-count dr-row">
+                                        <div class="count-box">
+                                            <img src="./assets/img/Stroke/fi-rr-headset.svg" alt="">
+                                            <span>
+                                                TA
+                                            </span>
+                                        </div>
+                                        <div class="count-box">
+                                            <img src="./assets/img/Stroke/fi-rr-graduation-cap.svg" alt="">
+                                            <span>
+                                                BD
+                                            </span>
+                                        </div>
+                                        <div class="count-box">
+                                            <img src="./assets/img/Stroke/fi-rr-heart.svg" alt="">
+                                            <span>
+                                                6
+                                            </span>
+                                        </div>
+                                        <div class="count-box">
+                                            <img src="./assets/img/Stroke/fi-rr-bell.svg" alt="">
+                                            <span>
+                                                0
+                                            </span>
+                                        </div>
+                                        <div class="count-box">
+                                            <img src="./assets/img/Stroke/fi-rr-interactive.svg" alt="">
+                                            <span>
+                                                0
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="btn-content">
+                                        <a href="" class="btn dark">Buy subscription</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="content">
-                        <div class="description">
-                            <p>Egestas gravida ipsum consectetur cras. erisque dui faucibus consequat, vivamus is. Nisl
-                                moleie fringilla tempor mauris consequatn. Etiam porttitor tristique pretium lectus mus
-                                aliqu amet ultricies nunc. Amet.</p>
+                    <!--  -->
+                    <div class="course-title">
+                        <div>
+                            <h1 class="title">Lessons and episodes</h1>
                         </div>
-
-                        <div class="category-list">
+                        <div class="lesson-info">
                             <div>
-                                <p>Design category</p>
-                                <img src="./assets/img/Stroke/fi-rr-palette.svg" alt="">
+                                <span>3</span>
+                                <p>lesson</p>
                             </div>
                             <div>
-                                <p>18 hour & 45 min</p>
-                                <img src="./assets/img/Stroke/fi-rr-time-add.svg" alt="">
-                            </div>
-                            <div>
-                                <p>5 session</p>
-                                <img src="./assets/img/Stroke/fi-rr-book-alt.svg" alt="">
-                            </div>
-                            <div>
-                                <p>20 episode</p>
-                                <img src="./assets/img/Stroke/fi-rr-file.svg" alt="">
+                                <span>3</span>
+                                <p>episode</p>
                             </div>
                         </div>
+                    </div>
+                    <!-- accordion -->
+                    <div class="">
+                        <div class="">
+                            <div class="accordions-wrapper">
+                                <div class="accordion">
+                                    <div class="accordion-header">
+                                        <h4>First Lesson’s title</h4>
+                                        <img src="./assets/img/Stroke/fi-rr-angle-small-down.svg" class="accordion-icon"
+                                            alt="">
 
-                        <div class="earn">
-                            <div class="head">
-                                <h4>Earn:</h4>
-                                <p>You Can also buy the subscription to use these benefits.</p>
-                            </div>
-                            <div class="user-count dr-row">
-                                <div class="count-box">
-                                    <img src="./assets/img/Stroke/fi-rr-headset.svg" alt="">
-                                    <span>
-                                        TA
-                                    </span>
-                                </div>
-                                <div class="count-box">
-                                    <img src="./assets/img/Stroke/fi-rr-graduation-cap.svg" alt="">
-                                    <span>
-                                        BD
-                                    </span>
-                                </div>
-                                <div class="count-box">
-                                    <img src="./assets/img/Stroke/fi-rr-heart.svg" alt="">
-                                    <span>
-                                        6
-                                    </span>
-                                </div>
-                                <div class="count-box">
-                                    <img src="./assets/img/Stroke/fi-rr-bell.svg" alt="">
-                                    <span>
-                                        0
-                                    </span>
-                                </div>
-                                <div class="count-box">
-                                    <img src="./assets/img/Stroke/fi-rr-interactive.svg" alt="">
-                                    <span>
-                                        0
-                                    </span>
-                                </div>
-                            </div>
+                                    </div>
 
-                            <div class="btn-content">
-                                <a href="" class="btn dark">Buy subscription</a>
+                                    <div class="accordion-body">
+                                        <div class="lesson-item">
+                                            <div>
+                                                <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet
+                                                    vitae.
+                                                </p>
+                                                <div class="lesson-count">
+                                                    <span>x12</span>
+                                                </div>
+                                            </div>
+                                            <div class="course-lesseon-details">
+                                                <div class="time">
+                                                    <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
+                                                    <span>23:30:00</span>
+                                                </div>
+                                                <div class="play-btn">
+                                                    <a href=""><img src="./assets/img/Fully/fi-sr-play.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="lesson-item">
+                                            <div>
+                                                <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet
+                                                    vitae.
+                                                </p>
+                                                <div class="lesson-count">
+                                                    <span>x12</span>
+                                                </div>
+                                            </div>
+                                            <div class="course-lesseon-details">
+                                                <div class="time">
+                                                    <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
+                                                    <span>23:30:00</span>
+                                                </div>
+                                                <div class="play-btn">
+                                                    <a href=""><img src="./assets/img/Fully/fi-sr-play.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="lesson-item lock">
+                                            <div>
+                                                <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet
+                                                    vitae.
+                                                </p>
+                                                <div class="lesson-count">
+                                                    <span>x12</span>
+                                                </div>
+                                            </div>
+                                            <div class="course-lesseon-details">
+                                                <div class="time">
+                                                    <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
+                                                    <span>23:30:00</span>
+                                                </div>
+                                                <div class="play-btn">
+                                                    <a href=""><img src="./assets/img/Fully/fi-sr-lock.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="lesson-item lock">
+                                            <div>
+                                                <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet
+                                                    vitae.
+                                                </p>
+                                                <div class="lesson-count">
+                                                    <span>x12</span>
+                                                </div>
+                                            </div>
+                                            <div class="course-lesseon-details">
+                                                <div class="time">
+                                                    <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
+                                                    <span>23:30:00</span>
+                                                </div>
+                                                <div class="play-btn">
+                                                    <a href=""><img src="./assets/img/Fully/fi-sr-lock.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion">
+                                    <div class="accordion-header">
+                                        <h4>Second Lesson’s title</h4>
+                                        <img src="./assets/img/Stroke/fi-rr-angle-small-down.svg" class="accordion-icon"
+                                            alt="">
+
+                                    </div>
+
+                                    <div class="accordion-body">
+                                        <div class="lesson-item">
+                                            <div>
+                                                <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet
+                                                    vitae.
+                                                </p>
+                                                <div class="lesson-count">
+                                                    <span>x12</span>
+                                                </div>
+                                            </div>
+                                            <div class="course-lesseon-details">
+                                                <div class="time">
+                                                    <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
+                                                    <span>23:30:00</span>
+                                                </div>
+                                                <div class="play-btn">
+                                                    <a href=""><img src="./assets/img/Fully/fi-sr-play.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="lesson-item">
+                                            <div>
+                                                <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet
+                                                    vitae.
+                                                </p>
+                                                <div class="lesson-count">
+                                                    <span>x12</span>
+                                                </div>
+                                            </div>
+                                            <div class="course-lesseon-details">
+                                                <div class="time">
+                                                    <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
+                                                    <span>23:30:00</span>
+                                                </div>
+                                                <div class="play-btn">
+                                                    <a href=""><img src="./assets/img/Fully/fi-sr-play.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="lesson-item lock">
+                                            <div>
+                                                <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet
+                                                    vitae.
+                                                </p>
+                                                <div class="lesson-count">
+                                                    <span>x12</span>
+                                                </div>
+                                            </div>
+                                            <div class="course-lesseon-details">
+                                                <div class="time">
+                                                    <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
+                                                    <span>23:30:00</span>
+                                                </div>
+                                                <div class="play-btn">
+                                                    <a href=""><img src="./assets/img/Fully/fi-sr-lock.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="lesson-item lock">
+                                            <div>
+                                                <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet
+                                                    vitae.
+                                                </p>
+                                                <div class="lesson-count">
+                                                    <span>x12</span>
+                                                </div>
+                                            </div>
+                                            <div class="course-lesseon-details">
+                                                <div class="time">
+                                                    <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
+                                                    <span>23:30:00</span>
+                                                </div>
+                                                <div class="play-btn">
+                                                    <a href=""><img src="./assets/img/Fully/fi-sr-lock.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion">
+                                    <div class="accordion-header">
+                                        <h4>Vel eros molestie velit pulvinar</h4>
+                                        <img src="./assets/img/Stroke/fi-rr-angle-small-down.svg" class="accordion-icon"
+                                            alt="">
+
+                                    </div>
+
+                                    <div class="accordion-body">
+                                        <div class="lesson-item">
+                                            <div>
+                                                <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet
+                                                    vitae.
+                                                </p>
+                                                <div class="lesson-count">
+                                                    <span>x12</span>
+                                                </div>
+                                            </div>
+                                            <div class="course-lesseon-details">
+                                                <div class="time">
+                                                    <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
+                                                    <span>23:30:00</span>
+                                                </div>
+                                                <div class="play-btn">
+                                                    <a href=""><img src="./assets/img/Fully/fi-sr-play.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="lesson-item">
+                                            <div>
+                                                <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet
+                                                    vitae.
+                                                </p>
+                                                <div class="lesson-count">
+                                                    <span>x12</span>
+                                                </div>
+                                            </div>
+                                            <div class="course-lesseon-details">
+                                                <div class="time">
+                                                    <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
+                                                    <span>23:30:00</span>
+                                                </div>
+                                                <div class="play-btn">
+                                                    <a href=""><img src="./assets/img/Fully/fi-sr-play.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="lesson-item lock">
+                                            <div>
+                                                <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet
+                                                    vitae.
+                                                </p>
+                                                <div class="lesson-count">
+                                                    <span>x12</span>
+                                                </div>
+                                            </div>
+                                            <div class="course-lesseon-details">
+                                                <div class="time">
+                                                    <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
+                                                    <span>23:30:00</span>
+                                                </div>
+                                                <div class="play-btn">
+                                                    <a href=""><img src="./assets/img/Fully/fi-sr-lock.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="lesson-item lock">
+                                            <div>
+                                                <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet
+                                                    vitae.
+                                                </p>
+                                                <div class="lesson-count">
+                                                    <span>x12</span>
+                                                </div>
+                                            </div>
+                                            <div class="course-lesseon-details">
+                                                <div class="time">
+                                                    <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
+                                                    <span>23:30:00</span>
+                                                </div>
+                                                <div class="play-btn">
+                                                    <a href=""><img src="./assets/img/Fully/fi-sr-lock.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!--  -->
-            <div class="course-title">
-                <div>
-                    <h1 class="title">Lessons and episodes</h1>
-                </div>
-                <div class="lesson-info">
-                    <div>
-                        <span>3</span>
-                        <p>lesson</p>
+            <div class="modal-parent p-0 flex-end active">
+                <div class="modal ">
+                    <div class="modal-heading">
+                        <h1>Payment type</h1>
+                        <button class="btn close-modal"><img src="./assets/img/Stroke/fi-rr-cross.svg" alt=""></button>
                     </div>
-                    <div>
-                        <span>3</span>
-                        <p>episode</p>
-                    </div>
-                </div>
-            </div>
-            <!-- accordion -->
-            <div class="">
-                <div class="">
-                    <div class="accordions-wrapper">
-                        <div class="accordion">
-                            <div class="accordion-header">
-                                <h4>First Lesson’s title</h4>
-                                <img src="./assets/img/Stroke/fi-rr-angle-small-down.svg" class="accordion-icon" alt="">
-
-                            </div>
-
-                            <div class="accordion-body">
-                                <div class="lesson-item">
-                                    <div>
-                                        <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet vitae.
-                                        </p>
-                                        <div class="lesson-count">
-                                            <span>x12</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-lesseon-details">
-                                        <div class="time">
-                                            <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
-                                            <span>23:30:00</span>
-                                        </div>
-                                        <div class="play-btn">
-                                            <a href=""><img src="./assets/img/Fully/fi-sr-play.svg" alt=""></a>
-                                        </div>
-                                    </div>
+                    <div class="payment-details">
+                        <img src="./assets/img/Rectangle 560.png" alt="">
+                        <div class="payment-info">
+                            <h2>UI And UX Design Course Project oriented</h2>
+                            <div class="lesson-info">
+                                <div>
+                                    <span>3</span>
+                                    <p>lesson</p>
                                 </div>
-
-                                <div class="lesson-item">
-                                    <div>
-                                        <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet vitae.
-                                        </p>
-                                        <div class="lesson-count">
-                                            <span>x12</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-lesseon-details">
-                                        <div class="time">
-                                            <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
-                                            <span>23:30:00</span>
-                                        </div>
-                                        <div class="play-btn">
-                                            <a href=""><img src="./assets/img/Fully/fi-sr-play.svg" alt=""></a>
-                                        </div>
-                                    </div>
+                                <div>
+                                    <span>3</span>
+                                    <p>episode</p>
                                 </div>
-
-                                <div class="lesson-item lock">
-                                    <div>
-                                        <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet vitae.
-                                        </p>
-                                        <div class="lesson-count">
-                                            <span>x12</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-lesseon-details">
-                                        <div class="time">
-                                            <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
-                                            <span>23:30:00</span>
-                                        </div>
-                                        <div class="play-btn">
-                                            <a href=""><img src="./assets/img/Fully/fi-sr-lock.svg" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="lesson-item lock">
-                                    <div>
-                                        <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet vitae.
-                                        </p>
-                                        <div class="lesson-count">
-                                            <span>x12</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-lesseon-details">
-                                        <div class="time">
-                                            <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
-                                            <span>23:30:00</span>
-                                        </div>
-                                        <div class="play-btn">
-                                            <a href=""><img src="./assets/img/Fully/fi-sr-lock.svg" alt=""></a>
-                                        </div>
-                                    </div>
+                                <div>
+                                    <span>3</span>
+                                    <p>hour</p>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="accordion">
-                            <div class="accordion-header">
-                                <h4>Second Lesson’s title</h4>
-                                <img src="./assets/img/Stroke/fi-rr-angle-small-down.svg" class="accordion-icon" alt="">
-
+                        <div class="payment">
+                            <h3>Payment</h3>
+                            <div class="payment-table">
+                                <ul>
+                                    <li>
+                                        <p>Webinar price</p>
+                                        <span>$120</span>
+                                    </li>
+                                    <li>
+                                        <p>Tax</p>
+                                        <span>$5</span>
+                                    </li>
+                                </ul>
                             </div>
-
-                            <div class="accordion-body">
-                                <div class="lesson-item">
-                                    <div>
-                                        <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet vitae.
-                                        </p>
-                                        <div class="lesson-count">
-                                            <span>x12</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-lesseon-details">
-                                        <div class="time">
-                                            <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
-                                            <span>23:30:00</span>
-                                        </div>
-                                        <div class="play-btn">
-                                            <a href=""><img src="./assets/img/Fully/fi-sr-play.svg" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="lesson-item">
-                                    <div>
-                                        <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet vitae.
-                                        </p>
-                                        <div class="lesson-count">
-                                            <span>x12</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-lesseon-details">
-                                        <div class="time">
-                                            <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
-                                            <span>23:30:00</span>
-                                        </div>
-                                        <div class="play-btn">
-                                            <a href=""><img src="./assets/img/Fully/fi-sr-play.svg" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="lesson-item lock">
-                                    <div>
-                                        <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet vitae.
-                                        </p>
-                                        <div class="lesson-count">
-                                            <span>x12</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-lesseon-details">
-                                        <div class="time">
-                                            <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
-                                            <span>23:30:00</span>
-                                        </div>
-                                        <div class="play-btn">
-                                            <a href=""><img src="./assets/img/Fully/fi-sr-lock.svg" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="lesson-item lock">
-                                    <div>
-                                        <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet vitae.
-                                        </p>
-                                        <div class="lesson-count">
-                                            <span>x12</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-lesseon-details">
-                                        <div class="time">
-                                            <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
-                                            <span>23:30:00</span>
-                                        </div>
-                                        <div class="play-btn">
-                                            <a href=""><img src="./assets/img/Fully/fi-sr-lock.svg" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <p>Total payment</p>
+                                        <span><strong>$125</strong></span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="accordion">
-                            <div class="accordion-header">
-                                <h4>Vel eros molestie velit pulvinar</h4>
-                                <img src="./assets/img/Stroke/fi-rr-angle-small-down.svg" class="accordion-icon" alt="">
-
-                            </div>
-
-                            <div class="accordion-body">
-                                <div class="lesson-item">
-                                    <div>
-                                        <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet vitae.
-                                        </p>
-                                        <div class="lesson-count">
-                                            <span>x12</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-lesseon-details">
-                                        <div class="time">
-                                            <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
-                                            <span>23:30:00</span>
-                                        </div>
-                                        <div class="play-btn">
-                                            <a href=""><img src="./assets/img/Fully/fi-sr-play.svg" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="lesson-item">
-                                    <div>
-                                        <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet vitae.
-                                        </p>
-                                        <div class="lesson-count">
-                                            <span>x12</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-lesseon-details">
-                                        <div class="time">
-                                            <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
-                                            <span>23:30:00</span>
-                                        </div>
-                                        <div class="play-btn">
-                                            <a href=""><img src="./assets/img/Fully/fi-sr-play.svg" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="lesson-item lock">
-                                    <div>
-                                        <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet vitae.
-                                        </p>
-                                        <div class="lesson-count">
-                                            <span>x12</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-lesseon-details">
-                                        <div class="time">
-                                            <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
-                                            <span>23:30:00</span>
-                                        </div>
-                                        <div class="play-btn">
-                                            <a href=""><img src="./assets/img/Fully/fi-sr-lock.svg" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="lesson-item lock">
-                                    <div>
-                                        <p class="lesson-title">Lobortis tristique sed tortor vestibum imperdiet vitae.
-                                        </p>
-                                        <div class="lesson-count">
-                                            <span>x12</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-lesseon-details">
-                                        <div class="time">
-                                            <img src="./assets/img/Stroke/fi-rr-clock.svg" alt="">
-                                            <span>23:30:00</span>
-                                        </div>
-                                        <div class="play-btn">
-                                            <a href=""><img src="./assets/img/Fully/fi-sr-lock.svg" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="payment-btn">
+                            <button class="btn" id="Spend">Spend 3 Gem</button><button class="btn" id="Cash">Cash
+                                Payment</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="modal-parent p-0 flex-end active">
-        <div class="modal ">
-            <div class="modal-heading">
-                <h1>Payment type</h1>
-                <button class="btn close-modal"><img src="./assets/img/Stroke/fi-rr-cross.svg" alt=""></button>
-            </div>
-            <div class="payment-details">
-                <img src="./assets/img/Rectangle 560.png" alt="">
-                <div class="payment-info">
-                    <h2>UI And UX Design Course Project oriented</h2>
-                    <div class="lesson-info">
-                        <div>
-                            <span>3</span>
-                            <p>lesson</p>
-                        </div>
-                        <div>
-                            <span>3</span>
-                            <p>episode</p>
-                        </div>
-                        <div>
-                            <span>3</span>
-                            <p>hour</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="payment">
-                    <h3>Payment</h3>
-                    <div class="payment-table">
-                        <ul>
-                            <li>
-                                <p>Webinar price</p>
-                                <span>$120</span>
-                            </li>
-                            <li>
-                                <p>Tax</p>
-                                <span>$5</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>
-                                <p>Total payment</p>
-                                <span><strong>$125</strong></span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="payment-btn">
-                    <button class="btn" id="Spend">Spend 3 Gem</button><button class="btn" id="Cash">Cash Payment</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
     </div>
 
     <!-- script -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/search.js"></script>
     <script src="./assets/js/accordion.js"></script>
     <script src="./assets/js/modal.js"></script>
     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/notification.js"></script>
 </body>
 
 </html>

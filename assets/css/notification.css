@@ -1,4 +1,4 @@
-.notif-box{
+.notif-box {
     background-color: #fff;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -8,49 +8,65 @@
     padding: 16px 0;
     margin: 8px 0;
 }
-.notif-box h4{
+
+.notif-box h4 {
     color: #252525;
     font-size: 14px;
     font-weight: 500;
 }
-.notif-box p{
+
+.notif-box p {
     margin: 16px 0;
     font-size: 12px;
     font-weight: normal;
     color: #252525;
 }
-.notif-box span{
+
+.notif-box span {
     color: #3D4280;
     font-size: 12px;
     font-weight: 500;
     display: inline-block;
     margin-left: 8px;
 }
-.notif-box img{
+
+.notif-box img {
     width: 16px;
     height: 16px;
     max-width: none;
 }
-.notif-box .container div{
+
+.notif-box .container div {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.white_svg
-{
+
+.white_svg {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(3deg) brightness(100%) contrast(104%);
 }
-.black_svg
-{
+
+.black_svg {
     filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
 }
+
 .overlay {
     position: fixed;
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
-    background: rgba(51,51,51,0.7);
+    background: rgba(51, 51, 51, 0.7);
     z-index: 10;
     padding: 10%;
+}
+
+.dropdown-head {
+    min-width: unset;
+}
+
+@media screen and (min-width: 768px) {
+    .dropdown-head {
+        min-width: 500px;
+    }
 }
