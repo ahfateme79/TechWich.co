@@ -1073,3 +1073,13 @@ section {
         width: 100% !important;
     } 
 }
+.result-tag{
+background: #8A85FA;
+border-radius: 4px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+padding:2px 5px;
+color: #fff;
+font-size: 12px;
+}
