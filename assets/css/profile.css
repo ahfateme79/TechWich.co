@@ -1738,10 +1738,6 @@
 }
 
 @media screen and (min-width:1000px) {
-    .content-item {
-        width: 31%;
-        margin: 10px;
-    }
 
     .content-item>.container {
         padding: 0 20px !important;
@@ -2277,4 +2273,30 @@
     background: rgba(51,51,51,0.7);
     z-index: 10;
     padding: 10%;
+}
+.section {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.item-list {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    overflow-y: visible;
+    overflow-x: auto;
+
+}
+
+.item-list {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.item-list::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
 }

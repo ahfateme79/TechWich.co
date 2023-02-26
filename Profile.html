@@ -12,6 +12,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/course-list.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="./assets/css/challlange.css">
     <link rel="stylesheet" href="./assets/css/Weekly-League.css">
     <link rel="stylesheet" href="./assets/css/support.css">
@@ -271,7 +273,79 @@
                                     <span><img src="./assets/img/Stroke/fi-rr-add.svg" alt=""></span>
                                 </div>
                             </div>
-                            <div>
+                            <div class="owl-carousel">
+                                <div class="content-item">
+                                    <div class="container">
+                                        <div class="content-child">
+                                            <div class="video-wrapper">
+                                                <div class="edit-btn">
+                                                    <button class="btn"><img src="./assets/img/Stroke/fi-rr-pencil.svg"
+                                                            alt=""></button>
+                                                </div>
+                                                <div>
+                                                    <video src=""></video>
+                                                    <img src="./assets/img/Rectangle 738.png" alt="">
+                                                </div>
+                                                <div class="play-btn">
+                                                    <button class="btn"><img src="./assets/img/Fully/fi-sr-play.svg"
+                                                            alt=""></button>
+                                                </div>
+                                            </div>
+                                            <div class="text-content">
+                                                <div class="content-head-text">
+                                                    <p>Viverra ac accumsan odio dictumst iacflis</p>
+                                                    <span>Marketing category</span>
+                                                </div>
+                                                <div class="content-item-details">
+                                                    <div class="content-date">
+                                                        <img src="./assets/img/Stroke/fi-rr-calendar.svg" alt="">
+                                                        <span>Apr 19, 2022</span>
+                                                    </div>
+                                                    <div class="like">
+                                                        <span>150</span>
+                                                        <img src="./assets/img/Stroke/fi-rr-heart.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-item">
+                                    <div class="container">
+                                        <div class="content-child">
+                                            <div class="video-wrapper">
+                                                <div class="edit-btn">
+                                                    <button class="btn"><img src="./assets/img/Stroke/fi-rr-pencil.svg"
+                                                            alt=""></button>
+                                                </div>
+                                                <div>
+                                                    <video src=""></video>
+                                                    <img src="./assets/img/Rectangle 738.png" alt="">
+                                                </div>
+                                                <div class="play-btn">
+                                                    <button class="btn"><img src="./assets/img/Fully/fi-sr-play.svg"
+                                                            alt=""></button>
+                                                </div>
+                                            </div>
+                                            <div class="text-content">
+                                                <div class="content-head-text">
+                                                    <p>Viverra ac accumsan odio dictumst iacflis</p>
+                                                    <span>Marketing category</span>
+                                                </div>
+                                                <div class="content-item-details">
+                                                    <div class="content-date">
+                                                        <img src="./assets/img/Stroke/fi-rr-calendar.svg" alt="">
+                                                        <span>Apr 19, 2022</span>
+                                                    </div>
+                                                    <div class="like">
+                                                        <span>150</span>
+                                                        <img src="./assets/img/Stroke/fi-rr-heart.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="content-item">
                                     <div class="container">
                                         <div class="content-child">
@@ -356,12 +430,36 @@
         </div>
     </div>
 
-
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/search.js"></script>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/calender.js"></script>
     <script src="./assets/js/notification.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            dot: true,
+            margin:10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>
