@@ -286,7 +286,6 @@
 }
 @media screen and (min-width:1000px){
     .content-item{
-        width: 31%;
         margin: 10px;
     }
     .content-item >.container{

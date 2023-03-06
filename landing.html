@@ -912,6 +912,16 @@
     </section>
 
 
+    <!-- partners -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="partners owl-carousel">
+                <div class="item"><img src="./assets/img/partners/EU Startups Logo Transparent.png" alt="" width="200px"></div>
+                <div class="item"><img src="./assets/img/partners/NDS.png" alt="" width="200px"></div>
+            </div>
+        </div>
+    </section>
+
     <!-- app -->
 
     <!-- <section id="app">
@@ -1228,6 +1238,7 @@
     <script src="./assets/js/modal.js"></script>
     <script src="./assets/js/search.js"></script>
     <script src="./assets/js/script.js"></script>
+  
     <script>
         $('.owl-theme').owlCarousel({
             loop: true,
@@ -1243,6 +1254,24 @@
                 },
                 1000: {
                     items: 3
+                }
+            }
+        })
+
+        $('.partners').owlCarousel({
+            loop: true,
+            dot: true,
+            margin:10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
                 }
             }
         })

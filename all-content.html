@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="./assets/img/favicon/Untitled design.png" type="image/x-icon">
     <title>Techwich</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="./assets/css/user-content.css">
     <link rel="stylesheet" href="./assets/css/notification.css">
     <!-- lottie-player-->
@@ -165,12 +167,11 @@
                                 </div>
 
                                 <div class="main-content">
-                                    <div class="content-parent active">
+                                    <div class="owl-carousel">
                                         <div class="content-item">
                                             <div class="container">
                                                 <div class="content-child">
                                                     <div class="video-wrapper">
-
                                                         <div>
                                                             <video src=""></video>
                                                             <img src="./assets/img/Rectangle 738.png" alt="">
@@ -240,7 +241,6 @@
                                             <div class="container">
                                                 <div class="content-child">
                                                     <div class="video-wrapper">
-
                                                         <div>
                                                             <video src=""></video>
                                                             <img src="./assets/img/Rectangle 738.png" alt="">
@@ -306,6 +306,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        
                                         <div class="space"></div>
                                     </div>
                                 </div>
@@ -321,10 +322,38 @@
 
 
     <!-- script -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/spinner.js"></script>
     <script src="./assets/js/search.js"></script>
     <script src="./assets/js/notification.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            dot: true,
+            margin:10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                900: {
+                    items: 2.5,
+                    nav: false
+                },
+                1300: {
+                    items: 3,
+                    nav: false,
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>

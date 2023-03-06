@@ -2050,3 +2050,7 @@ footer ul {
 .modal-btns button:first-child{
     margin-right: 10px;
 }
+.partners.owl-carousel .owl-stage-outer .owl-stage{
+    display: flex !important;
+    align-items: center !important;
+}
