@@ -1500,7 +1500,7 @@ footer ul {
 
     .nav-menu {
         position: fixed;
-        top: 70px;
+        top: 0;
         width: 100%;
         left: 0;
         background-color: #fff;
@@ -2130,36 +2130,48 @@ footer ul {
     align-items: center !important;
 }
 
-.partners.owl-carousel .owl-item .item{
+.partners.owl-carousel .owl-item .item {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
 }
 
-.terms-list{
+.terms-list {
     list-style-type: none;
     margin: 40px 0;
     background-color: #fafaff;
     padding: 20px;
 
 }
-.terms-list li{
+
+.terms-list li {
     color: #252525d0;
     margin: 25px 0;
     text-align: justify;
     font-size: 14px;
 }
-.terms-list li h6{
+
+.terms-list li h6 {
     color: #252525;
     font-size: 18px;
 }
-.downoad-terms{
+
+.downoad-terms {
     background-color: #7983FF;
     color: #ffff;
 }
 
-.downoad-terms:hover{
+.downoad-terms:hover {
     background-color: #666ee6;
     color: #ffff;
 }
 
+.item-5 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+}
+.close-menu{
+    font-size: 20px;
+}

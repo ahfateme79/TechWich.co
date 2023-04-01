@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="./assets/img/favicon/Untitled design.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/img/favicon/Untitled design.png" type="image/x-icon">
     <title>Techwich</title>
     <!-- links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/landing.css">
 
-        <!-- lottie-player-->
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- lottie-player-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 </head>
 
@@ -103,7 +103,16 @@
                                         <i class="fa-solid fa-bars"></i>
                                     </button>
                                 </div>
+
                                 <div class="nav-menu">
+                                    <div class="d-flex p-3 justify-content-between">
+                                        <div class="login-btn">
+                                            <button></button>
+                                        </div>
+                                        <button class="btns close-menu">
+                                            <i class="fa-solid fa-xmark"></i>
+                                        </button>
+                                    </div>
                                     <ul>
                                         <li><a href="./course-list.html">courses</a>
                                         </li>
@@ -912,7 +921,7 @@
     </section>
 
 
-   
+
     <!-- app -->
 
     <!-- <section id="app">
@@ -1000,8 +1009,8 @@
         </div>
     </section>
 
-     <!-- partners -->
-     <section class="bg-light pt-5 package pb-3">
+    <!-- partners -->
+    <section class="bg-light pt-5 package pb-3">
         <div class="container">
             <div class="row mb-5">
                 <div class="col text-center">
@@ -1012,7 +1021,8 @@
             </div>
 
             <div class="partners owl-carousel">
-                <div class="item"><img src="./assets/img/partners/EU Startups Logo Transparent.png" alt="" width="200px"></div>
+                <div class="item"><img src="./assets/img/partners/EU Startups Logo Transparent.png" alt=""
+                        width="200px"></div>
                 <div class="item"><img src="./assets/img/partners/NDS.png" alt="" width="200px"></div>
             </div>
         </div>
@@ -1247,7 +1257,7 @@
     <script src="./assets/js/modal.js"></script>
     <script src="./assets/js/search.js"></script>
     <script src="./assets/js/script.js"></script>
-  
+
     <script>
         $('.owl-theme').owlCarousel({
             loop: true,
@@ -1270,7 +1280,7 @@
         $('.partners').owlCarousel({
             loop: true,
             dot: true,
-            margin:10,
+            margin: 10,
             responsiveClass: true,
             responsive: {
                 0: {
@@ -1289,10 +1299,13 @@
 
         // menu
         let btn = document.querySelector('.open-menu')
+        let close_menu = document.querySelector('.close-menu')
+        
         let menu = document.querySelector('.nav-menu')
         let accordion = document.querySelectorAll('.list-parent')
 
         btn.addEventListener('click', menuhandle)
+        close_menu.addEventListener('click', menuhandle)
 
         function menuhandle() {
             menu.classList.toggle('open')

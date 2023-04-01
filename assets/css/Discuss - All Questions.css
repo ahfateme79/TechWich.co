@@ -336,7 +336,7 @@
     width: 100%;
     position: fixed;
     bottom: 0;
-    left: 0;
+    right: 0;
     box-shadow: (0px -2px 10px rgba(121, 131, 255, 0.07));
     background: #FFFFFF;
     border-radius: 10px;
@@ -344,9 +344,10 @@
 }
 @media screen and (min-width:1024px){
     .write-section {
-        position: absolute;
-        background: transparent;
-
+        width: calc(100% - 400px);
+    }
+    .write-section .container{
+        padding:0 30px;
     }
 }
 .text-sec {
