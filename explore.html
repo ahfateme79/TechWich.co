@@ -85,7 +85,7 @@
                                     aria-expanded="false">
                                     <img src="./assets/img/Stroke/fi-rr-bell-ring.svg" alt="">
                                 </button>
-                        
+
                                 <ul class="dropdown-menu" id="notification_ul">
                                     <li class="pt-0 pb-0 dropdown-head">
                                         <h5 class="d-inline-block m-0 p-3">Notifications</h5>
@@ -206,11 +206,26 @@
                                             </div>
                                             <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
                                         </div>
-                                        
+                                        <div>
+                                            <div class="Achievements-details"><span>League level</span><span>3L</span>
+                                            </div>
+                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="Achievements-details"><span>League level</span><span>3L</span>
+                                            </div>
+                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="Achievements-details"><span>League level</span><span>3L</span>
+                                            </div>
+                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
+                                        </div>
+
                                     </div>
                                     <div class="Achievements-more-btn">
-                                        <button class="btn">more <img
-                                                src="./assets/img/Stroke/fi-rr-angle-small-down.svg" alt=""></button>
+                                        <button class="btn more-Achievements">more <img
+                                                src="./assets/img/Stroke/fi-rr-angle-small-down.svg" alt="" class="arrow"></button>
                                     </div>
                                 </div>
                             </div>
@@ -1563,6 +1578,15 @@
                     loop: false
                 }
             }
+        })
+
+        let more=document.querySelector('.more-Achievements')
+        let archivment=document.querySelector('.Achievements-items')
+        let arrow=document.querySelector('.arrow')
+
+        more.addEventListener('click',()=>{
+            archivment.classList.toggle('scroll')
+            arrow.classList.toggle('rotate')
         })
     </script>
 </body>

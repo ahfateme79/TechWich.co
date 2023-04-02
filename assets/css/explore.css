@@ -209,6 +209,7 @@
 }
 
 .Achievements {
+    position: relative;
     width: 25%;
     padding: 20px;
     background-color: #fff;
@@ -220,7 +221,7 @@
     -o-border-radius: 16px;
     height: 250px;
     display: none;
-
+    overflow: hidden;
 }
 
 .Achievements-parent {
@@ -238,8 +239,37 @@
 .Achievements-items {
     margin: 20px 0;
     width: 100%;
+    height: 135px;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+.Achievements-items.scroll {
+    overflow-y: scroll;
+    height: 150px;
+}
+.Achievements-items.scroll::-webkit-scrollbar {
+    width: 4px;
+    margin-left: 5px;
+}
+ 
+.Achievements-items.scroll::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
 }
 
+.Achievements-items.scroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #6d6d6d; 
+}
+.arrow{
+    transition: all .3s ease;
+
+}
+.arrow.rotate{
+    transform: rotate(180deg);
+}
 .Achievements-items>div {
     width: 100%;
     border: 1px solid #DEE0FF;
@@ -280,6 +310,14 @@
 
 .Achievements-more-btn {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top,#ffff,transparent);
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    z-index: 9;
     display: flex;
     align-items: center;
     justify-content: center;
