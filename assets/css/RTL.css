@@ -1,3 +1,26 @@
+@font-face {
+    font-family: "IRANYekan";
+    src: url(../fonts/rtl/IRANYekanExtraBold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "IRANYekan";
+    src: url(../fonts/rtl/IRANYekanMedium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "IRANYekan";
+    src: url(../fonts/rtl/IRANYekanRegular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "IRANYekan";
+    src: url(../fonts/rtl/IRANYekanThin.ttf);
+    font-weight: 100;
+}
+*{
+    font-family: IRANYekan;
+}
 .search-box input {
     margin-right: 10px;
 }
@@ -564,4 +587,7 @@
 .dropdown-menu li h5{
     border-left: none;
     border-right: 4px solid #7983FF;
+}
+.dropdown-menu li{
+    text-align: right;
 }

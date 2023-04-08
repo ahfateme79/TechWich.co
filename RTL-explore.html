@@ -5,27 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="./assets/img/favicon/Untitled design.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/img/favicon/Untitled design.png" type="image/x-icon">
     <title>Techwich</title>
-    <!-- <link rel="stylesheet" href="./assets/css/global.css"> -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/notification.css">
     <link rel="stylesheet" href="./assets/css/explore.css">
     <link rel="stylesheet" href="./assets/css/RTL.css">
 
-        <!-- lottie-player-->
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- lottie-player-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 </head>
 
 <body>
     <!-- spinner -->
-  <div id="spinner" class="overlay" style="display: none">
-    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_a2chheio.json" background="transparent"
-        speed="1" style="width: 100%; height: 100%;" loop autoplay></lottie-player>
-</div>
+    <div id="spinner" class="overlay" style="display: none">
+        <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_a2chheio.json" background="transparent"
+            speed="1" style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+    </div>
 
 
 
-<!--  -->
+    <!--  -->
     <div class="parents">
         <div class="sidebar">
             <div class="inner-side">
@@ -34,7 +37,7 @@
                         <img src="./assets/img/Rectangle 234.png" alt="">
                         <div class="user-name">
                             <h2>غزاله مهدی زاده</h2>
-                            <div class="level">
+                            <div class="لول">
                                 <p>سطح</p>
                                 <span>2</span>
                             </div>
@@ -47,7 +50,7 @@
                         </li>
                         <li><a href=""><img src="./assets/img/Stroke/fi-rr-book-alt.svg" alt="book"> پروفایل</a></li>
                         <li class="active"><a href=""><img src="./assets/img/Stroke/fi-rr-apps.svg" alt="apps">
-                            پروفایل</a></li>
+                                پروفایل</a></li>
                         <li><a href=""><img src="./assets/img/Stroke/fi-rr-comments.svg" alt="comments"> پروفایل</a>
                         </li>
                         <li><a href=""><img src="./assets/img/Stroke/fi-rr-user.svg" alt="user"> پروفایل</a></li>
@@ -58,1476 +61,1534 @@
 
         <!--  -->
         <div class="main-content">
-    <!-- header -->
-    <header>
-        <div class="container">
-            <div class="wrapper">
-                <div class="flex">
-                    <div><a href=""><img src="./assets/img/logo/techwich_logo_and_title.png" alt="" width="200px"></a>
+            <!-- header -->
+            <header>
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flex">
+                            <div><a href=""><img src="./assets/img/logo/techwich_logo_and_title.png" alt=""
+                                        width="200px"></a>
+                            </div>
+
+                        </div>
+                        <div class="header-items">
+                            <div class="search-box-parent">
+                                <div class="search-box">
+                                    <button class="btn"><img src="./assets/img/Stroke/fi-rr-search.svg" alt=""></button>
+                                    <input type="text" placeholder="مشکل جستجو، پاسخ، سوال ...">
+                                </div>
+                            </div>
+
+                            <div class="notification-btns dropdown">
+                                <button id="notification_btn" class="btn" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="./assets/img/Stroke/fi-rr-bell-ring.svg" alt="">
+                                </button>
+
+                                <ul class="dropdown-menu" id="notification_ul">
+                                    <li class="pt-0 pb-0 dropdown-head">
+                                        <h5 class="d-inline-block m-0 p-3">نوتیفیکیشن</h5>
+                                    </li>
+                                </ul>
+                                <button class="btn">
+                                    <img src="./assets/img/Stroke/fi-rr-envelope.svg" alt="">
+                                    <span class="badge"></span>
+                                </button>
+                            </div>
+                        </div>
+
                     </div>
-                    
                 </div>
-                <div class="header-items">
-                    <div class="search-box-parent">
-                        <div class="search-box">
-                            <button class="btn"><img src="./assets/img/Stroke/fi-rr-search.svg" alt=""></button>
-                            <input type="text" placeholder="مشکل جستجو، پاسخ، سوال ...">
+            </header>
+
+            <!-- bottom-navigation -->
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-document.svg" alt="document"></a></li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-book-alt.svg" alt="book"></a></li>
+                        <li class="active"><a href=""><img src="./assets/img/Stroke/fi-rr-apps.svg" alt="apps"></a></li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-comments.svg" alt="comments"></a></li>
+                        <li><a href=""><img src="./assets/img/Stroke/fi-rr-user.svg" alt="user"></a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <!-- main -->
+            <main>
+
+
+                <section id="courses" class="section profile">
+                    <div class="container">
+                        <div class="user-info-parent">
+                            <div class="user-info">
+                                <div class="user-profile-info">
+                                    <div><img src="./assets/img/image 55.png" alt=""></div>
+                                    <div class="user-name">
+                                        <h2>قزاله مهدی زاده</h2>
+                                        <div class="لول">
+                                            <p>لول</p>
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="number">
+                                    <div>
+                                        <p>خط</p>
+                                        <span><strong>3</strong> / 15</span>
+                                    </div>
+                                    <div>
+                                        <p>فعالیت انجمن
+                                        </p>
+                                        <span><strong>1</strong> / 3</span>
+                                    </div>
+                                    <div>
+                                        <p>نکته ها
+                                        </p>
+                                        <span><strong>157</strong> / 250</span>
+                                    </div>
+                                </div>
+                                <div class="conection-parent">
+                                    <div class="c-wrapper">
+                                        <span class="conection active"></span><span
+                                            class="conection active"></span><span class="conection active"></span><span
+                                            class="conection active"></span><span class="conection active"></span><span
+                                            class="conection active"></span><span class="conection active"></span><span
+                                            class="conection active"></span><span class="conection"></span><span
+                                            class="conection"></span><span class="conection"></span><span
+                                            class="conection"></span><span class="conection"></span><span
+                                            class="conection"></span><span class="conection"></span>
+                                    </div>
+                                    <div>
+                                        <span>6 روز مانده
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-count">
+                                <div class="count-box">
+                                    <img src="./assets/img/Stroke/fi-rr-rocket.svg" alt="">
+                                    <span>
+                                        120
+                                    </span>
+                                </div>
+                                <div class="count-box">
+                                    <img src="./assets/img/Stroke/fi-rr-gem.svg" alt="">
+                                    <span>
+                                        3
+                                    </span>
+                                </div>
+                                <div class="count-box">
+                                    <img src="./assets/img/Stroke/fi-rr-heart.svg" alt="">
+                                    <span>
+                                        6
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="Achievements">
+                                <div class="Achievements-parent">
+                                    <div>
+                                        <h3>دستاوردها</h3>
+                                    </div>
+                                    <div class="Achievements-items">
+                                        <div>
+                                            <div class="Achievements-details"><span>لول</span><span>2</span></div>
+                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="Achievements-details"><span>جام سوپر
+                                                    لیگ</span><span>Silver</span>
+                                            </div>
+                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
+
+                                        </div>
+                                        <div>
+                                            <div class="Achievements-details"><span>لیگ لول</span><span>3L</span>
+                                            </div>
+                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="Achievements-details"><span>لیگ لول</span><span>3L</span>
+                                            </div>
+                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="Achievements-details"><span>لیگ لول</span><span>3L</span>
+                                            </div>
+                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="Achievements-details"><span>لیگ لول</span><span>3L</span>
+                                            </div>
+                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="Achievements-more-btn">
+                                        <button class="btn more-Achievements">بیشتر <img
+                                                src="./assets/img/Stroke/fi-rr-angle-small-down.svg" alt=""
+                                                class="arrow"></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="Team">
+                                <div class="Achievements-parent">
+                                    <div>
+                                        <h3>تیم</h3>
+                                    </div>
+                                    <div class="team-items">
+                                        <div class="team-tem">
+                                            <div>
+                                                <div class="mark">
+                                                    <img src="./assets/img/Frame 21300 (1).png" alt="">
+                                                </div>
+                                                <div class="team-detals">
+                                                    <h4>سرهای آگاه</h4>
+                                                    <p>تیم - دسامبر</p>
+                                                </div>
+                                            </div>
+                                            <div class="point">
+                                                <img src="./assets/img/Frame 21300.png" alt="">
+                                                <span>9764</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-items">
+                                        <div class="team-tem">
+                                            <div>
+                                                <div class="mark">
+                                                    <img src="./assets/img/Frame 21300 (1).png" alt="">
+                                                </div>
+                                                <div class="team-detals">
+                                                    <h4>سرهای آگاه</h4>
+                                                    <p>تیم - دسامبر</p>
+                                                </div>
+                                            </div>
+                                            <div class="point">
+                                                <img src="./assets/img/Frame 21300.png" alt="">
+                                                <span>9764</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-items">
+                                        <div class="team-tem">
+                                            <div>
+                                                <div class="mark">
+                                                    <img src="./assets/img/Frame 21300 (1).png" alt="">
+                                                </div>
+                                                <div class="team-detals">
+                                                    <h4>سرهای آگاه</h4>
+                                                    <p>تیم - دسامبر</p>
+                                                </div>
+                                            </div>
+                                            <div class="point">
+                                                <img src="./assets/img/Frame 21300.png" alt="">
+                                                <span>9764</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- courses -->
+                <section id="courses" class="section">
+                    <div class="container">
+                        <div class="heading">
+                            <h2>دوره های من</h2>
+                            <a href="">همه دوره</a>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="owl-carousel">
+                            <div class="item column">
+                                <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
+                                        class="img">
+                                    <div>
+                                        <p class="category">دسته طراحی</p>
+                                        <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
+                                    </div>
+                                </div>
+                                <div class="course-details">
+
+                                    <div>
+                                        <div>
+                                            <div class="lesson">
+                                                <p>درس کامل شد</p>
+                                                <span>3/26</span>
+                                            </div>
+                                            <div class="progerss-persentage">
+                                                <div class="progress">
+                                                    <div class="bar">
+                                                        <span class="persentage">0%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
+                                        class="img">
+                                    <div>
+                                        <p class="category">دسته طراحی</p>
+                                        <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
+                                    </div>
+                                </div>
+                                <div class="course-details">
+
+                                    <div>
+                                        <div>
+                                            <div class="lesson">
+                                                <p>درس کامل شد</p>
+                                                <span>3/26</span>
+                                            </div>
+                                            <div class="progerss-persentage">
+                                                <div class="progress">
+                                                    <div class="bar">
+                                                        <span class="persentage">0%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
+                                        class="img">
+                                    <div>
+                                        <p class="category">دسته طراحی</p>
+                                        <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
+                                    </div>
+                                </div>
+                                <div class="course-details">
+
+                                    <div>
+                                        <div>
+                                            <div class="lesson">
+                                                <p>درس کامل شد</p>
+                                                <span>3/26</span>
+                                            </div>
+                                            <div class="progerss-persentage">
+                                                <div class="progress">
+                                                    <div class="bar">
+                                                        <span class="persentage">0%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
+                                        class="img">
+                                    <div>
+                                        <p class="category">دسته طراحی</p>
+                                        <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
+                                    </div>
+                                </div>
+                                <div class="course-details">
+
+                                    <div>
+                                        <div>
+                                            <div class="lesson">
+                                                <p>درس کامل شد</p>
+                                                <span>3/26</span>
+                                            </div>
+                                            <div class="progerss-persentage">
+                                                <div class="progress">
+                                                    <div class="bar">
+                                                        <span class="persentage">0%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
+                                        class="img">
+                                    <div>
+                                        <p class="category">دسته طراحی</p>
+                                        <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
+                                    </div>
+                                </div>
+                                <div class="course-details">
+
+                                    <div>
+                                        <div>
+                                            <div class="lesson">
+                                                <p>درس کامل شد</p>
+                                                <span>3/26</span>
+                                            </div>
+                                            <div class="progerss-persentage">
+                                                <div class="progress">
+                                                    <div class="bar">
+                                                        <span class="persentage">0%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
+                                        class="img">
+                                    <div>
+                                        <p class="category">دسته طراحی</p>
+                                        <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
+                                    </div>
+                                </div>
+                                <div class="course-details">
+
+                                    <div>
+                                        <div>
+                                            <div class="lesson">
+                                                <p>درس کامل شد</p>
+                                                <span>3/26</span>
+                                            </div>
+                                            <div class="progerss-persentage">
+                                                <div class="progress">
+                                                    <div class="bar">
+                                                        <span class="persentage">0%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
+                                        class="img">
+                                    <div>
+                                        <p class="category">دسته طراحی</p>
+                                        <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
+                                    </div>
+                                </div>
+                                <div class="course-details">
+
+                                    <div>
+                                        <div>
+                                            <div class="lesson">
+                                                <p>درس کامل شد</p>
+                                                <span>3/26</span>
+                                            </div>
+                                            <div class="progerss-persentage">
+                                                <div class="progress">
+                                                    <div class="bar">
+                                                        <span class="persentage">0%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- challanges -->
+                <section id="challanges" class="section">
+                    <div class="container">
+                        <div class="heading">
+                            <h2>چالش</h2>
+                            <a href="">مشاهده همه</a>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="owl-carousel">
+                            <div class="item column">
+                                <div class="challange-detaila">
+                                    <div><img src="./assets/img/image 49.png" alt=""></div>
+                                    <div class="chalange-name">
+                                        <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
+                                        <span>شرکت بایننس</span>
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
+                                </div>
+                                <div class="offer">
+                                    <div class="gift">
+                                        <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
+                                        <span>
+                                            <strong>$1000</strong>
+                                            Gift
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="challange-detaila">
+                                    <div><img src="./assets/img/image 49.png" alt=""></div>
+                                    <div class="chalange-name">
+                                        <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
+                                        <span>شرکت بایننس</span>
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
+
+                                </div>
+                                <div class="offer">
+                                    <div class="gift">
+                                        <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
+                                        <span>
+                                            <strong>$1000</strong>
+                                            Gift
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="challange-detaila">
+                                    <div><img src="./assets/img/image 49.png" alt=""></div>
+                                    <div class="chalange-name">
+                                        <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
+                                        <span>شرکت بایننس</span>
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
+
+                                </div>
+                                <div class="offer">
+                                    <div class="gift">
+                                        <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
+                                        <span>
+                                            <strong>$1000</strong>
+                                            Gift
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="challange-detaila">
+                                    <div><img src="./assets/img/image 49.png" alt=""></div>
+                                    <div class="chalange-name">
+                                        <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
+                                        <span>شرکت بایننس</span>
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
+
+                                </div>
+                                <div class="offer">
+                                    <div class="gift">
+                                        <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
+                                        <span>
+                                            <strong>$1000</strong>
+                                            Gift
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="challange-detaila">
+                                    <div><img src="./assets/img/image 49.png" alt=""></div>
+                                    <div class="chalange-name">
+                                        <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
+                                        <span>شرکت بایننس</span>
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
+
+                                </div>
+                                <div class="offer">
+                                    <div class="gift">
+                                        <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
+                                        <span>
+                                            <strong>$1000</strong>
+                                            Gift
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="challange-detaila">
+                                    <div><img src="./assets/img/image 49.png" alt=""></div>
+                                    <div class="chalange-name">
+                                        <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
+                                        <span>شرکت بایننس</span>
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
+
+                                </div>
+                                <div class="offer">
+                                    <div class="gift">
+                                        <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
+                                        <span>
+                                            <strong>$1000</strong>
+                                            Gift
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="challange-detaila">
+                                    <div><img src="./assets/img/image 49.png" alt=""></div>
+                                    <div class="chalange-name">
+                                        <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
+                                        <span>شرکت بایننس</span>
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
+
+                                </div>
+                                <div class="offer">
+                                    <div class="gift">
+                                        <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
+                                        <span>
+                                            <strong>$1000</strong>
+                                            Gift
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="challange-detaila">
+                                    <div><img src="./assets/img/image 49.png" alt=""></div>
+                                    <div class="chalange-name">
+                                        <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
+                                        <span>شرکت بایننس</span>
+                                    </div>
+                                </div>
+                                <div class="tags">
+                                    <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
+
+                                </div>
+                                <div class="offer">
+                                    <div class="gift">
+                                        <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
+                                        <span>
+                                            <strong>$1000</strong>
+                                            Gift
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                        <div class="notification-btns dropdown">
-        <button id="notification_btn" class="btn" type="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            <img src="./assets/img/Stroke/fi-rr-bell-ring.svg" alt="">
-        </button>
+                </section>
 
-        <ul class="dropdown-menu" id="notification_ul">
-            <li class="pt-0 pb-0 dropdown-head">
-                <h5 class="d-inline-block m-0 p-3">Notifications</h5>
-            </li>
-        </ul>
-        <button class="btn">
-            <img src="./assets/img/Stroke/fi-rr-envelope.svg" alt="">
-            <span class="badge"></span>
-        </button>
-    </div>
-                </div>
 
-            </div>
+
+                <!-- competition -->
+                <section id="Competition" class="section">
+                    <div class="container">
+                        <div class="heading">
+                            <h2>رقابت
+                            </h2>
+                            <a href="">مشاهده همه</a>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="owl-carousel">
+                            <div class="item column">
+                                <div class="name">
+                                    <h1 class="title">مسابقه پایتون</h1>
+                                </div>
+                                <div class="parent">
+                                    <div class="user-profile">
+                                        <div>
+                                            <figure>
+                                                <img src="./assets/img/Rectangle 577.png" alt="">
+                                                <figcaption>باربارا</figcaption>
+                                            </figure>
+                                        </div>
+                                        <div>
+                                            <p class="vs">vs.</p>
+                                        </div>
+                                        <div>
+                                            <figure>
+                                                <img src="./assets/img/Rectangle 577.png" alt="">
+                                                <figcaption>در انتظار</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-parent">
+                                    <div>
+                                        <button class="btn dark">بپذیرید و بپیوندید</button>
+                                        <button class="btn light">رد کردن</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="name">
+                                    <h1 class="title">مسابقه پایتون</h1>
+                                </div>
+                                <div class="parent">
+                                    <div class="user-profile">
+                                        <div>
+                                            <figure>
+                                                <img src="./assets/img/Rectangle 577.png" alt="">
+                                                <figcaption>باربارا</figcaption>
+                                            </figure>
+                                        </div>
+                                        <div>
+                                            <p class="vs">vs.</p>
+                                        </div>
+                                        <div>
+                                            <figure>
+                                                <img src="./assets/img/Rectangle 577.png" alt="">
+                                                <figcaption>در انتظار</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-parent">
+                                    <div>
+                                        <button class="btn dark">بپذیرید و بپیوندید</button>
+                                        <button class="btn light">رد کردن</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="name">
+                                    <h1 class="title">مسابقه پایتون</h1>
+                                </div>
+                                <div class="parent">
+                                    <div class="user-profile">
+                                        <div>
+                                            <figure>
+                                                <img src="./assets/img/Rectangle 577.png" alt="">
+                                                <figcaption>باربارا</figcaption>
+                                            </figure>
+                                        </div>
+                                        <div>
+                                            <p class="vs">vs.</p>
+                                        </div>
+                                        <div>
+                                            <figure>
+                                                <img src="./assets/img/Rectangle 577.png" alt="">
+                                                <figcaption>در انتظار</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-parent">
+                                    <div>
+                                        <button class="btn dark">بپذیرید و بپیوندید</button>
+                                        <button class="btn light">رد کردن</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="name">
+                                    <h1 class="title">مسابقه پایتون</h1>
+                                </div>
+                                <div class="parent">
+                                    <div class="user-profile">
+                                        <div>
+                                            <figure>
+                                                <img src="./assets/img/Rectangle 577.png" alt="">
+                                                <figcaption>باربارا</figcaption>
+                                            </figure>
+                                        </div>
+                                        <div>
+                                            <p class="vs">vs.</p>
+                                        </div>
+                                        <div>
+                                            <figure>
+                                                <img src="./assets/img/Rectangle 577.png" alt="">
+                                                <figcaption>در انتظار</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-parent">
+                                    <div>
+                                        <button class="btn dark">بپذیرید و بپیوندید</button>
+                                        <button class="btn light">رد کردن</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="name">
+                                    <h1 class="title">مسابقه پایتون</h1>
+                                </div>
+                                <div class="parent">
+                                    <div class="user-profile">
+                                        <div>
+                                            <figure>
+                                                <img src="./assets/img/Rectangle 577.png" alt="">
+                                                <figcaption>باربارا</figcaption>
+                                            </figure>
+                                        </div>
+                                        <div>
+                                            <p class="vs">vs.</p>
+                                        </div>
+                                        <div>
+                                            <figure>
+                                                <img src="./assets/img/Rectangle 577.png" alt="">
+                                                <figcaption>در انتظار</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-parent">
+                                    <div>
+                                        <button class="btn dark">بپذیرید و بپیوندید</button>
+                                        <button class="btn light">رد کردن</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="name">
+                                    <h1 class="title">مسابقه پایتون</h1>
+                                </div>
+                                <div class="parent">
+                                    <div class="user-profile">
+                                        <div>
+                                            <figure>
+                                                <img src="./assets/img/Rectangle 577.png" alt="">
+                                                <figcaption>باربارا</figcaption>
+                                            </figure>
+                                        </div>
+                                        <div>
+                                            <p class="vs">vs.</p>
+                                        </div>
+                                        <div>
+                                            <figure>
+                                                <img src="./assets/img/Rectangle 577.png" alt="">
+                                                <figcaption>در انتظار</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-parent">
+                                    <div>
+                                        <button class="btn dark">بپذیرید و بپیوندید</button>
+                                        <button class="btn light">رد کردن</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <!-- Weekly لیگ -->
+                <section id="لیگ" class="section">
+                    <div class="container">
+                        <div class="heading">
+                            <h2>لیگ هفتگی</h2>
+                            <a href="">مشاهده همه</a>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="owl-carousel">
+                            <div class="item column">
+                                <div class="challange-detaila justify-content-between">
+                                    <div class="Weekly">
+                                        <div><img src="./assets/img/image 48.png" alt=""></div>
+                                        <div class="chalange-name">
+                                            <h1 class="title">پایتون برای مبتدی</h1>
+                                            <span>3 تا 10 مرداد</span>
+                                        </div>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/Group (1).png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="warning">
+                                    <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
+                                    <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
+                                </div>
+                                <div class="offer">
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="count">
+                                            57
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="challange-detaila justify-content-between">
+                                    <div class="Weekly">
+                                        <div><img src="./assets/img/image 48.png" alt=""></div>
+                                        <div class="chalange-name">
+                                            <h1 class="title">پایتون برای مبتدی</h1>
+                                            <span>3 تا 10 مرداد</span>
+                                        </div>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/Group (1).png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="warning">
+                                    <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
+                                    <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
+                                </div>
+                                <div class="offer">
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="count">
+                                            57
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="challange-detaila justify-content-between">
+                                    <div class="Weekly">
+                                        <div><img src="./assets/img/image 48.png" alt=""></div>
+                                        <div class="chalange-name">
+                                            <h1 class="title">پایتون برای مبتدی</h1>
+                                            <span>3 تا 10 مرداد</span>
+                                        </div>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/Group (1).png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="warning">
+                                    <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
+                                    <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
+                                </div>
+                                <div class="offer">
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="count">
+                                            57
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="challange-detaila justify-content-between">
+                                    <div class="Weekly">
+                                        <div><img src="./assets/img/image 48.png" alt=""></div>
+                                        <div class="chalange-name">
+                                            <h1 class="title">پایتون برای مبتدی</h1>
+                                            <span>3 تا 10 مرداد</span>
+                                        </div>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/Group (1).png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="warning">
+                                    <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
+                                    <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
+                                </div>
+                                <div class="offer">
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="count">
+                                            57
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="challange-detaila justify-content-between">
+                                    <div class="Weekly">
+                                        <div><img src="./assets/img/image 48.png" alt=""></div>
+                                        <div class="chalange-name">
+                                            <h1 class="title">پایتون برای مبتدی</h1>
+                                            <span>3 تا 10 مرداد</span>
+                                        </div>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/Group (1).png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="warning">
+                                    <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
+                                    <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
+                                </div>
+                                <div class="offer">
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="count">
+                                            57
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="challange-detaila justify-content-between">
+                                    <div class="Weekly">
+                                        <div><img src="./assets/img/image 48.png" alt=""></div>
+                                        <div class="chalange-name">
+                                            <h1 class="title">پایتون برای مبتدی</h1>
+                                            <span>3 تا 10 مرداد</span>
+                                        </div>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/Group (1).png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="warning">
+                                    <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
+                                    <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
+                                </div>
+                                <div class="offer">
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="count">
+                                            57
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column">
+                                <div class="challange-detaila justify-content-between">
+                                    <div class="Weekly">
+                                        <div><img src="./assets/img/image 48.png" alt=""></div>
+                                        <div class="chalange-name">
+                                            <h1 class="title">پایتون برای مبتدی</h1>
+                                            <span>3 تا 10 مرداد</span>
+                                        </div>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/Group (1).png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="warning">
+                                    <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
+                                    <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
+                                </div>
+                                <div class="offer">
+                                    <div>
+                                        <div class="off-time">
+                                            <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
+                                            <p>07 : 20 : 14 : 33</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="count">
+                                            57
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- Super لیگ -->
+                <section id="Super-لیگ" class="section">
+                    <div class="container">
+                        <div class="heading">
+                            <h2>سوپر لیگ</h2>
+                            <a href="">مشاهده همه</a>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="owl-carousel">
+                            <div class="item column bg-light">
+                                <div class="edit-details">
+                                    <div class="edit-parent">
+                                        <button class="btn edit">
+                                            <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
+                                        </button>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/image 68.png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="name column">
+                                    <img src="./assets/img/image 48.png" alt="">
+                                    <h1 class="title m-1">مسابقه پایتون</h1>
+                                    <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و
+                                        بساز
+                                        نکته ها
+                                        برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
+                                </div>
+                                <div class="user-avatar">
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="count-parent">
+                                    <span class="count">
+                                        57
+                                    </span>
+                                </div>
+                                <div class="btn-parent w-auto">
+                                    <div>
+                                        <button class="btn dark">تیم
+                                            چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column bg-light">
+                                <div class="edit-details">
+                                    <div class="edit-parent">
+                                        <button class="btn edit">
+                                            <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
+                                        </button>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/image 68.png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="name column">
+                                    <img src="./assets/img/image 48.png" alt="">
+                                    <h1 class="title m-1">مسابقه پایتون</h1>
+                                    <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و
+                                        بساز
+                                        نکته ها
+                                        برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
+                                </div>
+                                <div class="user-avatar">
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="count-parent">
+                                    <span class="count">
+                                        57
+                                    </span>
+                                </div>
+                                <div class="btn-parent w-auto">
+                                    <div>
+                                        <button class="btn dark">تیم
+                                            چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""> </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column bg-light">
+                                <div class="edit-details">
+                                    <div class="edit-parent">
+                                        <button class="btn edit">
+                                            <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
+                                        </button>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/image 68.png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="name column">
+                                    <img src="./assets/img/image 48.png" alt="">
+                                    <h1 class="title m-1">مسابقه پایتون</h1>
+                                    <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و
+                                        بساز
+                                        نکته ها
+                                        برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
+                                </div>
+                                <div class="user-avatar">
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="count-parent">
+                                    <span class="count">
+                                        57
+                                    </span>
+                                </div>
+                                <div class="btn-parent w-auto">
+                                    <div>
+                                        <button class="btn dark">تیم
+                                            چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""> </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column bg-light">
+                                <div class="edit-details">
+                                    <div class="edit-parent">
+                                        <button class="btn edit">
+                                            <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
+                                        </button>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/image 68.png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="name column">
+                                    <img src="./assets/img/image 48.png" alt="">
+                                    <h1 class="title m-1">مسابقه پایتون</h1>
+                                    <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و
+                                        بساز
+                                        نکته ها
+                                        برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
+                                </div>
+                                <div class="user-avatar">
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="count-parent">
+                                    <span class="count">
+                                        57
+                                    </span>
+                                </div>
+                                <div class="btn-parent w-auto">
+                                    <div>
+                                        <button class="btn dark">تیم
+                                            چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""> </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column bg-light">
+                                <div class="edit-details">
+                                    <div class="edit-parent">
+                                        <button class="btn edit">
+                                            <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
+                                        </button>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/image 68.png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="name column">
+                                    <img src="./assets/img/image 48.png" alt="">
+                                    <h1 class="title m-1">مسابقه پایتون</h1>
+                                    <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و
+                                        بساز
+                                        نکته ها
+                                        برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
+                                </div>
+                                <div class="user-avatar">
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="count-parent">
+                                    <span class="count">
+                                        57
+                                    </span>
+                                </div>
+                                <div class="btn-parent w-auto">
+                                    <div>
+                                        <button class="btn dark">تیم
+                                            چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""> </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column bg-light">
+                                <div class="edit-details">
+                                    <div class="edit-parent">
+                                        <button class="btn edit">
+                                            <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
+                                        </button>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/image 68.png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="name column">
+                                    <img src="./assets/img/image 48.png" alt="">
+                                    <h1 class="title m-1">مسابقه پایتون</h1>
+                                    <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و
+                                        بساز
+                                        نکته ها
+                                        برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
+                                </div>
+                                <div class="user-avatar">
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="count-parent">
+                                    <span class="count">
+                                        57
+                                    </span>
+                                </div>
+                                <div class="btn-parent w-auto">
+                                    <div>
+                                        <button class="btn dark">تیم
+                                            چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""> </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item column bg-light">
+                                <div class="edit-details">
+                                    <div class="edit-parent">
+                                        <button class="btn edit">
+                                            <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
+                                        </button>
+                                    </div>
+                                    <div class="images">
+                                        <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow"
+                                            alt=""><img src="./assets/img/image 68.png" alt="" class="coin">
+                                    </div>
+                                </div>
+                                <div class="name column">
+                                    <img src="./assets/img/image 48.png" alt="">
+                                    <h1 class="title m-1">مسابقه پایتون</h1>
+                                    <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و
+                                        بساز
+                                        نکته ها
+                                        برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
+                                </div>
+                                <div class="user-avatar">
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/Ellipse 75.png" alt="">
+                                        <figcaption>شما</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="count-parent">
+                                    <span class="count">
+                                        57
+                                    </span>
+                                </div>
+                                <div class="btn-parent w-auto">
+                                    <div>
+                                        <button class="btn dark">تیم
+                                            چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""> </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <div class="space"></div>
+            </main>
+
         </div>
-    </header>
-
-    <!-- bottom-navigation -->
-    <nav>
-        <div>
-            <ul>
-                <li><a href=""><img src="./assets/img/Stroke/fi-rr-document.svg" alt="document"></a></li>
-                <li><a href=""><img src="./assets/img/Stroke/fi-rr-book-alt.svg" alt="book"></a></li>
-                <li class="active"><a href=""><img src="./assets/img/Stroke/fi-rr-apps.svg" alt="apps"></a></li>
-                <li><a href=""><img src="./assets/img/Stroke/fi-rr-comments.svg" alt="comments"></a></li>
-                <li><a href=""><img src="./assets/img/Stroke/fi-rr-user.svg" alt="user"></a></li>
-            </ul>
-        </div>
-    </nav>
-
-
-    <!-- main -->
-    <main>
-
-
-        <section id="courses" class="section profile">
-            <div class="container">
-                <div class="user-info-parent">
-                    <div class="user-info">
-                        <div class="user-profile-info">
-                            <div><img src="./assets/img/image 55.png" alt=""></div>
-                            <div class="user-name">
-                                <h2>قزاله مهدی زاده</h2>
-                                <div class="level">
-                                    <p>لول</p>
-                                    <span>2</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="number">
-                            <div>
-                                <p>خط</p>
-                                <span><strong>3</strong> / 15</span>
-                            </div>
-                            <div>
-                                <p>فعالیت انجمن
-                                </p>
-                                <span><strong>1</strong> / 3</span>
-                            </div>
-                            <div>
-                                <p>نکته ها
-                                </p>
-                                <span><strong>157</strong> / 250</span>
-                            </div>
-                        </div>
-                        <div class="conection-parent">
-                            <div class="c-wrapper">
-                                <span class="conection active"></span><span class="conection active"></span><span
-                                    class="conection active"></span><span class="conection active"></span><span
-                                    class="conection active"></span><span class="conection active"></span><span
-                                    class="conection active"></span><span class="conection active"></span><span
-                                    class="conection"></span><span class="conection"></span><span
-                                    class="conection"></span><span class="conection"></span><span
-                                    class="conection"></span><span class="conection"></span><span
-                                    class="conection"></span>
-                            </div>
-                            <div>
-                                <span>6 روز مانده
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="user-count">
-                        <div class="count-box">
-                            <img src="./assets/img/Stroke/fi-rr-rocket.svg" alt="">
-                            <span>
-                                120
-                            </span>
-                        </div>
-                        <div class="count-box">
-                            <img src="./assets/img/Stroke/fi-rr-gem.svg" alt="">
-                            <span>
-                                3
-                            </span>
-                        </div>
-                        <div class="count-box">
-                            <img src="./assets/img/Stroke/fi-rr-heart.svg" alt="">
-                            <span>
-                                6
-                            </span>
-                        </div>
-                    </div>
-                    <div class="Achievements">
-                        <div class="Achievements-parent">
-                            <div>
-                                <h3>دستاوردها</h3>
-                            </div>
-                            <div class="Achievements-items">
-                                <div>
-                                    <div class="Achievements-details"><span>لول</span><span>2</span></div>
-                                    <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
-                                </div>
-                                <div>
-                                    <div class="Achievements-details"><span>جام سوپر لیگ
-                                        </span><span>Silver</span>
-                                    </div>
-                                    <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
-
-                                </div>
-                                <div>
-                                    <div class="Achievements-details"><span>سطح لیگ</span><span>3L</span></div>
-                                    <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="Achievements-more-btn">
-                                <button class="btn">بیشتر <img src="./assets/img/Stroke/fi-rr-angle-small-down.svg"
-                                        alt=""></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="Team">
-                        <div class="Achievements-parent">
-                            <div>
-                                <h3>تیم</h3>
-                            </div>
-                            <div class="team-items">
-                                <div class="team-tem">
-                                    <div>
-                                        <div class="mark">
-                                            <img src="./assets/img/Frame 21300 (1).png" alt="">
-                                        </div>
-                                        <div class="team-detals">
-                                            <h4>سرهای آگاه</h4>
-                                            <p>تیم - دسامبر</p>
-                                        </div>
-                                    </div>
-                                    <div class="point">
-                                        <img src="./assets/img/Frame 21300.png" alt="">
-                                        <span>9764</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-items">
-                                <div class="team-tem">
-                                    <div>
-                                        <div class="mark">
-                                            <img src="./assets/img/Frame 21300 (1).png" alt="">
-                                        </div>
-                                        <div class="team-detals">
-                                            <h4>سرهای آگاه</h4>
-                                            <p>تیم - دسامبر</p>
-                                        </div>
-                                    </div>
-                                    <div class="point">
-                                        <img src="./assets/img/Frame 21300.png" alt="">
-                                        <span>9764</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-items">
-                                <div class="team-tem">
-                                    <div>
-                                        <div class="mark">
-                                            <img src="./assets/img/Frame 21300 (1).png" alt="">
-                                        </div>
-                                        <div class="team-detals">
-                                            <h4>سرهای آگاه</h4>
-                                            <p>تیم - دسامبر</p>
-                                        </div>
-                                    </div>
-                                    <div class="point">
-                                        <img src="./assets/img/Frame 21300.png" alt="">
-                                        <span>9764</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                
-                </div>
-            </div>
-        </section>
-
-        <!-- courses -->
-        <section id="courses" class="section">
-            <div class="container">
-                <div class="heading">
-                    <h2>دوره های من</h2>
-                    <a href="">همه دوره</a>
-                </div>
-            </div>
-            <div class="container">
-                <div class="item-list">
-                    <div class="item column">
-                        <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
-                                class="img">
-                            <div>
-                                <p class="category">دسته طراحی</p>
-                                <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
-                            </div>
-                        </div>
-                        <div class="course-details">
-
-                            <div>
-                                <div>
-                                    <div class="lesson">
-                                        <p>درس کامل شد</p>
-                                        <span>3/26</span>
-                                    </div>
-                                    <div class="progerss-persentage">
-                                        <div class="progress">
-                                            <div class="bar">
-                                                <span class="persentage">0%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
-                                class="img">
-                            <div>
-                                <p class="category">دسته طراحی</p>
-                                <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
-                            </div>
-                        </div>
-                        <div class="course-details">
-
-                            <div>
-                                <div>
-                                    <div class="lesson">
-                                        <p>درس کامل شد</p>
-                                        <span>3/26</span>
-                                    </div>
-                                    <div class="progerss-persentage">
-                                        <div class="progress">
-                                            <div class="bar">
-                                                <span class="persentage">0%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
-                                class="img">
-                            <div>
-                                <p class="category">دسته طراحی</p>
-                                <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
-                            </div>
-                        </div>
-                        <div class="course-details">
-
-                            <div>
-                                <div>
-                                    <div class="lesson">
-                                        <p>درس کامل شد</p>
-                                        <span>3/26</span>
-                                    </div>
-                                    <div class="progerss-persentage">
-                                        <div class="progress">
-                                            <div class="bar">
-                                                <span class="persentage">0%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
-                                class="img">
-                            <div>
-                                <p class="category">دسته طراحی</p>
-                                <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
-                            </div>
-                        </div>
-                        <div class="course-details">
-
-                            <div>
-                                <div>
-                                    <div class="lesson">
-                                        <p>درس کامل شد</p>
-                                        <span>3/26</span>
-                                    </div>
-                                    <div class="progerss-persentage">
-                                        <div class="progress">
-                                            <div class="bar">
-                                                <span class="persentage">0%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
-                                class="img">
-                            <div>
-                                <p class="category">دسته طراحی</p>
-                                <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
-                            </div>
-                        </div>
-                        <div class="course-details">
-
-                            <div>
-                                <div>
-                                    <div class="lesson">
-                                        <p>درس کامل شد</p>
-                                        <span>3/26</span>
-                                    </div>
-                                    <div class="progerss-persentage">
-                                        <div class="progress">
-                                            <div class="bar">
-                                                <span class="persentage">0%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
-                                class="img">
-                            <div>
-                                <p class="category">دسته طراحی</p>
-                                <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
-                            </div>
-                        </div>
-                        <div class="course-details">
-
-                            <div>
-                                <div>
-                                    <div class="lesson">
-                                        <p>درس کامل شد</p>
-                                        <span>3/26</span>
-                                    </div>
-                                    <div class="progerss-persentage">
-                                        <div class="progress">
-                                            <div class="bar">
-                                                <span class="persentage">0%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="course-details-section"><img src="./assets/img/image 48.png" alt="image"
-                                class="img">
-                            <div>
-                                <p class="category">دسته طراحی</p>
-                                <h1 class="title">دوره UI/UX حرفه ای برای مبتدیان</h1>
-                            </div>
-                        </div>
-                        <div class="course-details">
-
-                            <div>
-                                <div>
-                                    <div class="lesson">
-                                        <p>درس کامل شد</p>
-                                        <span>3/26</span>
-                                    </div>
-                                    <div class="progerss-persentage">
-                                        <div class="progress">
-                                            <div class="bar">
-                                                <span class="persentage">0%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- challanges -->
-        <section id="challanges" class="section">
-            <div class="container">
-                <div class="heading">
-                    <h2>چالش</h2>
-                    <a href="">مشاهده همه</a>
-                </div>
-            </div>
-            <div class="container">
-                <div class="item-list">
-                    <div class="item column">
-                        <div class="challange-detaila">
-                            <div><img src="./assets/img/image 49.png" alt=""></div>
-                            <div class="chalange-name">
-                                <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
-                                <span>شرکت بایننس</span>
-                            </div>
-                        </div>
-                        <div class="tags">
-                            <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
-                        </div>
-                        <div class="offer">
-                            <div class="gift">
-                                <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
-                                <span>
-                                    <strong>$1000</strong>
-                                    Gift
-                                </span>
-                            </div>
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="challange-detaila">
-                            <div><img src="./assets/img/image 49.png" alt=""></div>
-                            <div class="chalange-name">
-                                <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
-                                <span>شرکت بایننس</span>
-                            </div>
-                        </div>
-                        <div class="tags">
-                            <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
-
-                        </div>
-                        <div class="offer">
-                            <div class="gift">
-                                <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
-                                <span>
-                                    <strong>$1000</strong>
-                                    Gift
-                                </span>
-                            </div>
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="challange-detaila">
-                            <div><img src="./assets/img/image 49.png" alt=""></div>
-                            <div class="chalange-name">
-                                <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
-                                <span>شرکت بایننس</span>
-                            </div>
-                        </div>
-                        <div class="tags">
-                            <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
-
-                        </div>
-                        <div class="offer">
-                            <div class="gift">
-                                <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
-                                <span>
-                                    <strong>$1000</strong>
-                                    Gift
-                                </span>
-                            </div>
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="challange-detaila">
-                            <div><img src="./assets/img/image 49.png" alt=""></div>
-                            <div class="chalange-name">
-                                <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
-                                <span>شرکت بایننس</span>
-                            </div>
-                        </div>
-                        <div class="tags">
-                            <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
-
-                        </div>
-                        <div class="offer">
-                            <div class="gift">
-                                <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
-                                <span>
-                                    <strong>$1000</strong>
-                                    Gift
-                                </span>
-                            </div>
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="challange-detaila">
-                            <div><img src="./assets/img/image 49.png" alt=""></div>
-                            <div class="chalange-name">
-                                <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
-                                <span>شرکت بایننس</span>
-                            </div>
-                        </div>
-                        <div class="tags">
-                            <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
-
-                        </div>
-                        <div class="offer">
-                            <div class="gift">
-                                <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
-                                <span>
-                                    <strong>$1000</strong>
-                                    Gift
-                                </span>
-                            </div>
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="challange-detaila">
-                            <div><img src="./assets/img/image 49.png" alt=""></div>
-                            <div class="chalange-name">
-                                <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
-                                <span>شرکت بایننس</span>
-                            </div>
-                        </div>
-                        <div class="tags">
-                            <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
-
-                        </div>
-                        <div class="offer">
-                            <div class="gift">
-                                <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
-                                <span>
-                                    <strong>$1000</strong>
-                                    Gift
-                                </span>
-                            </div>
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="challange-detaila">
-                            <div><img src="./assets/img/image 49.png" alt=""></div>
-                            <div class="chalange-name">
-                                <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
-                                <span>شرکت بایننس</span>
-                            </div>
-                        </div>
-                        <div class="tags">
-                            <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
-
-                        </div>
-                        <div class="offer">
-                            <div class="gift">
-                                <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
-                                <span>
-                                    <strong>$1000</strong>
-                                    Gift
-                                </span>
-                            </div>
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="challange-detaila">
-                            <div><img src="./assets/img/image 49.png" alt=""></div>
-                            <div class="chalange-name">
-                                <h1 class="title">بسته Icoin را برای یک برند جدید طراحی کنید</h1>
-                                <span>شرکت بایننس</span>
-                            </div>
-                        </div>
-                        <div class="tags">
-                            <span>فیگما</span><span>ادوبی ایکس دی</span><span>میرو</span>
-
-                        </div>
-                        <div class="offer">
-                            <div class="gift">
-                                <img src="./assets/img/Stroke/fi-rr-gift.svg" alt="">
-                                <span>
-                                    <strong>$1000</strong>
-                                    Gift
-                                </span>
-                            </div>
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-
-
-        <!-- competition -->
-        <section id="Competition" class="section">
-            <div class="container">
-                <div class="heading">
-                    <h2>رقابت
-                    </h2>
-                    <a href="">مشاهده همه</a>
-                </div>
-            </div>
-            <div class="container">
-                <div class="item-list">
-                    <div class="item column">
-                        <div class="name">
-                            <h1 class="title">مسابقه پایتون</h1>
-                        </div>
-                        <div class="parent">
-                            <div class="user-profile">
-                                <div>
-                                    <figure>
-                                        <img src="./assets/img/Rectangle 577.png" alt="">
-                                        <figcaption>باربارا</figcaption>
-                                    </figure>
-                                </div>
-                                <div>
-                                    <p class="vs">vs.</p>
-                                </div>
-                                <div>
-                                    <figure>
-                                        <img src="./assets/img/Rectangle 577.png" alt="">
-                                        <figcaption>در انتظار</figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="btn-parent">
-                            <div>
-                                <button class="btn dark">بپذیرید و بپیوندید</button>
-                                <button class="btn light">رد کردن</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="name">
-                            <h1 class="title">مسابقه پایتون</h1>
-                        </div>
-                        <div class="parent">
-                            <div class="user-profile">
-                                <div>
-                                    <figure>
-                                        <img src="./assets/img/Rectangle 577.png" alt="">
-                                        <figcaption>باربارا</figcaption>
-                                    </figure>
-                                </div>
-                                <div>
-                                    <p class="vs">vs.</p>
-                                </div>
-                                <div>
-                                    <figure>
-                                        <img src="./assets/img/Rectangle 577.png" alt="">
-                                        <figcaption>در انتظار</figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="btn-parent">
-                            <div>
-                                <button class="btn dark">بپذیرید و بپیوندید</button>
-                                <button class="btn light">رد کردن</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="name">
-                            <h1 class="title">مسابقه پایتون</h1>
-                        </div>
-                        <div class="parent">
-                            <div class="user-profile">
-                                <div>
-                                    <figure>
-                                        <img src="./assets/img/Rectangle 577.png" alt="">
-                                        <figcaption>باربارا</figcaption>
-                                    </figure>
-                                </div>
-                                <div>
-                                    <p class="vs">vs.</p>
-                                </div>
-                                <div>
-                                    <figure>
-                                        <img src="./assets/img/Rectangle 577.png" alt="">
-                                        <figcaption>در انتظار</figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="btn-parent">
-                            <div>
-                                <button class="btn dark">بپذیرید و بپیوندید</button>
-                                <button class="btn light">رد کردن</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="name">
-                            <h1 class="title">مسابقه پایتون</h1>
-                        </div>
-                        <div class="parent">
-                            <div class="user-profile">
-                                <div>
-                                    <figure>
-                                        <img src="./assets/img/Rectangle 577.png" alt="">
-                                        <figcaption>باربارا</figcaption>
-                                    </figure>
-                                </div>
-                                <div>
-                                    <p class="vs">vs.</p>
-                                </div>
-                                <div>
-                                    <figure>
-                                        <img src="./assets/img/Rectangle 577.png" alt="">
-                                        <figcaption>در انتظار</figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="btn-parent">
-                            <div>
-                                <button class="btn dark">بپذیرید و بپیوندید</button>
-                                <button class="btn light">رد کردن</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="name">
-                            <h1 class="title">مسابقه پایتون</h1>
-                        </div>
-                        <div class="parent">
-                            <div class="user-profile">
-                                <div>
-                                    <figure>
-                                        <img src="./assets/img/Rectangle 577.png" alt="">
-                                        <figcaption>باربارا</figcaption>
-                                    </figure>
-                                </div>
-                                <div>
-                                    <p class="vs">vs.</p>
-                                </div>
-                                <div>
-                                    <figure>
-                                        <img src="./assets/img/Rectangle 577.png" alt="">
-                                        <figcaption>در انتظار</figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="btn-parent">
-                            <div>
-                                <button class="btn dark">بپذیرید و بپیوندید</button>
-                                <button class="btn light">رد کردن</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="name">
-                            <h1 class="title">مسابقه پایتون</h1>
-                        </div>
-                        <div class="parent">
-                            <div class="user-profile">
-                                <div>
-                                    <figure>
-                                        <img src="./assets/img/Rectangle 577.png" alt="">
-                                        <figcaption>باربارا</figcaption>
-                                    </figure>
-                                </div>
-                                <div>
-                                    <p class="vs">vs.</p>
-                                </div>
-                                <div>
-                                    <figure>
-                                        <img src="./assets/img/Rectangle 577.png" alt="">
-                                        <figcaption>در انتظار</figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="btn-parent">
-                            <div>
-                                <button class="btn dark">بپذیرید و بپیوندید</button>
-                                <button class="btn light">رد کردن</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- Weekly league -->
-        <section id="league" class="section">
-            <div class="container">
-                <div class="heading">
-                    <h2>لیگ هفتگی</h2>
-                    <a href="">مشاهده همه</a>
-                </div>
-            </div>
-            <div class="container">
-                <div class="item-list">
-                    <div class="item column">
-                        <div class="challange-detaila justify-content-between">
-                            <div class="Weekly">
-                                <div><img src="./assets/img/image 48.png" alt=""></div>
-                                <div class="chalange-name">
-                                    <h1 class="title">پایتون برای مبتدی</h1>
-                                    <span>3 تا 10 مرداد</span>
-                                </div>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/Group (1).png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="warning">
-                            <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
-                            <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
-                        </div>
-                        <div class="offer">
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="count">
-                                    57
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="challange-detaila justify-content-between">
-                            <div class="Weekly">
-                                <div><img src="./assets/img/image 48.png" alt=""></div>
-                                <div class="chalange-name">
-                                    <h1 class="title">پایتون برای مبتدی</h1>
-                                    <span>3 تا 10 مرداد</span>
-                                </div>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/Group (1).png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="warning">
-                            <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
-                            <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
-                        </div>
-                        <div class="offer">
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="count">
-                                    57
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="challange-detaila justify-content-between">
-                            <div class="Weekly">
-                                <div><img src="./assets/img/image 48.png" alt=""></div>
-                                <div class="chalange-name">
-                                    <h1 class="title">پایتون برای مبتدی</h1>
-                                    <span>3 تا 10 مرداد</span>
-                                </div>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/Group (1).png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="warning">
-                            <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
-                            <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
-                        </div>
-                        <div class="offer">
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="count">
-                                    57
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="challange-detaila justify-content-between">
-                            <div class="Weekly">
-                                <div><img src="./assets/img/image 48.png" alt=""></div>
-                                <div class="chalange-name">
-                                    <h1 class="title">پایتون برای مبتدی</h1>
-                                    <span>3 تا 10 مرداد</span>
-                                </div>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/Group (1).png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="warning">
-                            <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
-                            <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
-                        </div>
-                        <div class="offer">
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="count">
-                                    57
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="challange-detaila justify-content-between">
-                            <div class="Weekly">
-                                <div><img src="./assets/img/image 48.png" alt=""></div>
-                                <div class="chalange-name">
-                                    <h1 class="title">پایتون برای مبتدی</h1>
-                                    <span>3 تا 10 مرداد</span>
-                                </div>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/Group (1).png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="warning">
-                            <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
-                            <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
-                        </div>
-                        <div class="offer">
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="count">
-                                    57
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="challange-detaila justify-content-between">
-                            <div class="Weekly">
-                                <div><img src="./assets/img/image 48.png" alt=""></div>
-                                <div class="chalange-name">
-                                    <h1 class="title">پایتون برای مبتدی</h1>
-                                    <span>3 تا 10 مرداد</span>
-                                </div>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/Group (1).png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="warning">
-                            <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
-                            <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
-                        </div>
-                        <div class="offer">
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="count">
-                                    57
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column">
-                        <div class="challange-detaila justify-content-between">
-                            <div class="Weekly">
-                                <div><img src="./assets/img/image 48.png" alt=""></div>
-                                <div class="chalange-name">
-                                    <h1 class="title">پایتون برای مبتدی</h1>
-                                    <span>3 تا 10 مرداد</span>
-                                </div>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/Group (1).png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="warning">
-                            <img src="./assets/img/Stroke/fi-rr-exclamation.svg" alt="">
-                            <p>این یک نکته است پس ادامه دهید و نکاتی را برای خودتان مشخص کنید.</p>
-                        </div>
-                        <div class="offer">
-                            <div>
-                                <div class="off-time">
-                                    <img src="./assets/img/Stroke/fi-rr-time-quarter-past.svg" alt="">
-                                    <p>07 : 20 : 14 : 33</p>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="count">
-                                    57
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Super league -->
-        <section id="Super-league" class="section">
-            <div class="container">
-                <div class="heading">
-                    <h2>سوپر لیگ</h2>
-                    <a href="">مشاهده همه</a>
-                </div>
-            </div>
-            <div class="container">
-                <div class="item-list">
-                    <div class="item column bg-light">
-                        <div class="edit-details">
-                            <div class="edit-parent">
-                                <button class="btn edit">
-                                    <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
-                                </button>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/image 68.png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="name column">
-                            <img src="./assets/img/image 48.png" alt="">
-                            <h1 class="title m-1">مسابقه پایتون</h1>
-                            <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و بساز
-                                نکته ها
-                                برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
-                        </div>
-                        <div class="user-avatar">
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                        </div>
-                        <div class="count-parent">
-                            <span class="count">
-                                57
-                            </span>
-                        </div>
-                        <div class="btn-parent w-auto">
-                            <div>
-                                <button class="btn dark">تیم
-                                    چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""></button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column bg-light">
-                        <div class="edit-details">
-                            <div class="edit-parent">
-                                <button class="btn edit">
-                                    <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
-                                </button>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/image 68.png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="name column">
-                            <img src="./assets/img/image 48.png" alt="">
-                            <h1 class="title m-1">مسابقه پایتون</h1>
-                            <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و بساز
-                                نکته ها
-                                برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
-                        </div>
-                        <div class="user-avatar">
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                        </div>
-                        <div class="count-parent">
-                            <span class="count">
-                                57
-                            </span>
-                        </div>
-                        <div class="btn-parent w-auto">
-                            <div>
-                                <button class="btn dark">تیم
-                                    چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""> </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column bg-light">
-                        <div class="edit-details">
-                            <div class="edit-parent">
-                                <button class="btn edit">
-                                    <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
-                                </button>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/image 68.png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="name column">
-                            <img src="./assets/img/image 48.png" alt="">
-                            <h1 class="title m-1">مسابقه پایتون</h1>
-                            <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و بساز
-                                نکته ها
-                                برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
-                        </div>
-                        <div class="user-avatar">
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                        </div>
-                        <div class="count-parent">
-                            <span class="count">
-                                57
-                            </span>
-                        </div>
-                        <div class="btn-parent w-auto">
-                            <div>
-                                <button class="btn dark">تیم
-                                    چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""> </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column bg-light">
-                        <div class="edit-details">
-                            <div class="edit-parent">
-                                <button class="btn edit">
-                                    <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
-                                </button>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/image 68.png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="name column">
-                            <img src="./assets/img/image 48.png" alt="">
-                            <h1 class="title m-1">مسابقه پایتون</h1>
-                            <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و بساز
-                                نکته ها
-                                برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
-                        </div>
-                        <div class="user-avatar">
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                        </div>
-                        <div class="count-parent">
-                            <span class="count">
-                                57
-                            </span>
-                        </div>
-                        <div class="btn-parent w-auto">
-                            <div>
-                                <button class="btn dark">تیم
-                                    چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""> </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column bg-light">
-                        <div class="edit-details">
-                            <div class="edit-parent">
-                                <button class="btn edit">
-                                    <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
-                                </button>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/image 68.png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="name column">
-                            <img src="./assets/img/image 48.png" alt="">
-                            <h1 class="title m-1">مسابقه پایتون</h1>
-                            <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و بساز
-                                نکته ها
-                                برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
-                        </div>
-                        <div class="user-avatar">
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                        </div>
-                        <div class="count-parent">
-                            <span class="count">
-                                57
-                            </span>
-                        </div>
-                        <div class="btn-parent w-auto">
-                            <div>
-                                <button class="btn dark">تیم
-                                    چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""> </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column bg-light">
-                        <div class="edit-details">
-                            <div class="edit-parent">
-                                <button class="btn edit">
-                                    <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
-                                </button>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/image 68.png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="name column">
-                            <img src="./assets/img/image 48.png" alt="">
-                            <h1 class="title m-1">مسابقه پایتون</h1>
-                            <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و بساز
-                                نکته ها
-                                برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
-                        </div>
-                        <div class="user-avatar">
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                        </div>
-                        <div class="count-parent">
-                            <span class="count">
-                                57
-                            </span>
-                        </div>
-                        <div class="btn-parent w-auto">
-                            <div>
-                                <button class="btn dark">تیم
-                                    چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""> </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item column bg-light">
-                        <div class="edit-details">
-                            <div class="edit-parent">
-                                <button class="btn edit">
-                                    <img src="./assets/img/Stroke/fi-rr-edit.svg" alt="">
-                                </button>
-                            </div>
-                            <div class="images">
-                                <img src="./assets/img/Stroke/fi-rr-arrow-small-up.svg" class="arrow" alt=""><img
-                                    src="./assets/img/image 68.png" alt="" class="coin">
-                            </div>
-                        </div>
-                        <div class="name column">
-                            <img src="./assets/img/image 48.png" alt="">
-                            <h1 class="title m-1">مسابقه پایتون</h1>
-                            <p><img src="./assets/img/Stroke/fi-rr-shield-exclamation.svg" alt="">ادامه بده و بساز
-                                نکته ها
-                                برای تیم شما. تیم شما به کمک شما نیاز دارد!!</p>
-                        </div>
-                        <div class="user-avatar">
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                            <figure>
-                                <img src="./assets/img/Ellipse 75.png" alt="">
-                                <figcaption>شما</figcaption>
-                            </figure>
-                        </div>
-                        <div class="count-parent">
-                            <span class="count">
-                                57
-                            </span>
-                        </div>
-                        <div class="btn-parent w-auto">
-                            <div>
-                                <button class="btn dark">تیم
-                                    چت کردن <img src="./assets/img/Stroke/fi-rr-comment.svg" alt=""> </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-
-        <div class="space"></div>
-    </main>
-
-    </div>
     </div>
 
-
-
-
-
-
-
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/search.js"></script>
     <script src="./assets/js/script.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/spinner.js"></script>
+    <script src="./assets/js/hour.js"></script>
+    <script src="./assets/js/notification.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            dot: true,
+            rtl: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1.2,
+                    nav: true
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+
+        let more = document.querySelector('.more-Achievements')
+        let archivment = document.querySelector('.Achievements-items')
+        let arrow = document.querySelector('.arrow')
+
+        more.addEventListener('click', () => {
+            archivment.classList.toggle('scroll')
+            arrow.classList.toggle('rotate')
+        })
+    </script>
+
 </body>
 
 </html>
