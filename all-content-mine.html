@@ -8,8 +8,11 @@
     <link rel="shortcut icon" href="./assets/img/favicon/Untitled design.png" type="image/x-icon">
     <title>Techwich</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="./assets/css/user-content.css">
     <link rel="stylesheet" href="./assets/css/notification.css">
+    <link rel="stylesheet" href="./assets/css/darkMood.css">
 
     <!-- lottie-player-->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -167,7 +170,7 @@
                                                 alt=""> Add
                                             New Content</button>
                                     </div>
-                                    <div class="content-parent active">
+                                    <div class="owl-carousel active">
                                         <div class="content-item">
                                             <div class="container">
                                                 <div class="content-child">
@@ -179,7 +182,7 @@
                                                         </div>
                                                         <div>
                                                             <video src=""></video>
-                                                            <img src="./assets/img/Rectangle 738.png" alt="">
+                                                            <img src="./assets/img/istockphoto-1303835958-612x612.jpg" alt="">
                                                         </div>
                                                         <div class="play-btn">
                                                             <button class="btn"><img
@@ -218,7 +221,7 @@
                                                         </div>
                                                         <div>
                                                             <video src=""></video>
-                                                            <img src="./assets/img/Rectangle 738.png" alt="">
+                                                            <img src="./assets/img/istockphoto-1303835958-612x612.jpg" alt="">
                                                         </div>
                                                         <div class="play-btn">
                                                             <button class="btn"><img
@@ -257,7 +260,7 @@
                                                         </div>
                                                         <div>
                                                             <video src=""></video>
-                                                            <img src="./assets/img/Rectangle 738.png" alt="">
+                                                            <img src="./assets/img/istockphoto-1303835958-612x612.jpg" alt="">
                                                         </div>
                                                         <div class="play-btn">
                                                             <button class="btn"><img
@@ -296,7 +299,7 @@
                                                         </div>
                                                         <div>
                                                             <video src=""></video>
-                                                            <img src="./assets/img/Rectangle 738.png" alt="">
+                                                            <img src="./assets/img/istockphoto-1303835958-612x612.jpg" alt="">
                                                         </div>
                                                         <div class="play-btn">
                                                             <button class="btn"><img
@@ -335,7 +338,7 @@
                                                         </div>
                                                         <div>
                                                             <video src=""></video>
-                                                            <img src="./assets/img/Rectangle 738.png" alt="">
+                                                            <img src="./assets/img/istockphoto-1303835958-612x612.jpg" alt="">
                                                         </div>
                                                         <div class="play-btn">
                                                             <button class="btn"><img
@@ -375,7 +378,7 @@
                                                         </div>
                                                         <div>
                                                             <video src=""></video>
-                                                            <img src="./assets/img/Rectangle 738.png" alt="">
+                                                            <img src="./assets/img/istockphoto-1303835958-612x612.jpg" alt="">
                                                         </div>
                                                         <div class="play-btn">
                                                             <button class="btn"><img
@@ -414,12 +417,38 @@
         </div>
     </div>
 
-
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>r
     <script src="./assets/js/search.js"></script>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/notification.js"></script>
-
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            dot: true,
+            margin:10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                900: {
+                    items: 2.5,
+                    nav: false
+                },
+                1300: {
+                    items: 3,
+                    nav: false,
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>

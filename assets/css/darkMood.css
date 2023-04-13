@@ -1,0 +1,104 @@
+body,
+.text-content,
+.tags span,
+.pagination {
+    background-color: #1F2140;
+    color: var(--white) !important;
+}
+
+.user-info-parent>div,
+.item,
+.bg-light,
+.Achievements-more-btn,
+.bg-white,
+.item-course,
+.Discuss,
+.mamber-list ul li,
+.notif-box,
+.Certificate-List ul li,
+.Transaction-list ul li,
+.Place-bid>div,
+.Projects-detail-section>div,
+.project-list-parent ul li,
+.profile-box {
+    background: #3D4280 !important;
+}
+
+.title,
+.tags span,
+.lesson p,
+.off-time,
+.heading a,
+.side-bar-profile .user-name h2,
+.tab ul li,
+.dark-tab ul li,
+.mamber-list ul li p,
+.notif-box h4,
+.notif-box p,
+.notif-box span,
+.pagination ul li button {
+    color: var(--white) !important;
+}
+
+.dark-tab ul li.active,
+.select-menu .select-btn,
+.course-conetnt ul li.active,
+.buttons-sec button,
+.pagination ul li button {
+    border-color: #ffff;
+}
+
+nav,
+.write-section {
+    background-color: #1F2140;
+    box-shadow: 0px -5px 20px rgba(121, 131, 255, 0.15);
+}
+
+.inner-side {
+    background-color: #3D4280;
+}
+
+.navigation ul li a {
+    color: #BCC1FF;
+}
+
+.navigation ul li.active a,
+.Achievements-more-btn button,
+.content-head-text p,
+.content-head-text span,
+.select-menu .select-btn,
+.course-conetnt ul li {
+    color: var(--white) !important;
+}
+
+.dark,
+.submit-question .sub,
+.add-content,
+.add-question,
+.buttons-sec button {
+    background-color: #fff;
+    color: var(--dark);
+}
+
+.select label {
+    color: var(--border);
+}
+
+.select select,
+.select .inp,
+.select>input,
+.select label[for='file-input'],
+.ql-toolbar.ql-snow,
+.content-item {
+    background-color: #3D4280;
+}
+
+.ql-toolbar.ql-snow,
+.add-question {
+    border: 1px solid #fff;
+}
+
+.ql-snow.ql-toolbar button svg,
+.ql-snow .ql-toolbar button svg {
+    fill: #fff;
+}
