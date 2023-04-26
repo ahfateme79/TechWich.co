@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../assets/img/favicon/Untitled design.png" type="image/x-icon">
+    <title>Techwich</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/add-content.css">
+    <link rel="stylesheet" href="../assets/css/RTL.css">
+
+        <!-- lottie-player-->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+</head>
+
+<body>
+    <!-- spinner -->
+  <div id="spinner" class="overlay" style="display: none">
+    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_a2chheio.json" background="transparent"
+        speed="1" style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+</div>
+
+
+
+<!--  -->
+    <div class="parents">
+        <div class="sidebar">
+            <div class="inner-side">
+                <div class="side-bar-profile">
+                    <div>
+                        <img src="../assets/img/Rectangle 234.png" alt="">
+                        <div class="user-name">
+                            <h2>غزاله مهدی زاده</h2>
+                            <div class="level">
+                                <p>سطح</p>
+                                <span>2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <ul>
+                        <li><a href=""><img src="../assets/img/Stroke/fi-rr-document.svg" alt="document"> پروفایل</a>
+                        </li>
+                        <li><a href=""><img src="../assets/img/Stroke/fi-rr-book-alt.svg" alt="book"> پروفایل</a></li>
+                        <li class="active"><a href=""><img src="../assets/img/Stroke/fi-rr-apps.svg" alt="apps">
+                                پروفایل</a></li>
+                        <li><a href=""><img src="../assets/img/Stroke/fi-rr-comments.svg" alt="comments"> پروفایل</a>
+                        </li>
+                        <li><a href=""><img src="../assets/img/Stroke/fi-rr-user.svg" alt="user"> پروفایل</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <div class="main-content">
+            <div>
+                <div class="container">
+                    <div class="top-heading">
+                        <div><a href="" class="back"><img src="../assets/img/Stroke/fi-rr-arrow-small-left.svg"
+                                    alt=""></a></div>
+                        <div>
+                            <h1 class="title">اضافه کردن سوال</h1>
+                        </div>
+                    </div>
+                    <!-- learn-course-container -->
+                    <div class="contents">
+                        <div class="question-content">
+                            <form action="">
+                                <div class="select">
+                                    <label for="">دسته بندی :</label>
+                                    <select>
+                                        <option value="">PlaceHolder</option>
+                                        <option value="">PlaceHolder</option>
+                                        <option value="">PlaceHolder</option>
+                                    </select>
+                                </div>
+                                <div class="select">
+                                    <label for="">زیر دسته :</label>
+                                    <select>
+                                        <option value="">PlaceHolder</option>
+                                        <option value="">PlaceHolder</option>
+                                        <option value="">PlaceHolder</option>
+                                    </select>
+                                </div>
+                                <div class="select">
+                                    <label for="">پرسش:</label>
+                                    <input type="text" placeholder="PlaceHolder">
+                                </div>
+
+                                <div class="select">
+                                    <label for="">شرح :</label>
+                                    <div class="edit-text">
+                                        <div id="editor">
+                                            <p>سلام دنیا!</p>
+                                            <p>بعضی چیزهای  <strong>بلد</strong> متن</p>
+                                            <p><br></p>
+                                            <textarea name="" id="" cols="30" rows="10" hidden id="hiddenArea"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="select">
+                                    <label for="">برچسب های مرتبط:</label>
+
+                                    <div class="inp">
+                                        <input type="text" placeholder="PlaceHolder">
+                                        <button class="btn"><img src="../assets/img/Stroke/fi-rr-plus-small.svg"
+                                                alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="select">
+                                    <label for="">ویدئو یا تصویر::</label>
+                                    <div class="inp">
+                                        <input type="file" placeholder="PlaceHolder">
+                                        <button class="btn"><img src="../assets/img/Stroke/fi-rr-clip.svg"
+                                                alt=""></button>
+                                    </div>
+
+
+                                </div>
+                                <div class="submit-question">
+                                    <button class="sub">اضافه کردن سوال</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- script -->
+    <script src="../assets/js/search.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/accordion.js"></script>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="../assets/js/quily.js"></script>
+</body>
+
+</html>

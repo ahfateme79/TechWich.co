@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../assets/img/favicon/Untitled design.png" type="image/x-icon">
+    <title>Techwich</title>
+    <link rel="stylesheet" href="../assets/css/course-list.css">
+    <link rel="stylesheet" href="../assets/css/RTL.css">
+        <!-- lottie-player-->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+</head>
+
+<body>
+    <!-- spinner -->
+  <div id="spinner" class="overlay" style="display: none">
+    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_a2chheio.json" background="transparent"
+        speed="1" style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+</div>
+
+
+
+<!--  -->
+    <div class="parents">
+        <div class="sidebar">
+            <div class="inner-side">
+                <div class="side-bar-profile">
+                    <div>
+                        <img src="../assets/img/Rectangle 234.png" alt="">
+                        <div class="user-name">
+                            <h2>غزاله مهدی زاده</h2>
+                            <div class="level">
+                                <p>سطح</p>
+                                <span>2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <ul>
+                        <li><a href=""><img src="../assets/img/Stroke/fi-rr-document.svg" alt="document"> پروفایل</a>
+                        </li>
+                        <li><a href=""><img src="../assets/img/Stroke/fi-rr-book-alt.svg" alt="book"> پروفایل</a></li>
+                        <li class="active"><a href=""><img src="../assets/img/Stroke/fi-rr-apps.svg" alt="apps">
+                            پروفایل</a></li>
+                        <li><a href=""><img src="../assets/img/Stroke/fi-rr-comments.svg" alt="comments"> پروفایل</a>
+                        </li>
+                        <li><a href=""><img src="../assets/img/Stroke/fi-rr-user.svg" alt="user"> پروفایل</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <div class="main-content">
+    
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="wrapper">
+                <div class="flex">
+                    <div><a href=""><img src="../assets/img/logo/techwich_logo_and_title.png" alt="" width="200px"></a>
+                    </div>
+                 
+                </div>
+                <div class="header-items">
+                    <div class="search-box-parent">
+                        <div class="search-box">
+                            <button class="btn"><img src="../assets/img/Stroke/fi-rr-search.svg" alt=""></button>
+                            <input type="text" placeholder="مشکل جستجو، پاسخ، سوال ...">
+                        </div>
+                    </div>
+
+                        <div class="notification-btns dropdown">
+        <button id="notification_btn" class="btn" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img src="../assets/img/Stroke/fi-rr-bell-ring.svg" alt="">
+        </button>
+
+        <ul class="dropdown-menu" id="notification_ul">
+            <li class="pt-0 pb-0 dropdown-head">
+                <h5 class="d-inline-block m-0 p-3">Notifications</h5>
+            </li>
+        </ul>
+        <button class="btn">
+            <img src="../assets/img/Stroke/fi-rr-envelope.svg" alt="">
+            <span class="badge"></span>
+        </button>
+    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- bottom-navigation -->
+    <nav>
+        <div>
+            <ul>
+                <li><a href=""><img src="../assets/img/Stroke/fi-rr-document.svg" alt="document"></a></li>
+                <li><a href=""><img src="../assets/img/Stroke/fi-rr-book-alt.svg" alt="book"></a></li>
+                <li class="active"><a href=""><img src="../assets/img/Stroke/fi-rr-apps.svg" alt="apps"></a></li>
+                <li><a href=""><img src="../assets/img/Stroke/fi-rr-comments.svg" alt="comments"></a></li>
+                <li><a href=""><img src="../assets/img/Stroke/fi-rr-user.svg" alt="user"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- main -->
+    <main>
+
+        <section>
+            <div class="container">
+                <div class="heading">
+                    <h2>یادگیری</h2>
+                </div>
+
+                <section>
+                    <div class="tab-container">
+                        <div class="tab">
+                            <ul>
+                                <li class="active" data-name="Courses"><a href="">دوره های آموزشی</a></li>
+                                <li data-name="exercise">امتحان و ورزش</li>
+                                <li data-name="Webinar">وبینار</li>
+                                <li data-name="Subject">موضوع
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="category-content">
+                            <div class="category active">
+                                <ul>
+                                    <li class="active" data-category="Programming"><img src="../assets/img/coding.png" alt=""><a href="">برنامه نويسي</a></li>
+                                    <li data-category="Design"><img src="../assets/img/web-design.png" alt=""><a href="">طرح</a></li>
+                                    <li data-category="Marketing"><img src="../assets/img/strategy-development (1).png" alt=""><a href="">بازار یابی
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="course-name-content">
+                            <div class="course-name-tab active" id="Programming">
+                                <ul>
+                                    <li data-category="HTML">HTML</li>
+                                    <li data-category="CSS">CSS</li>
+                                    <li data-category="JAVA">JAVA</li>
+                                    <li class="active" data-category="Python">Python</li>
+                                    <li data-category="SQL">SQL</li>
+                                    <li data-category="Ruby">Ruby</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="courses">
+                            <div class="course-conetnt active">
+                                <ul>
+                                    <li class="active" data-type="all">همه دوره ها</li>
+                                    <li data-type="personal">دوره های من</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="main-content">
+                            <div class="content-course active">
+                                <div class="item-course">
+                                    <div class="user-details"><img src="../assets/img/Rectangle 568.png" alt="image">
+                                        <div>
+                                            <h1 class="title">دوره UI/UX برای مبتدیان</h1>
+                                            <p class="teacher">نوشته جیمز جیمز</p>
+                                        </div>
+                                    </div>
+                                    <div class="item-details">
+
+
+                                        <div class="lesson-info">
+                                            <div>
+                                                <span>3</span>
+                                                <p>درس</p>
+                                            </div>
+                                            <div>
+                                                <span>3</span>
+                                                <p>قسمت</p>
+                                            </div>
+                                            <div>
+                                                <span>3</span>
+                                                <p>ساعت
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="rating">
+                                            <div>
+                                                <div class="rate">
+                                                    <img src="../assets/img/Fully/fi-sr-star.svg" alt="">
+                                                    <span>4.5</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <del>$200</del>
+                                                <span>$150</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-course">
+                                    <div class="user-details"><img src="../assets/img/Rectangle 568.png" alt="image">
+                                        <div>
+                                            <h1 class="title">دوره UI/UX برای مبتدیان</h1>
+                                            <p class="teacher">نوشته جیمز جیمز</p>
+                                        </div>
+                                    </div>
+                                    <div class="item-details">
+
+
+                                        <div class="lesson-info">
+                                            <div>
+                                                <span>3</span>
+                                                <p>درس</p>
+                                            </div>
+                                            <div>
+                                                <span>3</span>
+                                                <p>قسمت</p>
+                                            </div>
+                                            <div>
+                                                <span>3</span>
+                                                <p>ساعت
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="rating">
+                                            <div>
+                                                <div class="rate">
+                                                    <img src="../assets/img/Fully/fi-sr-star.svg" alt="">
+                                                    <span>4.5</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <del>$200</del>
+                                                <span>$150</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-course">
+                                    <div class="user-details"><img src="../assets/img/Rectangle 568.png" alt="image">
+                                        <div>
+                                            <h1 class="title">دوره UI/UX برای مبتدیان</h1>
+                                            <p class="teacher">نوشته جیمز جیمز</p>
+                                        </div>
+                                    </div>
+                                    <div class="item-details">
+
+
+                                        <div class="lesson-info">
+                                            <div>
+                                                <span>3</span>
+                                                <p>درس</p>
+                                            </div>
+                                            <div>
+                                                <span>3</span>
+                                                <p>قسمت</p>
+                                            </div>
+                                            <div>
+                                                <span>3</span>
+                                                <p>ساعت
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="rating">
+                                            <div>
+                                                <div class="rate">
+                                                    <img src="../assets/img/Fully/fi-sr-star.svg" alt="">
+                                                    <span>4.5</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <del>$200</del>
+                                                <span>$150</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-course">
+                                    <div class="user-details"><img src="../assets/img/Rectangle 568.png" alt="image">
+                                        <div>
+                                            <h1 class="title">دوره UI/UX برای مبتدیان</h1>
+                                            <p class="teacher">نوشته جیمز جیمز</p>
+                                        </div>
+                                    </div>
+                                    <div class="item-details">
+
+
+                                        <div class="lesson-info">
+                                            <div>
+                                                <span>3</span>
+                                                <p>درس</p>
+                                            </div>
+                                            <div>
+                                                <span>3</span>
+                                                <p>قسمت</p>
+                                            </div>
+                                            <div>
+                                                <span>3</span>
+                                                <p>ساعت
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="rating">
+                                            <div>
+                                                <div class="rate">
+                                                    <img src="../assets/img/Fully/fi-sr-star.svg" alt="">
+                                                    <span>4.5</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <del>$200</del>
+                                                <span>$150</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-course">
+                                    <div class="user-details"><img src="../assets/img/Rectangle 568.png" alt="image">
+                                        <div>
+                                            <h1 class="title">دوره UI/UX برای مبتدیان</h1>
+                                            <p class="teacher">نوشته جیمز جیمز</p>
+                                        </div>
+                                    </div>
+                                    <div class="item-details">
+
+
+                                        <div class="lesson-info">
+                                            <div>
+                                                <span>3</span>
+                                                <p>درس</p>
+                                            </div>
+                                            <div>
+                                                <span>3</span>
+                                                <p>قسمت</p>
+                                            </div>
+                                            <div>
+                                                <span>3</span>
+                                                <p>ساعت
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="rating">
+                                            <div>
+                                                <div class="rate">
+                                                    <img src="../assets/img/Fully/fi-sr-star.svg" alt="">
+                                                    <span>4.5</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <del>$200</del>
+                                                <span>$150</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-course">
+                                    <div class="user-details"><img src="../assets/img/Rectangle 568.png" alt="image">
+                                        <div>
+                                            <h1 class="title">دوره UI/UX برای مبتدیان</h1>
+                                            <p class="teacher">نوشته جیمز جیمز</p>
+                                        </div>
+                                    </div>
+                                    <div class="item-details">
+
+
+                                        <div class="lesson-info">
+                                            <div>
+                                                <span>3</span>
+                                                <p>درس</p>
+                                            </div>
+                                            <div>
+                                                <span>3</span>
+                                                <p>قسمت</p>
+                                            </div>
+                                            <div>
+                                                <span>3</span>
+                                                <p>ساعت
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="rating">
+                                            <div>
+                                                <div class="rate">
+                                                    <img src="../assets/img/Fully/fi-sr-star.svg" alt="">
+                                                    <span>4.5</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <del>$200</del>
+                                                <span>$150</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space"></div>
+                            </div>
+                        </div>
+                </section>
+            </div>
+        </section>
+
+    </main>
+
+    </div>
+    </div>
+
+    <script src="../assets/js/search.js"></script>
+    <script src="../assets/js/script.js"></script>
+
+</body>
+
+</html>
