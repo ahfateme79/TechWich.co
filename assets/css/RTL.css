@@ -96,6 +96,11 @@
     background-position: calc(100% - 98%) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
     background-repeat: no-repeat;
 }
+.select select:focus {
+    background-image: url(../img/Stroke/fi-rr-angle-small-down.svg);
+    background-position: calc(100% - 98%) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+    background-repeat: no-repeat;
+}
 
 @media screen and (min-width: 1000px) {
     .category ul li img {

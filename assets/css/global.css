@@ -1084,3 +1084,14 @@ padding:2px 5px;
 color: #fff;
 font-size: 12px;
 }
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px);
+}
