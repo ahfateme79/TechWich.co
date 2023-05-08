@@ -14,7 +14,7 @@
     <!-- <link rel="stylesheet" href="./assets/css/global.css"> -->
     <link rel="stylesheet" href="./assets/css/explore.css">
     <link rel="stylesheet" href="./assets/css/notification.css">
-    <link rel="stylesheet" href="./assets/css/darkMood.css">
+    <!-- <link rel="stylesheet" href="./assets/css/darkMood.css"> -->
 
     <!-- lottie-player-->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -192,41 +192,38 @@
                                     </div>
                                     <div class="Achievements-items">
                                         <div>
-                                            <div class="Achievements-details"><span>Level</span><span>2</span></div>
-                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
-                                        </div>
-                                        <div>
-                                            <div class="Achievements-details"><span>Super league
-                                                    cup</span><span>Silver</span>
+                                            <div class="Achievements-item">
+                                                <div class="Achievements-details"><span>Level</span><span>2</span></div>
+                                                <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
                                             </div>
-                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
+                                            <div class="Achievements-item">
+                                                <div class="Achievements-details"><span>Super league
+                                                        cup</span><span>Silver</span>
+                                                </div>
+                                                <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
 
+                                            </div>
+                                            <div class="Achievements-item">
+                                                <div class="Achievements-details"><span>League
+                                                        level</span><span>3L</span>
+                                                </div>
+                                                <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
+                                            </div>
                                         </div>
                                         <div>
-                                            <div class="Achievements-details"><span>League level</span><span>3L</span>
+                                            <div class="Achievements-item">
+                                                <div class="Achievements-details"><span>League
+                                                        level</span><span>3L</span>
+                                                </div>
+                                                <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
                                             </div>
-                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
-                                        </div>
-                                        <div>
-                                            <div class="Achievements-details"><span>League level</span><span>3L</span>
+                                            <div class="Achievements-item">
+                                                <div class="Achievements-details"><span>League
+                                                        level</span><span>3L</span>
+                                                </div>
+                                                <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
                                             </div>
-                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
                                         </div>
-                                        <div>
-                                            <div class="Achievements-details"><span>League level</span><span>3L</span>
-                                            </div>
-                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
-                                        </div>
-                                        <div>
-                                            <div class="Achievements-details"><span>League level</span><span>3L</span>
-                                            </div>
-                                            <img src="./assets/img/Stroke/fi-rr-trophy.svg" alt="">
-                                        </div>
-
-                                    </div>
-                                    <div class="Achievements-more-btn">
-                                        <button class="btn more-Achievements">more <img
-                                                src="./assets/img/Stroke/fi-rr-angle-small-down.svg" alt="" class="arrow"></button>
                                     </div>
                                 </div>
                             </div>
@@ -1580,12 +1577,33 @@
                 }
             }
         })
+        $('.Achievements-items').owlCarousel({
+            loop: true,
+            dot: true,
+            responsiveClass: true,
+            navText : ["<",">"],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 1,
+                    nav: false
+                },
+                1000: {
+                    items: 1,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
 
-        let more=document.querySelector('.more-Achievements')
-        let archivment=document.querySelector('.Achievements-items')
-        let arrow=document.querySelector('.arrow')
+        let more = document.querySelector('.more-Achievements')
+        let archivment = document.querySelector('.Achievements-items')
+        let arrow = document.querySelector('.arrow')
 
-        more.addEventListener('click',()=>{
+        more.addEventListener('click', () => {
             archivment.classList.toggle('scroll')
             arrow.classList.toggle('rotate')
         })

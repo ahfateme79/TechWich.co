@@ -237,10 +237,10 @@
 }
 
 .Achievements-items {
-    margin: 20px 0;
+    margin: 20px 0 10px 0;
     width: 100%;
-    height: 135px;
-    overflow: hidden;
+    /* height: 135px; */
+    overflow-x: hidden;
     transition: all .3s ease;
 }
 .Achievements-items.scroll {
@@ -270,7 +270,16 @@
 .arrow.rotate{
     transform: rotate(180deg);
 }
-.Achievements-items>div {
+.Achievements-items .owl-stage{
+    display: flex !important;
+}
+.Achievements-items .owl-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.Achievements-item {
     width: 100%;
     border: 1px solid #DEE0FF;
     border-radius: 8px;
