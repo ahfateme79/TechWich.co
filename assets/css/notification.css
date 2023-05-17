@@ -70,3 +70,7 @@
         min-width: 500px;
     }
 }
+
+.dropdown-menu.show{
+    overflow: hidden;
+}

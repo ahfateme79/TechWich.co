@@ -185,7 +185,6 @@
 .course-name-tab ul li {
     font-size: 12px;
     color: var(--dark);
-    width: 65px !important;
     padding: 0 10px !important;
     height: 40px;
     border-radius: 10px;
