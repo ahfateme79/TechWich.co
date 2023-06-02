@@ -334,7 +334,7 @@ section#challanges{
     align-items: center;
 }
 .courses{
-    min-height: 80px;
+    height: fit-content;
 }
 .justify-content-end{
     justify-content: flex-end;

@@ -79,7 +79,6 @@
 
 .category ul {
     display: flex;
-    align-items: center;
     width: 100%;
     justify-content: space-between;
 }
@@ -179,7 +178,6 @@
     -moz-border-radius: 0 0 0 10px;
     -ms-border-radius: 0 0 0 10px;
     -o-border-radius: 0 0 0 10px;
-    overflow-x: scroll !important;
 }
 
 .course-name-tab ul li {
@@ -210,12 +208,10 @@
 .courses {
     position: relative;
     width: 100%;
-    margin: 20px 0;
     height: 30px;
 }
 
 .course-conetnt {
-    position: absolute;
     display: flex;
     align-items: center;
     width: 100%;

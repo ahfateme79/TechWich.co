@@ -50,6 +50,7 @@
     align-items: center;
     background: #fff;
     justify-content: flex-start;
+    margin-left: 0;
 }
 
 .select-menu .options .option:hover {

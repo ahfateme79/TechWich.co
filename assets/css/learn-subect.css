@@ -79,7 +79,6 @@
 
 .category ul {
     display: flex;
-    align-items: center;
     width: 100%;
     justify-content: space-between;
 }
@@ -213,12 +212,10 @@
 .courses {
     position: relative;
     width: 100%;
-    margin: 20px 0;
     height: 30px;
 }
 
 .course-conetnt {
-    position: absolute;
     display: flex;
     align-items: center;
     width: 100%;

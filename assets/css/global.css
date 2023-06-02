@@ -568,12 +568,10 @@ section {
 .courses {
     position: relative;
     width: 100%;
-    margin: 20px 0;
     height: 30px;
 }
 
 .course-conetnt {
-    position: absolute;
     display: flex;
     align-items: center;
     width: 100%;
@@ -1229,4 +1227,41 @@ video::-webkit-media-controls-panel {
 }
 .course-name-tab ul li{
     width: fit-content !important;
+}
+.category ul li.active,.category ul li:hover{
+    border-bottom: 0;
+    height: 70px !important;
+}
+.category ul li:not(:first-child).active:after,.category ul li:not(:first-child):hover:after,
+.category ul li:not(:last-child).active:before,.category ul li:not(:last-child):hover:before {
+  content: '';
+  width: 20px;
+  height: 30px;
+  border: 5px solid #BCC1FF;
+  position: absolute;
+  bottom: 3px;
+  border-top: 0;
+  z-index: -1;
+}
+
+.category ul li:not(:first-child).active:after,.category ul li:not(:first-child):hover:after {
+  border-left: 0;
+  -moz-border-radius: 0 0 15px 0;
+  -webkit-border-radius: 0 0 15px 0;
+  border-radius: 0 0 15px 0;
+  left: -15px;
+}
+
+.category ul li:not(:last-child).active:before,.category ul li:not(:last-child):hover:before {
+  border-right: 0;
+  -moz-border-radius: 0 0 0 15px;
+  -webkit-border-radius: 0 0 0 15px;
+  border-radius: 0 0 0 15px;
+  right: -15px;
+}
+.course-name-tab ul li{
+    margin: 0 15px;
+}
+.course-name-tab ul{
+    border-radius: 10px !important;
 }
