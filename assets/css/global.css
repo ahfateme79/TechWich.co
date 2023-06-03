@@ -1265,3 +1265,9 @@ video::-webkit-media-controls-panel {
 .course-name-tab ul{
     border-radius: 10px !important;
 }
+.text-content{
+    min-height: 146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
